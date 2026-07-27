@@ -22,8 +22,8 @@ android {
         applicationId = "com.paldox.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 7
-        versionName = "1.4.2"
+        versionCode = 8
+        versionName = "1.4.3"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
@@ -71,6 +71,37 @@ android {
     packaging {
         resources.excludes += "/META-INF/{AL2.0,LGPL2.1}"
     }
+}
+
+// Copy/rename outputs to Paldox-<versionName>.apk (AGP 8 locks outputFileName)
+afterEvaluate {
+    fun renameApkOutputs(buildType: String) {
+        val taskName = "assemble" + buildType.replaceFirstChar { it.uppercase() }
+        tasks.named(taskName).configure {
+            doLast {
+                val outDir = layout.buildDirectory.dir("outputs/apk/$buildType").get().asFile
+                if (!outDir.exists()) return@doLast
+                val apk = outDir.listFiles()
+                    ?.firstOrNull { it.extension == "apk" && !it.name.startsWith("Paldox-") }
+                    ?: return@doLast
+                val baseVer = android.defaultConfig.versionName ?: "0"
+                val ver = if (buildType == "debug") {
+                    val suf = android.buildTypes.getByName("debug").versionNameSuffix ?: "-debug"
+                    "$baseVer$suf"
+                } else {
+                    baseVer
+                }
+                val target = File(outDir, "Paldox-$ver.apk")
+                apk.copyTo(target, overwrite = true)
+                if (apk.absolutePath != target.absolutePath) {
+                    apk.delete()
+                }
+                println("APK ready: ${target.absolutePath}")
+            }
+        }
+    }
+    renameApkOutputs("debug")
+    renameApkOutputs("release")
 }
 
 dependencies {

@@ -7,7 +7,7 @@ Paldox helps you look up pals, plan breeding, check skills/items/tower bosses, a
 | | |
 |---|---|
 | **App name** | Paldox |
-| **Version** | 1.4.2 |
+| **Version** | 1.4.3 |
 | **Platform** | Android 8.0+ (API 26+) |
 | **Languages** | English · Russian |
 | **Package** | `com.paldox.app` |
@@ -126,7 +126,10 @@ Seed lives at `app/src/main/assets/seed_data.json` (bump `version` to force re-i
 
 See **[CHANGELOG.md](./CHANGELOG.md)** for full history.
 
-### Latest — 1.4.2
+### Latest — 1.4.3
+- Custom launcher icon; APK named `Paldox-<version>.apk`
+
+### 1.4.2
 - Distribution targets: **RuStore** + **4PDA** only (no Google Play)
 
 ### 1.4.1

@@ -6,6 +6,15 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [1.4.3] — 2026-07-27
+
+### Changed
+- Custom **app icon** (Anubis / neon launcher art) for all densities + adaptive icon
+- APK output renamed to **`Paldox-<version>.apk`** (e.g. `Paldox-1.4.3-debug.apk`)
+- App version **1.4.3** (versionCode **8**)
+
+---
+
 ## [1.4.2] — 2026-07-27
 
 ### Changed
