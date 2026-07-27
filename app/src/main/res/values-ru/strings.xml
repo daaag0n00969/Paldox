@@ -6,7 +6,7 @@
     <string name="nav_paldex">Палдекс</string>
     <string name="nav_paldex_short">Палы</string>
     <string name="nav_breeding">Разведение</string>
-    <string name="nav_breed_short">Брид</string>
+    <string name="nav_breed_short">Яйца</string>
     <string name="nav_more">Ещё</string>
     <string name="nav_more_short">Ещё</string>
     <string name="nav_skills">Навыки</string>
@@ -28,7 +28,7 @@
     <string name="about_button">О приложении</string>
     <string name="about_button_hint">Версия, авторы, благодарности</string>
     <string name="about_title">О приложении</string>
-    <string name="about_version">Версия 1.6.0</string>
+    <string name="about_version">Версия 1.6.1</string>
     <string name="settings_app_section">Приложение</string>
     <string name="ads_title">Реклама</string>
     <string name="ads_button_hint">Коротко о рекламе в приложении</string>

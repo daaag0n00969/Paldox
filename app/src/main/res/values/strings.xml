@@ -6,7 +6,7 @@
     <string name="nav_paldex">Paldex</string>
     <string name="nav_paldex_short">Paldex</string>
     <string name="nav_breeding">Breeding</string>
-    <string name="nav_breed_short">Breed</string>
+    <string name="nav_breed_short">Eggs</string>
     <string name="nav_more">More</string>
     <string name="nav_more_short">More</string>
     <string name="nav_skills">Skills</string>
@@ -28,7 +28,7 @@
     <string name="about_button">About the app</string>
     <string name="about_button_hint">Version, authors, credits</string>
     <string name="about_title">About</string>
-    <string name="about_version">Version 1.6.0</string>
+    <string name="about_version">Version 1.6.1</string>
     <string name="settings_app_section">App</string>
     <string name="ads_title">Ads</string>
     <string name="ads_button_hint">A short note about advertising</string>

@@ -6,7 +6,19 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
-## [1.6.0] — 2026-07-27
+
+## [1.6.1] — 2026-07-27
+
+### Fixed
+- Bottom nav: **Брид** → **Яйца** (short label for Breeding)
+
+### Added
+- Home quick access: **Mods** tile
+
+### Changed
+- App version **1.6.1** (versionCode **13**)
+
+---## [1.6.0] — 2026-07-27
 
 ### Added
 - **Mods** section (Ещё → Моды): curated Steam Workshop list from collection [The Good Life](https://steamcommunity.com/sharedfiles/filedetails/?id=3771025449) with EN/RU descriptions and open-in-Steam links

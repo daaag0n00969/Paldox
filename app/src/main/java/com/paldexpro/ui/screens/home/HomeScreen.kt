@@ -20,6 +20,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.Castle
 import androidx.compose.material.icons.filled.Egg
+import androidx.compose.material.icons.filled.Extension
 import androidx.compose.material.icons.filled.Inventory2
 import androidx.compose.material.icons.filled.Map
 import androidx.compose.material.icons.filled.Pets
@@ -60,6 +61,7 @@ fun HomeScreen(
     onOpenBosses: () -> Unit,
     onOpenGuides: () -> Unit,
     onOpenMap: () -> Unit,
+    onOpenMods: () -> Unit,
     onOpenSettings: () -> Unit,
     onOpenPal: (String) -> Unit,
     vm: HomeViewModel = hiltViewModel(),
@@ -99,7 +101,8 @@ fun HomeScreen(
                 Triple(stringResource(R.string.nav_items), Icons.Default.Inventory2, onOpenItems),
                 Triple(stringResource(R.string.nav_bosses), Icons.Default.Castle, onOpenBosses),
                 Triple(stringResource(R.string.nav_guides), Icons.AutoMirrored.Filled.MenuBook, onOpenGuides),
-                Triple(stringResource(R.string.home_map_tile), Icons.Default.Map, onOpenMap),
+                Triple(stringResource(R.string.nav_map), Icons.Default.Map, onOpenMap),
+                Triple(stringResource(R.string.nav_mods), Icons.Default.Extension, onOpenMods),
             )
             tiles.chunked(2).forEach { row ->
                 Row(

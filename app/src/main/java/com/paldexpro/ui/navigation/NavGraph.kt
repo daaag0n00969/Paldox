@@ -186,6 +186,7 @@ fun PalDexNavHost(
                     onOpenBosses = { nav.navigate(Dest.Bosses.route) },
                     onOpenGuides = { nav.navigate(Dest.Guides.route) },
                     onOpenMap = { nav.navigate(Dest.Map.route) },
+                    onOpenMods = { nav.navigate(Dest.Mods.route) },
                     onOpenSettings = { nav.navigate(Dest.Settings.route) },
                     onOpenPal = { nav.navigate(Dest.PalDetail.create(it)) },
                 )
