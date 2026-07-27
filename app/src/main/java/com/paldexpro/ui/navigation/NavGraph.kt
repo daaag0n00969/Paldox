@@ -23,6 +23,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavType
@@ -41,6 +42,7 @@ import com.paldexpro.ui.screens.home.HomeScreen
 import com.paldexpro.ui.screens.items.ItemDetailScreen
 import com.paldexpro.ui.screens.items.ItemsScreen
 import com.paldexpro.ui.screens.map.MapScreen
+import com.paldexpro.ui.screens.mods.ModsScreen
 import com.paldexpro.ui.screens.more.MoreScreen
 import com.paldexpro.ui.screens.paldex.PalDetailScreen
 import com.paldexpro.ui.screens.paldex.PaldexScreen
@@ -71,6 +73,7 @@ sealed class Dest(val route: String) {
         fun create(id: String) = "guide/$id"
     }
     data object Map : Dest("map")
+    data object Mods : Dest("mods")
     data object Settings : Dest("settings")
     data object About : Dest("about")
     data object Ads : Dest("ads")
@@ -110,13 +113,22 @@ fun PalDexNavHost(
         bottomBar = {
             if (showBottomBar) {
                 NavigationBar(
-                    containerColor = MaterialTheme.colorScheme.surface.copy(alpha = 0.98f),
+                    containerColor = MaterialTheme.colorScheme.surface,
+                    contentColor = MaterialTheme.colorScheme.onSurface,
+                    tonalElevation = 0.dp,
                 ) {
                     tabs.forEach { tab ->
                         val selected = current == tab.dest.route
                         NavigationBarItem(
                             selected = selected,
                             onClick = { goTab(tab.dest.route) },
+                            colors = NavigationBarItemDefaults.colors(
+                                selectedIconColor = MaterialTheme.colorScheme.secondary,
+                                selectedTextColor = MaterialTheme.colorScheme.secondary,
+                                indicatorColor = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.55f),
+                                unselectedIconColor = MaterialTheme.colorScheme.onSurfaceVariant,
+                                unselectedTextColor = MaterialTheme.colorScheme.onSurfaceVariant,
+                            ),
                             icon = { Icon(tab.icon, contentDescription = stringResource(tab.labelRes)) },
                             label = {
                                 Text(
@@ -128,11 +140,6 @@ fun PalDexNavHost(
                                 )
                             },
                             alwaysShowLabel = true,
-                            colors = NavigationBarItemDefaults.colors(
-                                selectedIconColor = MaterialTheme.colorScheme.primary,
-                                selectedTextColor = MaterialTheme.colorScheme.primary,
-                                indicatorColor = MaterialTheme.colorScheme.primaryContainer.copy(0.55f),
-                            ),
                         )
                     }
                 }
@@ -210,7 +217,14 @@ fun PalDexNavHost(
                     onOpenBosses = { nav.navigate(Dest.Bosses.route) },
                     onOpenGuides = { nav.navigate(Dest.Guides.route) },
                     onOpenMap = { nav.navigate(Dest.Map.route) },
+                    onOpenMods = { nav.navigate(Dest.Mods.route) },
                     onOpenSettings = { nav.navigate(Dest.Settings.route) },
+                )
+            }
+            composable(Dest.Mods.route) {
+                ModsScreen(
+                    useRu = useRu,
+                    onBack = { nav.popBackStack() },
                 )
             }
             composable(Dest.Skills.route) {

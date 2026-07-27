@@ -18,6 +18,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.Castle
+import androidx.compose.material.icons.filled.Extension
 import androidx.compose.material.icons.filled.Inventory2
 import androidx.compose.material.icons.filled.Map
 import androidx.compose.material.icons.filled.Settings
@@ -54,6 +55,7 @@ fun MoreScreen(
     onOpenBosses: () -> Unit,
     onOpenGuides: () -> Unit,
     onOpenMap: () -> Unit,
+    onOpenMods: () -> Unit,
     onOpenSettings: () -> Unit,
 ) {
     val items = listOf(
@@ -62,6 +64,7 @@ fun MoreScreen(
         MoreItem(R.string.nav_bosses, R.string.more_bosses_sub, Icons.Default.Castle, onOpenBosses),
         MoreItem(R.string.nav_guides, R.string.more_guides_sub, Icons.AutoMirrored.Filled.MenuBook, onOpenGuides),
         MoreItem(R.string.nav_map, R.string.more_map_sub, Icons.Default.Map, onOpenMap),
+        MoreItem(R.string.nav_mods, R.string.more_mods_sub, Icons.Default.Extension, onOpenMods),
         MoreItem(R.string.settings, R.string.more_settings_sub, Icons.Default.Settings, onOpenSettings),
     )
 
@@ -91,11 +94,11 @@ fun MoreScreen(
                         .fillMaxWidth()
                         .aspectRatio(1.05f)
                         .clickable(onClick = item.onClick),
-                    shape = RoundedCornerShape(20.dp),
+                    shape = RoundedCornerShape(14.dp),
                     colors = CardDefaults.cardColors(
-                        containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(0.42f),
+                        containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(0.72f),
                     ),
-                    elevation = CardDefaults.cardElevation(defaultElevation = 0.dp),
+                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
                 ) {
                     Column(
                         Modifier
@@ -107,7 +110,7 @@ fun MoreScreen(
                         Icon(
                             item.icon,
                             contentDescription = null,
-                            tint = MaterialTheme.colorScheme.primary,
+                            tint = MaterialTheme.colorScheme.secondary,
                             modifier = Modifier.size(32.dp),
                         )
                         Spacer(Modifier.height(12.dp))
