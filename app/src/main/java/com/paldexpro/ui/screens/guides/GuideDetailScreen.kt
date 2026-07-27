@@ -65,7 +65,11 @@ fun GuideDetailScreen(
                 .verticalScroll(rememberScrollState())
                 .padding(16.dp),
         ) {
-            Text(g.category.uppercase(), style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.primary)
+            Text(
+                guideCategoryLabel(g.category, useRu),
+                style = MaterialTheme.typography.labelMedium,
+                color = MaterialTheme.colorScheme.primary,
+            )
             Text(g.title(useRu), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(12.dp))
             GuideFormattedBody(g.body(useRu))

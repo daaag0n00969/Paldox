@@ -31,6 +31,17 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.paldexpro.R
 
+internal fun guideCategoryLabel(category: String, useRu: Boolean): String = when (category.lowercase()) {
+    "official_tips" -> if (useRu) "Официальные советы" else "Official tips"
+    "trending" -> if (useRu) "В тренде на X" else "Trending on X"
+    "progress" -> if (useRu) "Прогресс" else "Progress"
+    "base" -> if (useRu) "База" else "Base"
+    "combat" -> if (useRu) "Бой" else "Combat"
+    "breeding" -> if (useRu) "Разведение" else "Breeding"
+    "farming" -> if (useRu) "Фарм" else "Farming"
+    else -> category.replace('_', ' ').replaceFirstChar { it.uppercase() }
+}
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun GuidesScreen(
@@ -66,7 +77,7 @@ fun GuidesScreen(
                 ) {
                     Column(Modifier.padding(16.dp)) {
                         Text(
-                            guide.category.uppercase(),
+                            guideCategoryLabel(guide.category, useRu),
                             style = MaterialTheme.typography.labelSmall,
                             color = MaterialTheme.colorScheme.primary,
                         )

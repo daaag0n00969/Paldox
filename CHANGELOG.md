@@ -6,6 +6,18 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [1.5.2] — 2026-07-27
+
+### Added
+- **9 new guides** from official [@Palworld_JP](https://x.com/Palworld_JP) #PalworldTips + trending X community tips (EN/RU, formatted markdown)
+- Guide categories: **Official tips** / **Trending on X** (localized labels)
+- Seed **v7** re-import
+
+### Changed
+- App version **1.5.2** (versionCode **11**)
+
+---
+
 ## [1.5.1] — 2026-07-27
 
 ### Added

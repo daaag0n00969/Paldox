@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "gameVersion": "1.0",
   "pals": [
     {
@@ -11590,6 +11590,78 @@
       "category": "progress",
       "bodyEn": "## Endgame goals\n- Perfect **4-passive** + high Potential pals\n- Legendaries & raid bosses (**Bellanoir**)\n- Multi-base oil / power setup\n- Max work suitability teams\n\n## Breeding focus\nUse **=P** mode to plan chains, then **P+P** to verify each step.\n",
       "bodyRu": "## Цели эндгейма\n- Идеальные **4 пассивки** + высокий Potential\n- Легендарки и рейды (**Беллануар**)\n- Несколько баз: нефть / энергия\n- Команды с макс. work suitability\n\n## Разведение\nРежим **=П** для плана цепочек, **П+П** для проверки шага.\n"
+    },
+    {
+      "id": "official_fishing_rare_passive",
+      "titleEn": "Official tip: Fishing for rare passives",
+      "titleRu": "Официально: рыбалка и редкие пассивки",
+      "category": "official_tips",
+      "bodyEn": "## Source\nOfficial **#PalworldTips** from [@Palworld_JP](https://x.com/Palworld_JP) (Jul 2026).\n\n## Why fish?\nFishing is more than food — it can lock in **rare passives** and spit out valuable loot.\n\n## How to spot good fish\n1. Watch the **fish shadow** carefully\n2. A **green glowing** shadow = **guaranteed rare passive**\n3. Sometimes you will see a rarer shadow with a **light pillar**\n4. You can also reel in treasures like **Ancient Civilization Parts**\n\n## Practical tips\n- Bring a dedicated **fishing party** (water pals + stamina food)\n- Save rare-shadow casts for pals you actually want to keep\n- Combine with condenser later for work/combat gods\n\n## Quick checklist\n- [ ] Notice shadow colour before casting\n- [ ] Prioritise green-glow shadows\n- [ ] Sort inventory after big fishing runs\n",
+      "bodyRu": "## Источник\nОфициальные **#PalworldTips** от [@Palworld_JP](https://x.com/Palworld_JP) (июль 2026).\n\n## Зачем рыбачить?\nРыбалка — не только еда: можно **гарантированно** получить редкие пассивки и ценный лут.\n\n## Как распознать «удачный» улов\n1. Смотрите на **силуэт рыбы** в воде\n2. **Зелёное свечение** = **редкая пассивка гарантирована**\n3. Иногда появляется редкий силуэт с **световым столбом**\n4. Можно выудить сокровища вроде **частей древней цивилизации**\n\n## Практика\n- Держите отдельную **рыбацкую сборку** (водные палы + еда на выносливость)\n- Зелёные силуэты тратьте на палов, которых реально хотите оставить\n- Потом усиливайте конденсатором\n\n## Чеклист\n- [ ] Смотрю цвет силуэта до заброса\n- [ ] Приоритет — зелёное свечение\n- [ ] Разбираю инвентарь после длинной сессии\n"
+    },
+    {
+      "id": "official_skill_inheritance_breeding",
+      "titleEn": "Official tip: Inherit the skills you want",
+      "titleRu": "Официально: передача нужных навыков при разведении",
+      "category": "official_tips",
+      "bodyEn": "## Source\nOfficial **#PalworldTips** from [@Palworld_JP](https://x.com/Palworld_JP).\n\n## Core rule\nWhen breeding, **only skills currently equipped** can be inherited.\n\n## Steps for perfect skill transfer\n1. Decide which active skills you want on the child\n2. **Unequip** every skill you do **not** want inherited\n3. Leave only the target skills **set** on the parent(s)\n4. Breed with **Cake** (and fancy cakes when you need better results)\n5. Hatch and verify the skill list\n\n## Why this matters\nRandom leftover skills on the parent pollute the inheritance pool. Clean loadouts = cleaner kids.\n\n## Paldox tip\nUse **Breeding → P+P** to pick parents, then check the child species before you spend cake.\n",
+      "bodyRu": "## Источник\nОфициальные **#PalworldTips** от [@Palworld_JP](https://x.com/Palworld_JP).\n\n## Главное правило\nПри разведении передаются **только навыки, которые сейчас экипированы**.\n\n## Как передать нужные навыки\n1. Решите, какие активные навыки хотите у потомка\n2. **Снимите** все навыки, которые **не** должны передаваться\n3. Оставьте на родителе(ях) **только целевой набор**\n4. Разводите с **Тортом** (особые торты — для лучших шансов)\n5. Вылупите и проверьте список навыков\n\n## Почему это важно\nЛишние навыки в слотах «засоряют» пул наследования. Чистый билд = чистый потомок.\n\n## Совет Paldox\nВ **Разведении → П+П** выберите родителей и проверьте вид потомка, прежде чем тратить торт.\n"
+    },
+    {
+      "id": "official_party_presets",
+      "titleEn": "Official tip: Party presets",
+      "titleRu": "Официально: пресеты отряда",
+      "category": "official_tips",
+      "bodyEn": "## Source\nOfficial **#PalworldTips** from [@Palworld_JP](https://x.com/Palworld_JP).\n\n## Idea\nSave frequent lineups as **presets** and switch with one tap.\n\n## Recommended presets\n| Preset | Use |\n|--------|-----|\n| Travel | Mount + carry weight + exploration |\n| Mining | High Mining suitability |\n| Fishing | Water pals + stamina |\n| Battle | Element coverage + DPS |\n\n## Benefits\n- Instant swap for towers vs base work\n- Fewer inventory mistakes\n- Faster respawns after wipes\n\n## Habit\nAfter every major unlock (new mount, new work pal), update the matching preset.\n",
+      "bodyRu": "## Источник\nОфициальные **#PalworldTips** от [@Palworld_JP](https://x.com/Palworld_JP).\n\n## Идея\nСохраняйте частые составы как **пресеты** и переключайте одним касанием.\n\n## Рекомендуемые пресеты\n| Пресет | Когда |\n|--------|--------|\n| Путешествие | Маунт + перенос + разведка |\n| Добыча | Макс. Mining |\n| Рыбалка | Водные палы + выносливость |\n| Бой | Элементы + DPS |\n\n## Плюсы\n- Мгновенная смена: башня ↔ база\n- Меньше ошибок с инвентарём\n- Быстрее после вайпов\n\n## Привычка\nПосле каждого важного палом (маунт, рабочий) обновляйте нужный пресет.\n"
+    },
+    {
+      "id": "official_monitoring_stand",
+      "titleEn": "Official tip: Monitoring Stand work control",
+      "titleRu": "Официально: монитор-стойка и контроль работ",
+      "category": "official_tips",
+      "bodyEn": "## Source\nOfficial **#PalworldTips** from [@Palworld_JP](https://x.com/Palworld_JP).\n\n## Unlock\nResearch the **Monitoring Stand** in Technology, then place it in the base.\n\n## What it does\nFine-tune **which jobs each Pal is allowed to do**.\n\n## Efficiency pattern\n1. Open Monitoring Stand\n2. Disable jobs a specialist should never touch (e.g. no planting on a pure miner)\n3. Keep only high-suitability roles enabled\n4. Re-check after condenser rank-ups\n\n## Result\nFewer idle pals, less pathing chaos, higher base throughput.\n",
+      "bodyRu": "## Источник\nОфициальные **#PalworldTips** от [@Palworld_JP](https://x.com/Palworld_JP).\n\n## Разблокировка\nОткройте **Монитор-стойку** (Monitoring Stand) в технологиях и поставьте на базе.\n\n## Зачем\nТочечно настраивает, **какие работы разрешены** каждому палу.\n\n## Схема эффективности\n1. Откройте монитор-стойку\n2. Запретите лишние работы (шахтёру — не сеять)\n3. Оставьте только сильные work suitability\n4. Проверьте снова после звёзд конденсатора\n\n## Итог\nМеньше «гуляющих» палов, выше выработка базы.\n"
+    },
+    {
+      "id": "official_structure_replace",
+      "titleEn": "Official tip: Replace building materials",
+      "titleRu": "Официально: замена стройматериалов",
+      "category": "official_tips",
+      "bodyEn": "## Source\nOfficial **#PalworldTips** from [@Palworld_JP](https://x.com/Palworld_JP).\n\n## Feature\n**Structure replacement** lets you remodel the base without demolishing everything.\n\n## Highlights\n- Swap wood structures to stone / better tiers in bulk\n- Works under the **Palbox** too\n- Can change types (e.g. wall → door) in supported cases\n\n## Workflow\n1. Unlock better building tiers\n2. Select the replacement tool / mode in build UI\n3. Batch-upgrade outer walls and floors first\n4. Fix doors and production buildings second\n\n## Tip\nUpgrade the outer shell before interiors so combat raids hit stronger walls.\n",
+      "bodyRu": "## Источник\nОфициальные **#PalworldTips** от [@Palworld_JP](https://x.com/Palworld_JP).\n\n## Функция\n**Замена стройматериалов** — ремодел базы без полного сноса.\n\n## Важно\n- Дерево → камень и выше пачкой\n- Работает и **под палбоксом**\n- Можно менять тип (стена → дверь), где поддерживается\n\n## Порядок\n1. Откройте нужный тир построек\n2. Режим замены в строительстве\n3. Сначала внешние стены и пол\n4. Потом двери и производственные здания\n\n## Совет\nУкрепите оболочку базы до декора — рейды бьют в стены.\n"
+    },
+    {
+      "id": "official_bulk_storage",
+      "titleEn": "Official tip: One-tap bulk storage",
+      "titleRu": "Официально: быстрая раскладка в сундуки",
+      "category": "official_tips",
+      "bodyEn": "## Source\nOfficial **#PalworldTips** from [@Palworld_JP](https://x.com/Palworld_JP).\n\n## After every adventure\n1. Open inventory\n2. Look at the **bottom-right**\n3. Tap **Bulk store / auto-store**\n4. Items jump into chests that already hold the same item\n5. Manually sort only what is left\n\n## Base setup tip\nKeep one chest per category (ore, food, spheres, schematics) so auto-store always finds a home.\n",
+      "bodyRu": "## Источник\nОфициальные **#PalworldTips** от [@Palworld_JP](https://x.com/Palworld_JP).\n\n## После каждого рейда\n1. Откройте инвентарь\n2. Смотрите **внизу справа**\n3. Нажмите **массовую / быструю укладку**\n4. Предметы уйдут в сундуки, где уже есть такие же\n5. Вручную разберите только остаток\n\n## Совет по базе\nДержите сундук на категорию (руда, еда, сферы, схемы) — авто-укладка всегда найдёт дом.\n"
+    },
+    {
+      "id": "trend_base_midgame_1_0",
+      "titleEn": "Trending: Mid-game base layout (1.0)",
+      "titleRu": "В тренде: база mid-game (1.0)",
+      "category": "trending",
+      "bodyEn": "## Why this is hot on X\nCommunity 1.0 base tours (high engagement on X) push **compact production + resource density** over giant empty floors.\n\n## What top layouts share\n- **Breeding farm + ranch** near food/cake line\n- **Ore & coal** within base radius (or short circuit)\n- Separate **production deck** (crafting / smelting)\n- Safe **sleep / storage** core around Palbox\n- Optional **fishing / farm deck** for passive food\n\n## Build order\n1. Palbox + walls\n2. Beds + food loop\n3. Mining cluster\n4. Breeding + cake\n5. Power (electric pals) last but planned early\n\n## Paldox helpers\n- **Items** for recipe stations\n- **Paldex work suitability** for who to assign\n- **Map** (Pindrop) for ore / biome scouting\n",
+      "bodyRu": "## Почему в тренде на X\nТуры баз 1.0 с высоким охватом делают упор на **плотное производство + ресурсы**, а не на пустые «дворцы».\n\n## Что общего у сильных баз\n- **Ферма разведения + ранчо** рядом с линией еды/тортов\n- **Руда и уголь** в радиусе базы (или короткий маршрут)\n- Отдельная **производственная зона** (крафт / плавка)\n- Ядро **сон / склад** у палбокса\n- Опционально **рыбалка / ферма** для пассивной еды\n\n## Порядок стройки\n1. Палбокс + стены\n2. Кровати + цикл еды\n3. Добыча\n4. Разведение + торт\n5. Энергия (электро-палы) — планируйте сразу\n\n## В Paldox\n- **Предметы** — станции крафта\n- **Палдекс** — work suitability\n- **Карта** (Pindrop) — руда и биомы\n"
+    },
+    {
+      "id": "trend_breeding_grintale_eggs",
+      "titleEn": "Trending: Grintale for more eggs",
+      "titleRu": "В тренде: Гринтейл для большего числа яиц",
+      "category": "trending",
+      "bodyEn": "## Community tip (trending on X)\nMax **Grintale** stars if you mass-breed.\n\n## Why\nA Breeding Farm holds many eggs at once. High-rank **Grintale** greatly improves the chance of **bonus eggs** (community reports ~3/4 chance of an extra egg-style value when fully starred — treat as a soft meta tip, not a datamine number).\n\n## How to use\n1. Keep a **4★ Grintale** assigned near / supporting the breeding loop if your base setup allows the passive benefit\n2. Keep parents **Philanthropist + Nocturnal** when possible\n3. Never starve the farm of **Cake**\n\n## Combine with official tips\nEquip only the skills you want inherited before each pair (see official skill inheritance guide).\n",
+      "bodyRu": "## Совет сообщества (тренд на X)\nПрокачайте **Гринтейл** (Grintale), если массово разводите.\n\n## Зачем\nНа ферме лежит много яиц сразу. Высокие звёзды **Гринтейла** заметно повышают шанс **бонусных яиц** (оценки комьюнити ~как «часто второе яйцо» при 4★ — ориентир, не datamine).\n\n## Как использовать\n1. Держите **4★ Гринтейл** в базе, если ваша схема даёт пользу пассива\n2. Родители: **Филантроп + Ночной**, когда возможно\n3. Никогда не оставляйте ферму **без торта**\n\n## Вместе с официальными советами\nПеред парой снимайте ненужные навыки (см. гайд о наследовании навыков).\n"
+    },
+    {
+      "id": "trend_wispaw_and_new_pals",
+      "titleEn": "Trending: New 1.0 pals (e.g. Wispaw)",
+      "titleRu": "В тренде: новые палы 1.0 (напр. Виспав)",
+      "category": "trending",
+      "bodyEn": "## What people search on X right now\nGuides for **new 1.0 pals** — habitats, work suitability, and breeding combos.\n\n## How to use Paldox for any new pal\n1. **Paldex** → open the pal (search RU/EN)\n2. Check **work suitability** and elements\n3. **Breeding → =P** → list parent pairs\n4. **Map** → confirm biome / spawns in Pindrop\n5. Save notes in this guide if you found a sweet route\n\n## Example workflow: Wispaw\n- Mark habitat on the interactive map\n- List work roles before deciding if it is a base or combat catch\n- Use =P mode for every parent pair that yields it\n\n## Stay updated\nOfficial JP account still posts weekly **#PalworldTips** — we mirror the useful ones under **Official tips**.\n",
+      "bodyRu": "## Что ищут на X сейчас\nГайды по **новым палам 1.0** — ареал, work suitability, комбо разведения.\n\n## Как пользоваться Paldox для любого нового пала\n1. **Палдекс** → откройте пала (поиск RU/EN)\n2. Смотрите **work suitability** и стихии\n3. **Разведение → =П** → пары родителей\n4. **Карта** → биом / спавн в Pindrop\n5. Заметки в гайде, если нашли удобный маршрут\n\n## Пример: Виспав (Wispaw)\n- Отметьте ареал на интерактивной карте\n- Решите: база или бой — по work / статам\n- Режим =П для всех родительских пар\n\n## Обновления\nОфициальный [@Palworld_JP](https://x.com/Palworld_JP) публикует **#PalworldTips** — полезное дублируем в разделе **Официальные советы**.\n"
     }
   ],
   "specialCombos": [
@@ -11988,5 +12060,6 @@
     "xenovader"
   ],
   "breedingDataVersion": "1.0-palworld.gg-2026-07-27",
-  "ruNamesVersion": "1.0-2026-07-27"
+  "ruNamesVersion": "1.0-2026-07-27",
+  "guidesSource": "official-Palworld_JP-tips+X-trending-2026-07"
 }
