@@ -6,6 +6,28 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [1.3.0] — 2026-07-27
+
+### Added
+- Full **legal pack** for stores: Privacy Policy, Terms of Service, EULA (EN + RU), content/trademark disclaimer
+- **Store publishing kit**: Google Play & RuStore listing copy, Data Safety answers, content rating guide, publishing checklist
+- **Security audit** mapped to public pre-launch checklist (offline architecture)
+- In-app **Legal** links on About (opens public GitHub documents)
+- Android **network security config** (cleartext disabled) and **backup / data-extraction rules**
+- Release **signing** via optional `keystore.properties` (see `keystore.properties.example`)
+
+### Changed
+- App version **1.3.0** (versionCode **4**)
+- About screen shows version from `BuildConfig`
+- `.gitignore` expanded for keystores, service-account JSON, env secrets
+
+### Security
+- No INTERNET permission (unchanged by design)
+- Backup limited to preferences; databases excluded from cloud backup rules
+- Release R8 minify + shrink retained
+
+---
+
 ## [1.2.0] — 2026-07-27
 
 ### Added

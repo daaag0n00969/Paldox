@@ -26,5 +26,16 @@ Thumbs.db
 local.properties
 *.keystore
 *.jks
+keystore.properties
+release.keystore
 .vscode/
 .claude/
+*.pem
+*.p12
+google-play-service-account.json
+rustore-credentials.json
+secrets/
+.env
+.env.*
+!docs/**/.gitkeep
+
