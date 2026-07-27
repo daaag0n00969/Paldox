@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Auto Backup rules for API 23–30. -->
+<!--
+  Auto Backup (API 23–30): only preferences.
+  Domains not listed are not backed up when includes are used.
+-->
 <full-backup-content>
     <include domain="sharedpref" path="." />
-    <exclude domain="database" path="." />
 </full-backup-content>
