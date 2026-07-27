@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PalDexPro" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">#0E1412</item>
+        <item name="colorPrimary">#7CDBB6</item>
+        <item name="colorPrimaryDark">#0E1412</item>
+        <item name="colorAccent">#FFB74D</item>
+    </style>
+</resources>
