@@ -40,7 +40,7 @@ import com.paldexpro.ui.screens.guides.GuidesScreen
 import com.paldexpro.ui.screens.home.HomeScreen
 import com.paldexpro.ui.screens.items.ItemDetailScreen
 import com.paldexpro.ui.screens.items.ItemsScreen
-import com.paldexpro.ui.screens.map.MapPlaceholderScreen
+import com.paldexpro.ui.screens.map.MapScreen
 import com.paldexpro.ui.screens.more.MoreScreen
 import com.paldexpro.ui.screens.paldex.PalDetailScreen
 import com.paldexpro.ui.screens.paldex.PaldexScreen
@@ -268,7 +268,7 @@ fun PalDexNavHost(
                 )
             }
             composable(Dest.Map.route) {
-                MapPlaceholderScreen(onBack = { nav.popBackStack() })
+                MapScreen(onBack = { nav.popBackStack() })
             }
             composable(Dest.Settings.route) {
                 SettingsScreen(

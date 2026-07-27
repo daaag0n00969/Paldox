@@ -55,7 +55,14 @@ In the current version, Paldox does **not**:
 
 ### 3.3 Network access
 
-The Android package is built **without** the `INTERNET` permission for core operation. Opening legal document links from the About screen uses your device’s browser (or other app), which has its own network access and privacy practices.
+Core companion data (Paldex, breeding, items, etc.) works **offline** after install.
+
+The app may use the `INTERNET` permission for:
+
+- the **interactive map** screen (loads a third-party map site in an in-app WebView; currently Pindrop’s Palworld map), and  
+- opening **feedback / legal** links in an external browser or email app.
+
+When you use the map, that site’s own privacy policy applies to traffic with their servers. We do not operate a map backend.
 
 ---
 

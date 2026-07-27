@@ -6,6 +6,22 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [1.5.0] — 2026-07-27
+
+### Added
+- **Interactive map** in-app (WebView): [Pindrop Palworld map](https://pindrop.gg/palworld/map) — free, no login, Palworld 1.0 markers; open in browser / reload actions
+- **Feedback** in Settings: Telegram (`t.me/paldox_official`), email (`dag0n00969@gmail.com`), X (`x.com/nikolas_borman`)
+- `INTERNET` permission (map + external links only; core data remains offline)
+
+### Fixed
+- Settings: duplicate **About** label removed — only the row that opens the About screen remains
+
+### Changed
+- App version **1.5.0** (versionCode **9**)
+- Map menu no longer “coming soon”
+
+---
+
 ## [1.4.3] — 2026-07-27
 
 ### Changed
