@@ -6,6 +6,19 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [1.4.1] — 2026-07-27
+
+### Fixed
+- **Russian localization of pal names**: 122 pals (mostly variants) had English `nameRu` (e.g. **#122B Suzaku Aqua** → now **Судзаку Аква**).
+- All 288 pals now have Cyrillic display names for RU locale.
+
+### Changed
+- Seed data version **v6** (forces re-import).
+- App version **1.4.1** (versionCode **6**).
+- Tool `tools/update_russian_names.py` to rebuild RU names from base forms + variant suffixes (Аква, Крист, Нокт, Люкс, Терра, Игнис, …).
+
+---
+
 ## [1.4.0] — 2026-07-27
 
 ### Fixed

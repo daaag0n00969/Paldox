@@ -1,0 +1,1154 @@
+{
+  "lamball": {
+    "en": "Lamball",
+    "ru": "Лэмбол"
+  },
+  "cattiva": {
+    "en": "Cattiva",
+    "ru": "Кэттива"
+  },
+  "chikipi": {
+    "en": "Chikipi",
+    "ru": "Чикипи"
+  },
+  "lifmunk": {
+    "en": "Lifmunk",
+    "ru": "Лифманк"
+  },
+  "fuack": {
+    "en": "Fuack",
+    "ru": "Фуак"
+  },
+  "fuack_ignis": {
+    "en": "Fuack Ignis",
+    "ru": "Фуак Игнис"
+  },
+  "vixy": {
+    "en": "Vixy",
+    "ru": "Викси"
+  },
+  "celaray": {
+    "en": "Celaray",
+    "ru": "Селарей"
+  },
+  "celaray_lux": {
+    "en": "Celaray Lux",
+    "ru": "Селарей Люкс"
+  },
+  "cremis": {
+    "en": "Cremis",
+    "ru": "Кремис"
+  },
+  "croajiro": {
+    "en": "Croajiro",
+    "ru": "Кроахиро"
+  },
+  "croajiro_noct": {
+    "en": "Croajiro Noct",
+    "ru": "Кроахиро Нокт"
+  },
+  "herbil": {
+    "en": "Herbil",
+    "ru": "Хербил"
+  },
+  "teafant": {
+    "en": "Teafant",
+    "ru": "Тифант"
+  },
+  "gumoss": {
+    "en": "Gumoss",
+    "ru": "Гумосс"
+  },
+  "pupperai": {
+    "en": "Pupperai",
+    "ru": "Папперай"
+  },
+  "clovee": {
+    "en": "Clovee",
+    "ru": "Клови"
+  },
+  "jolthog": {
+    "en": "Jolthog",
+    "ru": "Джолтхог"
+  },
+  "jolthog_cryst": {
+    "en": "Jolthog Cryst",
+    "ru": "Джолтхог Крист"
+  },
+  "depresso": {
+    "en": "Depresso",
+    "ru": "Депрессо"
+  },
+  "pengullet": {
+    "en": "Pengullet",
+    "ru": "Пенгуллет"
+  },
+  "pengullet_lux": {
+    "en": "Pengullet Lux",
+    "ru": "Пенгуллет Люкс"
+  },
+  "penking": {
+    "en": "Penking",
+    "ru": "Пенкинг"
+  },
+  "penking_lux": {
+    "en": "Penking Lux",
+    "ru": "Пенкинг Люкс"
+  },
+  "hoocrates": {
+    "en": "Hoocrates",
+    "ru": "Хоукратес"
+  },
+  "melpaca": {
+    "en": "Melpaca",
+    "ru": "Мелпака"
+  },
+  "kingpaca": {
+    "en": "Kingpaca",
+    "ru": "Кингпака"
+  },
+  "kingpaca_cryst": {
+    "en": "Kingpaca Cryst",
+    "ru": "Кингпака Крист"
+  },
+  "daedream": {
+    "en": "Daedream",
+    "ru": "Дейдрим"
+  },
+  "tanzee": {
+    "en": "Tanzee",
+    "ru": "Танзи"
+  },
+  "tanzee_ignis": {
+    "en": "Tanzee Ignis",
+    "ru": "Танзи Игнис"
+  },
+  "nox": {
+    "en": "Nox",
+    "ru": "Нокс"
+  },
+  "flambelle": {
+    "en": "Flambelle",
+    "ru": "Фламбель"
+  },
+  "rooby": {
+    "en": "Rooby",
+    "ru": "Руби"
+  },
+  "mau": {
+    "en": "Mau",
+    "ru": "Мау"
+  },
+  "mau_cryst": {
+    "en": "Mau Cryst",
+    "ru": "Мау Крист"
+  },
+  "rushoar": {
+    "en": "Rushoar",
+    "ru": "Рашор"
+  },
+  "foxparks": {
+    "en": "Foxparks",
+    "ru": "Фокспаркс"
+  },
+  "foxparks_cryst": {
+    "en": "Foxparks Cryst",
+    "ru": "Фокспаркс Крист"
+  },
+  "killamari": {
+    "en": "Killamari",
+    "ru": "Килламари"
+  },
+  "killamari_primo": {
+    "en": "Killamari Primo",
+    "ru": "Килламари Примо"
+  },
+  "fuddler": {
+    "en": "Fuddler",
+    "ru": "Фаддлер"
+  },
+  "eikthyrdeer": {
+    "en": "Eikthyrdeer",
+    "ru": "Эйктирдир"
+  },
+  "eikthyrdeer_terra": {
+    "en": "Eikthyrdeer Terra",
+    "ru": "Эйктирдир Терра"
+  },
+  "direhowl": {
+    "en": "Direhowl",
+    "ru": "Дайрхаул"
+  },
+  "caprity": {
+    "en": "Caprity",
+    "ru": "Каприти"
+  },
+  "caprity_noct": {
+    "en": "Caprity Noct",
+    "ru": "Каприти Нокт"
+  },
+  "swee": {
+    "en": "Swee",
+    "ru": "Сви"
+  },
+  "sweepa": {
+    "en": "Sweepa",
+    "ru": "Свипа"
+  },
+  "turtacle": {
+    "en": "Turtacle",
+    "ru": "Тёртакл"
+  },
+  "turtacle_terra": {
+    "en": "Turtacle Terra",
+    "ru": "Тёртакл Терра"
+  },
+  "hangyu": {
+    "en": "Hangyu",
+    "ru": "Хангью"
+  },
+  "hangyu_cryst": {
+    "en": "Hangyu Cryst",
+    "ru": "Хангью Крист"
+  },
+  "woolipop": {
+    "en": "Woolipop",
+    "ru": "Вулипоп"
+  },
+  "woolipop_terra": {
+    "en": "Woolipop Terra",
+    "ru": "Вулипоп Терра"
+  },
+  "mozzarina": {
+    "en": "Mozzarina",
+    "ru": "Моццарина"
+  },
+  "azurobe": {
+    "en": "Azurobe",
+    "ru": "Азуробе"
+  },
+  "azurobe_cryst": {
+    "en": "Azurobe Cryst",
+    "ru": "Азуробе Крист"
+  },
+  "sparkit": {
+    "en": "Sparkit",
+    "ru": "Спаркит"
+  },
+  "kelpsea": {
+    "en": "Kelpsea",
+    "ru": "Келпси"
+  },
+  "kelpsea_ignis": {
+    "en": "Kelpsea Ignis",
+    "ru": "Келпси Игнис"
+  },
+  "ribbuny": {
+    "en": "Ribbuny",
+    "ru": "Риббани"
+  },
+  "ribbuny_botan": {
+    "en": "Ribbuny Botan",
+    "ru": "Риббани Ботан"
+  },
+  "jelliette": {
+    "en": "Jelliette",
+    "ru": "Джельетта"
+  },
+  "jellroy": {
+    "en": "Jellroy",
+    "ru": "Джелрой"
+  },
+  "amione": {
+    "en": "Amione",
+    "ru": "Амионе"
+  },
+  "gloopie": {
+    "en": "Gloopie",
+    "ru": "Глупи"
+  },
+  "gloopie_primo": {
+    "en": "Gloopie Primo",
+    "ru": "Глупи Примо"
+  },
+  "galeclaw": {
+    "en": "Galeclaw",
+    "ru": "Гейлкло"
+  },
+  "wispaw": {
+    "en": "Wispaw",
+    "ru": "Виспав"
+  },
+  "nitewing": {
+    "en": "Nitewing",
+    "ru": "Найтвинг"
+  },
+  "tombat": {
+    "en": "Tombat",
+    "ru": "Томбат"
+  },
+  "tocotoco": {
+    "en": "Tocotoco",
+    "ru": "Токотоко"
+  },
+  "univolt": {
+    "en": "Univolt",
+    "ru": "Юнивольт"
+  },
+  "univolt_cryst": {
+    "en": "Univolt Cryst",
+    "ru": "Юнивольт Крист"
+  },
+  "gobfin": {
+    "en": "Gobfin",
+    "ru": "Гобфин"
+  },
+  "gobfin_ignis": {
+    "en": "Gobfin Ignis",
+    "ru": "Гобфин Игнис"
+  },
+  "loupmoon": {
+    "en": "Loupmoon",
+    "ru": "Лупмун"
+  },
+  "loupmoon_cryst": {
+    "en": "Loupmoon Cryst",
+    "ru": "Лупмун Крист"
+  },
+  "cawgnito": {
+    "en": "Cawgnito",
+    "ru": "Когнито"
+  },
+  "arsox": {
+    "en": "Arsox",
+    "ru": "Арсокс"
+  },
+  "muffly": {
+    "en": "Muffly",
+    "ru": "Мафли"
+  },
+  "bristla": {
+    "en": "Bristla",
+    "ru": "Бристла"
+  },
+  "cinnamoth": {
+    "en": "Cinnamoth",
+    "ru": "Синнамот"
+  },
+  "puffolt": {
+    "en": "Puffolt",
+    "ru": "Паффолт"
+  },
+  "elphidran": {
+    "en": "Elphidran",
+    "ru": "Эльфидран"
+  },
+  "elphidran_aqua": {
+    "en": "Elphidran Aqua",
+    "ru": "Эльфидран Аква"
+  },
+  "vanwyrm": {
+    "en": "Vanwyrm",
+    "ru": "Ванвирм"
+  },
+  "vanwyrm_cryst": {
+    "en": "Vanwyrm Cryst",
+    "ru": "Ванвирм Крист"
+  },
+  "felbat": {
+    "en": "Felbat",
+    "ru": "Фелбат"
+  },
+  "vaelet": {
+    "en": "Vaelet",
+    "ru": "Вэйлет"
+  },
+  "beegarde": {
+    "en": "Beegarde",
+    "ru": "Бигард"
+  },
+  "elizabee": {
+    "en": "Elizabee",
+    "ru": "Элизаби"
+  },
+  "lovander": {
+    "en": "Lovander",
+    "ru": "Ловандер"
+  },
+  "grintale": {
+    "en": "Grintale",
+    "ru": "Гринтэйл"
+  },
+  "tarantriss": {
+    "en": "Tarantriss",
+    "ru": "Тарантрисс"
+  },
+  "polapup": {
+    "en": "Polapup",
+    "ru": "Полапап"
+  },
+  "polapup_terra": {
+    "en": "Polapup Terra",
+    "ru": "Полапап Терра"
+  },
+  "leezpunk": {
+    "en": "Leezpunk",
+    "ru": "Лизпанк"
+  },
+  "leezpunk_ignis": {
+    "en": "Leezpunk Ignis",
+    "ru": "Лизпанк Игнис"
+  },
+  "gorirat": {
+    "en": "Gorirat",
+    "ru": "Горират"
+  },
+  "gorirat_terra": {
+    "en": "Gorirat Terra",
+    "ru": "Горират Терра"
+  },
+  "surfent": {
+    "en": "Surfent",
+    "ru": "Сёрфент"
+  },
+  "surfent_terra": {
+    "en": "Surfent Terra",
+    "ru": "Сёрфент Терра"
+  },
+  "robinquill": {
+    "en": "Robinquill",
+    "ru": "Робинквилл"
+  },
+  "robinquill_terra": {
+    "en": "Robinquill Terra",
+    "ru": "Робинквилл Терра"
+  },
+  "flopie": {
+    "en": "Flopie",
+    "ru": "Флопи"
+  },
+  "wixen": {
+    "en": "Wixen",
+    "ru": "Виксен"
+  },
+  "wixen_noct": {
+    "en": "Wixen Noct",
+    "ru": "Виксен Нокт"
+  },
+  "katress": {
+    "en": "Katress",
+    "ru": "Катресс"
+  },
+  "katress_ignis": {
+    "en": "Katress Ignis",
+    "ru": "Катресс Игнис"
+  },
+  "helzephyr": {
+    "en": "Helzephyr",
+    "ru": "Хелзефир"
+  },
+  "helzephyr_lux": {
+    "en": "Helzephyr Lux",
+    "ru": "Хелзефир Люкс"
+  },
+  "elgrove": {
+    "en": "Elgrove",
+    "ru": "Элгроув"
+  },
+  "elgrove_cryst": {
+    "en": "Elgrove Cryst",
+    "ru": "Элгроув Крист"
+  },
+  "lunaris": {
+    "en": "Lunaris",
+    "ru": "Лунарис"
+  },
+  "fenglope": {
+    "en": "Fenglope",
+    "ru": "Фенглоп"
+  },
+  "fenglope_lux": {
+    "en": "Fenglope Lux",
+    "ru": "Фенглоп Люкс"
+  },
+  "dinossom": {
+    "en": "Dinossom",
+    "ru": "Диноссом"
+  },
+  "dinossom_lux": {
+    "en": "Dinossom Lux",
+    "ru": "Диноссом Люкс"
+  },
+  "bushi": {
+    "en": "Bushi",
+    "ru": "Буши"
+  },
+  "bushi_noct": {
+    "en": "Bushi Noct",
+    "ru": "Буши Нокт"
+  },
+  "munchill": {
+    "en": "Munchill",
+    "ru": "Манчилл"
+  },
+  "mammorest": {
+    "en": "Mammorest",
+    "ru": "Мамморест"
+  },
+  "mammorest_cryst": {
+    "en": "Mammorest Cryst",
+    "ru": "Мамморест Крист"
+  },
+  "finsider": {
+    "en": "Finsider",
+    "ru": "Финсайдер"
+  },
+  "finsider_ignis": {
+    "en": "Finsider Ignis",
+    "ru": "Финсайдер Игнис"
+  },
+  "petallia": {
+    "en": "Petallia",
+    "ru": "Петаллия"
+  },
+  "petallia_ignis": {
+    "en": "Petallia Ignis",
+    "ru": "Петаллия Игнис"
+  },
+  "leafan": {
+    "en": "Leafan",
+    "ru": "Лифан"
+  },
+  "incineram": {
+    "en": "Incineram",
+    "ru": "Инсинерам"
+  },
+  "incineram_noct": {
+    "en": "Incineram Noct",
+    "ru": "Инсинерам Нокт"
+  },
+  "dazzi": {
+    "en": "Dazzi",
+    "ru": "Дэззи"
+  },
+  "dazzi_noct": {
+    "en": "Dazzi Noct",
+    "ru": "Дэззи Нокт"
+  },
+  "pyrin": {
+    "en": "Pyrin",
+    "ru": "Пайрин"
+  },
+  "pyrin_noct": {
+    "en": "Pyrin Noct",
+    "ru": "Пайрин Нокт"
+  },
+  "relaxaurus": {
+    "en": "Relaxaurus",
+    "ru": "Релаксозавр"
+  },
+  "relaxaurus_lux": {
+    "en": "Relaxaurus Lux",
+    "ru": "Релаксозавр Люкс"
+  },
+  "foxcicle": {
+    "en": "Foxcicle",
+    "ru": "Фоксикл"
+  },
+  "beakon": {
+    "en": "Beakon",
+    "ru": "Бикон"
+  },
+  "beakon_cryst": {
+    "en": "Beakon Cryst",
+    "ru": "Бикон Крист"
+  },
+  "ghangler": {
+    "en": "Ghangler",
+    "ru": "Гэнглер"
+  },
+  "ghangler_ignis": {
+    "en": "Ghangler Ignis",
+    "ru": "Гэнглер Игнис"
+  },
+  "rayhound": {
+    "en": "Rayhound",
+    "ru": "Рейхаунд"
+  },
+  "rayhound_cryst": {
+    "en": "Rayhound Cryst",
+    "ru": "Рейхаунд Крист"
+  },
+  "menasting": {
+    "en": "Menasting",
+    "ru": "Менастинг"
+  },
+  "menasting_terra": {
+    "en": "Menasting Terra",
+    "ru": "Менастинг Терра"
+  },
+  "needoll": {
+    "en": "Needoll",
+    "ru": "Нидолл"
+  },
+  "needoll_noct": {
+    "en": "Needoll Noct",
+    "ru": "Нидолл Нокт"
+  },
+  "reindrix": {
+    "en": "Reindrix",
+    "ru": "Рейндрикс"
+  },
+  "mossanda": {
+    "en": "Mossanda",
+    "ru": "Моссанда"
+  },
+  "mossanda_lux": {
+    "en": "Mossanda Lux",
+    "ru": "Моссанда Люкс"
+  },
+  "chillet": {
+    "en": "Chillet",
+    "ru": "Чиллет"
+  },
+  "chillet_ignis": {
+    "en": "Chillet Ignis",
+    "ru": "Чиллет Игнис"
+  },
+  "ragnahawk": {
+    "en": "Ragnahawk",
+    "ru": "Рагнахок"
+  },
+  "moldron": {
+    "en": "Moldron",
+    "ru": "Молдрон"
+  },
+  "moldron_cryst": {
+    "en": "Moldron Cryst",
+    "ru": "Молдрон Крист"
+  },
+  "palumba": {
+    "en": "Palumba",
+    "ru": "Палумба"
+  },
+  "digtoise": {
+    "en": "Digtoise",
+    "ru": "Дигтойз"
+  },
+  "broncherry": {
+    "en": "Broncherry",
+    "ru": "Брончерри"
+  },
+  "broncherry_aqua": {
+    "en": "Broncherry Aqua",
+    "ru": "Брончерри Аква"
+  },
+  "dumud": {
+    "en": "Dumud",
+    "ru": "Думуд"
+  },
+  "dumud_gild": {
+    "en": "Dumud Gild",
+    "ru": "Думуд Гилд"
+  },
+  "braloha": {
+    "en": "Braloha",
+    "ru": "Бралоха"
+  },
+  "kitsun": {
+    "en": "Kitsun",
+    "ru": "Китсун"
+  },
+  "kitsun_noct": {
+    "en": "Kitsun Noct",
+    "ru": "Китсун Нокт"
+  },
+  "blazehowl": {
+    "en": "Blazehowl",
+    "ru": "Блейзхаул"
+  },
+  "blazehowl_noct": {
+    "en": "Blazehowl Noct",
+    "ru": "Блейзхаул Нокт"
+  },
+  "warsect": {
+    "en": "Warsect",
+    "ru": "Варсект"
+  },
+  "warsect_terra": {
+    "en": "Warsect Terra",
+    "ru": "Варсект Терра"
+  },
+  "frostplume": {
+    "en": "Frostplume",
+    "ru": "Фростплюм"
+  },
+  "majex": {
+    "en": "Majex",
+    "ru": "Маджекс"
+  },
+  "sibelyx": {
+    "en": "Sibelyx",
+    "ru": "Сибеликс"
+  },
+  "sibelyx_primo": {
+    "en": "Sibelyx Primo",
+    "ru": "Сибеликс Примо"
+  },
+  "maraith": {
+    "en": "Maraith",
+    "ru": "Марайт"
+  },
+  "shroomer": {
+    "en": "Shroomer",
+    "ru": "Шрумер"
+  },
+  "shroomer_noct": {
+    "en": "Shroomer Noct",
+    "ru": "Шрумер Нокт"
+  },
+  "icelyn": {
+    "en": "Icelyn",
+    "ru": "Айселин"
+  },
+  "gildra": {
+    "en": "Gildra",
+    "ru": "Гилдра"
+  },
+  "jormuntide": {
+    "en": "Jormuntide",
+    "ru": "Йормунтид"
+  },
+  "jormuntide_ignis": {
+    "en": "Jormuntide Ignis",
+    "ru": "Йормунтид Игнис"
+  },
+  "suzaku": {
+    "en": "Suzaku",
+    "ru": "Судзаку"
+  },
+  "suzaku_aqua": {
+    "en": "Suzaku Aqua",
+    "ru": "Судзаку Аква"
+  },
+  "dazemu": {
+    "en": "Dazemu",
+    "ru": "Дазему"
+  },
+  "quivern": {
+    "en": "Quivern",
+    "ru": "Квиверн"
+  },
+  "quivern_botan": {
+    "en": "Quivern Botan",
+    "ru": "Квиверн Ботан"
+  },
+  "lullu": {
+    "en": "Lullu",
+    "ru": "Луллу"
+  },
+  "kikit": {
+    "en": "Kikit",
+    "ru": "Кикит"
+  },
+  "yakumo": {
+    "en": "Yakumo",
+    "ru": "Якумо"
+  },
+  "skutlass": {
+    "en": "Skutlass",
+    "ru": "Скатласс"
+  },
+  "skutlass_ignis": {
+    "en": "Skutlass Ignis",
+    "ru": "Скатласс Игнис"
+  },
+  "reptyro": {
+    "en": "Reptyro",
+    "ru": "Рептиро"
+  },
+  "reptyro_cryst": {
+    "en": "Reptyro Cryst",
+    "ru": "Рептиро Крист"
+  },
+  "starryon": {
+    "en": "Starryon",
+    "ru": "Старрион"
+  },
+  "starryon_primo": {
+    "en": "Starryon Primo",
+    "ru": "Старрион Примо"
+  },
+  "pierdon": {
+    "en": "Pierdon",
+    "ru": "Пирдон"
+  },
+  "pierdon_cryst": {
+    "en": "Pierdon Cryst",
+    "ru": "Пирдон Крист"
+  },
+  "cryolinx": {
+    "en": "Cryolinx",
+    "ru": "Крайолинкс"
+  },
+  "cryolinx_terra": {
+    "en": "Cryolinx Terra",
+    "ru": "Крайолинкс Терра"
+  },
+  "snugloo": {
+    "en": "Snugloo",
+    "ru": "Снаглу"
+  },
+  "wumpo": {
+    "en": "Wumpo",
+    "ru": "Вумпо"
+  },
+  "wumpo_botan": {
+    "en": "Wumpo Botan",
+    "ru": "Вумпо Ботан"
+  },
+  "sootseer": {
+    "en": "Sootseer",
+    "ru": "Сутсир"
+  },
+  "carnibora": {
+    "en": "Carnibora",
+    "ru": "Карнибора"
+  },
+  "blazamut": {
+    "en": "Blazamut",
+    "ru": "Блазамут"
+  },
+  "blazamut_ryu": {
+    "en": "Blazamut Ryu",
+    "ru": "Блазамут Рю"
+  },
+  "dualith": {
+    "en": "Dualith",
+    "ru": "Дуалит"
+  },
+  "dualith_noct": {
+    "en": "Dualith Noct",
+    "ru": "Дуалит Нокт"
+  },
+  "anubis": {
+    "en": "Anubis",
+    "ru": "Анубис"
+  },
+  "sekhmet": {
+    "en": "Sekhmet",
+    "ru": "Сехмет"
+  },
+  "prixter": {
+    "en": "Prixter",
+    "ru": "Прикстер"
+  },
+  "prixter_lux": {
+    "en": "Prixter Lux",
+    "ru": "Прикстер Люкс"
+  },
+  "tetroise": {
+    "en": "Tetroise",
+    "ru": "Тетройз"
+  },
+  "tetroise_primo": {
+    "en": "Tetroise Primo",
+    "ru": "Тетройз Примо"
+  },
+  "nyafia": {
+    "en": "Nyafia",
+    "ru": "Ньяфия"
+  },
+  "mimog": {
+    "en": "Mimog",
+    "ru": "Мимог"
+  },
+  "xenovader": {
+    "en": "Xenovader",
+    "ru": "Ксеновадер"
+  },
+  "xenogard": {
+    "en": "Xenogard",
+    "ru": "Ксеногард"
+  },
+  "prunelia": {
+    "en": "Prunelia",
+    "ru": "Прунелия"
+  },
+  "nitemary": {
+    "en": "Nitemary",
+    "ru": "Найтмери"
+  },
+  "nitemary_botan": {
+    "en": "Nitemary Botan",
+    "ru": "Найтмери Ботан"
+  },
+  "smokie": {
+    "en": "Smokie",
+    "ru": "Смоки"
+  },
+  "smokie_cryst": {
+    "en": "Smokie Cryst",
+    "ru": "Смоки Крист"
+  },
+  "omascul": {
+    "en": "Omascul",
+    "ru": "Омаскул"
+  },
+  "whalaska": {
+    "en": "Whalaska",
+    "ru": "Валаска"
+  },
+  "whalaska_ignis": {
+    "en": "Whalaska Ignis",
+    "ru": "Валаска Игнис"
+  },
+  "verdash": {
+    "en": "Verdash",
+    "ru": "Вердаш"
+  },
+  "splatterina": {
+    "en": "Splatterina",
+    "ru": "Сплаттерина"
+  },
+  "gildane": {
+    "en": "Gildane",
+    "ru": "Гилдейн"
+  },
+  "dogen": {
+    "en": "Dogen",
+    "ru": "Доген"
+  },
+  "bulldosu": {
+    "en": "Bulldosu",
+    "ru": "Булдосу"
+  },
+  "celesdir": {
+    "en": "Celesdir",
+    "ru": "Селесдир"
+  },
+  "celesdir_noct": {
+    "en": "Celesdir Noct",
+    "ru": "Селесдир Нокт"
+  },
+  "astegon": {
+    "en": "Astegon",
+    "ru": "Астегон"
+  },
+  "knocklem": {
+    "en": "Knocklem",
+    "ru": "Ноклем"
+  },
+  "knocklem_ignis": {
+    "en": "Knocklem Ignis",
+    "ru": "Ноклем Игнис"
+  },
+  "silvegis": {
+    "en": "Silvegis",
+    "ru": "Сильвегис"
+  },
+  "azurmane": {
+    "en": "Azurmane",
+    "ru": "Азурмейн"
+  },
+  "valentail": {
+    "en": "Valentail",
+    "ru": "Валентейл"
+  },
+  "snock": {
+    "en": "Snock",
+    "ru": "Снок"
+  },
+  "snock_lux": {
+    "en": "Snock Lux",
+    "ru": "Снок Люкс"
+  },
+  "souffline": {
+    "en": "Souffline",
+    "ru": "Суффлайн"
+  },
+  "lapiron": {
+    "en": "Lapiron",
+    "ru": "Лапирон"
+  },
+  "hoodle": {
+    "en": "Hoodle",
+    "ru": "Худл"
+  },
+  "slowatt": {
+    "en": "Slowatt",
+    "ru": "Слоуэтт"
+  },
+  "bakemi": {
+    "en": "Bakemi",
+    "ru": "Бакеми"
+  },
+  "solmora": {
+    "en": "Solmora",
+    "ru": "Сольмора"
+  },
+  "solmora_lux": {
+    "en": "Solmora Lux",
+    "ru": "Сольмора Люкс"
+  },
+  "lapure": {
+    "en": "Lapure",
+    "ru": "Лапур"
+  },
+  "eidrolon": {
+    "en": "Eidrolon",
+    "ru": "Эйдролон"
+  },
+  "eidrolon_ignis": {
+    "en": "Eidrolon Ignis",
+    "ru": "Эйдролон Игнис"
+  },
+  "dynamoff": {
+    "en": "Dynamoff",
+    "ru": "Динамофф"
+  },
+  "tropicaw": {
+    "en": "Tropicaw",
+    "ru": "Тропико"
+  },
+  "flaracle": {
+    "en": "Flaracle",
+    "ru": "Фларакл"
+  },
+  "ophydia": {
+    "en": "Ophydia",
+    "ru": "Офидия"
+  },
+  "dupin": {
+    "en": "Dupin",
+    "ru": "Дюпин"
+  },
+  "roujay": {
+    "en": "Roujay",
+    "ru": "Руджей"
+  },
+  "venusa": {
+    "en": "Venusa",
+    "ru": "Венуса"
+  },
+  "mycora": {
+    "en": "Mycora",
+    "ru": "Микора"
+  },
+  "loomen": {
+    "en": "Loomen",
+    "ru": "Лумен"
+  },
+  "wistella": {
+    "en": "Wistella",
+    "ru": "Вистелла"
+  },
+  "solenne": {
+    "en": "Solenne",
+    "ru": "Соленна"
+  },
+  "renjishi": {
+    "en": "Renjishi",
+    "ru": "Ренджиши"
+  },
+  "aegidron": {
+    "en": "Aegidron",
+    "ru": "Эгидрон"
+  },
+  "grizzbolt": {
+    "en": "Grizzbolt",
+    "ru": "Гризболт"
+  },
+  "lyleen": {
+    "en": "Lyleen",
+    "ru": "Лайлин"
+  },
+  "lyleen_noct": {
+    "en": "Lyleen Noct",
+    "ru": "Лайлин Нокт"
+  },
+  "orserk": {
+    "en": "Orserk",
+    "ru": "Орсерк"
+  },
+  "faleris": {
+    "en": "Faleris",
+    "ru": "Фалерис"
+  },
+  "faleris_aqua": {
+    "en": "Faleris Aqua",
+    "ru": "Фалерис Аква"
+  },
+  "shadowbeak": {
+    "en": "Shadowbeak",
+    "ru": "Шэдоубик"
+  },
+  "selyne": {
+    "en": "Selyne",
+    "ru": "Селин"
+  },
+  "bastigor": {
+    "en": "Bastigor",
+    "ru": "Бастигор"
+  },
+  "shaolong": {
+    "en": "Shaolong",
+    "ru": "Шаолонг"
+  },
+  "silvance": {
+    "en": "Silvance",
+    "ru": "Сильванс"
+  },
+  "dandilord": {
+    "en": "Dandilord",
+    "ru": "Дандилорд"
+  },
+  "bellanoir": {
+    "en": "Bellanoir",
+    "ru": "Беллануар"
+  },
+  "bellanoir_libero": {
+    "en": "Bellanoir Libero",
+    "ru": "Беллануар Либеро"
+  },
+  "xenolord": {
+    "en": "Xenolord",
+    "ru": "Ксенолорд"
+  },
+  "hartalis": {
+    "en": "Hartalis",
+    "ru": "Харталис"
+  },
+  "paladius": {
+    "en": "Paladius",
+    "ru": "Паладиус"
+  },
+  "necromus": {
+    "en": "Necromus",
+    "ru": "Некромус"
+  },
+  "frostallion": {
+    "en": "Frostallion",
+    "ru": "Фросталлион"
+  },
+  "frostallion_noct": {
+    "en": "Frostallion Noct",
+    "ru": "Фросталлион Нокт"
+  },
+  "neptilius": {
+    "en": "Neptilius",
+    "ru": "Нептилиус"
+  },
+  "jetragon": {
+    "en": "Jetragon",
+    "ru": "Джетрагон"
+  },
+  "panthalus": {
+    "en": "Panthalus",
+    "ru": "Панталус"
+  },
+  "astralym": {
+    "en": "Astralym",
+    "ru": "Астралим"
+  }
+}

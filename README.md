@@ -7,7 +7,7 @@ Paldox helps you look up pals, plan breeding, check skills/items/tower bosses, a
 | | |
 |---|---|
 | **App name** | Paldox |
-| **Version** | 1.4.0 |
+| **Version** | 1.4.1 |
 | **Platform** | Android 8.0+ (API 26+) |
 | **Languages** | English · Russian |
 | **Package** | `com.paldox.app` |
@@ -126,9 +126,11 @@ Seed lives at `app/src/main/assets/seed_data.json` (bump `version` to force re-i
 
 See **[CHANGELOG.md](./CHANGELOG.md)** for full history.
 
-### Latest — 1.4.0
-- **Breeding ranks fixed for Palworld 1.0** (e.g. Azurobe + Bushi → Carnibora, not Anubis)
-- Seed v5 re-import; tools to re-sync ranks
+### Latest — 1.4.1
+- Full Russian pal names (variants too: Судзаку Аква, etc.)
+
+### 1.4.0
+- **Breeding ranks fixed for Palworld 1.0** (Azurobe + Bushi → Carnibora)
 
 ### 1.3.0
 - Store-ready legal pack, security audit, Play/RuStore kits
