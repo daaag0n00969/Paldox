@@ -43,6 +43,7 @@ fun SettingsScreen(
     onToggleLanguage: () -> Unit,
     onToggleTheme: () -> Unit,
     onOpenAbout: () -> Unit,
+    onOpenAds: () -> Unit,
 ) {
     val context = LocalContext.current
 
@@ -107,6 +108,12 @@ fun SettingsScreen(
                 subtitle = stringResource(R.string.about_button_hint),
                 external = false,
                 onClick = onOpenAbout,
+            )
+            SettingsNavRow(
+                title = stringResource(R.string.ads_title),
+                subtitle = stringResource(R.string.ads_button_hint),
+                external = false,
+                onClick = onOpenAds,
             )
 
             SectionTitle(stringResource(R.string.feedback_section))

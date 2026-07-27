@@ -1,223 +1,158 @@
 # Paldox
 
-**Offline-first Android companion for Palworld 1.0**
+[![Downloads](https://img.shields.io/github/downloads/daaag0n00969/Paldox/total?style=flat-square&logo=github)](https://github.com/daaag0n00969/Paldox/releases)
+[![Latest release](https://img.shields.io/github/v/release/daaag0n00969/Paldox?style=flat-square)](https://github.com/daaag0n00969/Paldox/releases/latest)
+[![License: MIT](https://img.shields.io/github/license/daaag0n00969/Paldox?style=flat-square)](./LICENSE)
+[![Telegram](https://img.shields.io/badge/Telegram-Chat-blue?style=flat-square&logo=telegram)](https://t.me/paldox_official)
+[![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/daaag0n00969/Paldox/releases/latest)
+[![Kotlin](https://img.shields.io/badge/Kotlin-Compose-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://developer.android.com/jetpack/compose)
 
-Paldox helps you look up pals, plan breeding, check skills/items/tower bosses, and read guides — without needing a constant internet connection.
+[**English**](./README_EN.md) · Русский
+
+<p align="center">
+  <img src="docs/snapshots/icon.png" width="128" alt="Paldox icon" />
+</p>
+
+**Оффлайн-компаньон для Palworld 1.0** — палдекс, разведение, навыки, предметы, боссы, гайды и интерактивная карта.  
+Без аккаунтов. Без аналитики. **Без рекламы.** Открытый исходный код.
+
+> Независимый фанатский проект · **dag0n00969** · собран с **GrokBuild (Grok 4.5)**  
+> Не связан с издателем игры. Palworld — торговая марка правообладателей.
+
+---
+
+## ⬇️ Скачать APK
+
+Свежий установщик всегда в **[Releases](https://github.com/daaag0n00969/Paldox/releases/latest)** — файл прикреплён к релизу (Assets).
+
+<p align="center">
+  <a href="https://github.com/daaag0n00969/Paldox/releases/latest">
+    <img src="docs/snapshots/get-it-on-github.svg" alt="Get it on GitHub" width="240" />
+  </a>
+</p>
+
+| Файл | Назначение |
+|------|------------|
+| **`Paldox-x.y.z.apk`** | Release (рекомендуется для RuStore / 4PDA / установки) |
+| **`Paldox-x.y.z-debug.apk`** | Debug (`com.paldox.app.debug`) — для тестов |
+
+**Как установить**
+1. Откройте [Latest Release](https://github.com/daaag0n00969/Paldox/releases/latest)
+2. В блоке **Assets** скачайте `Paldox-….apk`
+3. На Android разрешите установку из неизвестных источников (если нужно)
+4. Package: `com.paldox.app` · Android **8.0+**
+
+Также: **RuStore**, **4PDA**, этот репозиторий.
+
+---
+
+## ✨ Возможности
 
 | | |
-|---|---|
-| **App name** | Paldox |
-| **Version** | 1.5.0 |
-| **Platform** | Android 8.0+ (API 26+) |
-| **Languages** | English · Russian |
-| **Package** | `com.paldox.app` |
-| **Repository** | [github.com/daaag0n00969/Paldox](https://github.com/daaag0n00969/Paldox) |
-
-> Independent fan project by **dag0n00969**, built with **GrokBuild (Grok 4.5)**.  
-> Not affiliated with the game’s publisher.
-
----
-
-## Features
-
-### Paldex
-- **288 pals** aligned with **in-game Palpedia numbers** (1.0 renumbering)
-- Icons/portraits offline
-- Search (EN/RU), element filters, owned flag
-- Detail: species scaling, level / talent / condenser / soul stats, passives impact, work suitability, partner skill
-
-### Breeding
-Three modes:
-| Mode | Meaning |
-|------|---------|
-| **P+P** | Two parents → child |
-| **P+** | One pal → all partners & results |
-| **=P** | Target pal → parent pairs |
-
-- Special combination overrides
-- Optional “owned only” filter
-- Name + **Palpedia #** under each pal
-
-### Skills
-- Active skills (power, CD, element)
-- Passive skills sorted by rarity, effect preview by rank
-
-### Items
-- Categories: spheres, materials, food, weapons, armor
-- Detail: description, effects, craft recipe & station, tech level, drops, shops, related items
-- Offline item icons
-
-### Bosses (Towers)
-- Tower order, level, elements
-- Strategy (formatted), gear tips, counter pals (open pal page)
-
-### Guides
-- Formatted in-app guides + personal notes
-- List preview without raw markdown junk
-
-### More
-- Map placeholder (coming soon)
-- Settings: dark theme, language (persisted), About
+|--|--|
+| 📘 **Палдекс** | 288 палов, номера Palpedia 1.0, иконки оффлайн, поиск RU/EN |
+| 🥚 **Разведение** | P+P · P+ · =P, ранги 1.0, special combos |
+| ⚔️ **Навыки** | Активные и пассивные |
+| 🎒 **Предметы** | Крафт, дроп, магазины, иконки |
+| 🗼 **Боссы** | Башни, тактика, контр-палы |
+| 📖 **Гайды** | Читаемые гайды + личные заметки |
+| 🗺️ **Карта** | Интерактивная [Pindrop](https://pindrop.gg/palworld/map) (нужен интернет) |
+| 🌙 **Настройки** | Тема, язык, обратная связь, «Реклама нет», legal |
+| 🚫 **Без рекламы** | Кроме упоминаний Pocketpair и xAI — никого не продвигаем |
 
 ---
 
-## Screenshots
+## 📸 Скриншоты
 
-*(Add screenshots to `docs/screenshots/` and link them here after first release assets.)*
+<p align="center">
+  <img src="docs/snapshots/icon.png" width="160" alt="Launcher icon" />
+</p>
+
+> Добавьте скрины UI в `docs/snapshots/` (home, paldex, breeding…) — они появятся здесь.
 
 ---
 
-## Tech stack
+## 🛠️ Стек
 
 - **Kotlin** · **Jetpack Compose** · **Material 3**
-- **Room** (SQLite) + versioned `seed_data.json`
-- **Hilt** · **Coil** · **DataStore** / SharedPreferences
-- Offline-first: assets + local DB after first launch
+- **Room** + `seed_data.json` (оффлайн после установки)
+- **Hilt** · **Coil** · **DataStore**
+- Target **API 35** · min **API 26**
 
 ```
 app/src/main/java/com/paldexpro/
-├── data/          # Room, seed loader, preferences
-├── domain/        # Models, breeding engine, stat calculator
-├── di/            # Hilt
-└── ui/            # Compose screens & navigation
+├── data/      # Room, seed, prefs
+├── domain/    # breeding, stats
+├── di/
+└── ui/        # Compose screens
 ```
 
 ---
 
-## Build
+## 🔧 Сборка
 
-**Requirements:** JDK 17, Android SDK 35, Android Studio recommended.
+**Нужно:** JDK 17, Android SDK 35.
 
 ```bash
-# Windows
-.\gradlew.bat assembleDebug
-
-# macOS / Linux
+# Debug
 ./gradlew assembleDebug
-```
+# → app/build/outputs/apk/debug/Paldox-<version>-debug.apk
 
-Debug APK:
-
-```
-app/build/outputs/apk/debug/app-debug.apk
-```
-
-Unit tests (breeding / stats):
-
-```bash
-.\gradlew.bat testDebugUnitTest
-```
-
-### Data tooling
-
-```bash
-# Rebuild pal list + icons from community Palpedia sources
-python tools/rebuild_palpedia.py
-
-# Enrich items/bosses + item icons
-python tools/enrich_items_bosses.py
-```
-
-Seed lives at `app/src/main/assets/seed_data.json` (bump `version` to force re-import).
-
----
-
-## Changelog
-
-See **[CHANGELOG.md](./CHANGELOG.md)** for full history.
-
-### Latest — 1.5.0
-- Interactive map (Pindrop), feedback contacts in Settings, fixed duplicate About
-
-### 1.4.3
-- Custom launcher icon; APK named `Paldox-<version>.apk`
-
-### 1.4.2
-- Distribution targets: **RuStore** + **4PDA** only (no Google Play)
-
-### 1.4.1
-- Full Russian pal names (variants too: Судзаку Аква, etc.)
-
-### 1.4.0
-- **Breeding ranks fixed for Palworld 1.0** (Azurobe + Bushi → Carnibora)
-
-### 1.3.0
-- Legal pack, security audit, store kits (later narrowed to RuStore/4PDA)
-
-### 1.2.0
-- 288 pals with correct Palpedia numbers, offline icons, breeding `#dex`
-
-### 1.1.0
-- Navigation redesign, items/bosses, locale & crash fixes
-
-### 1.0.0
-- First offline companion release
-
----
-
-## Legal & distribution (RuStore · 4PDA · GitHub)
-
-| Doc | |
-|-----|--|
-| Privacy / Terms / EULA | [docs/legal/](./docs/legal/) |
-| Security audit | [docs/SECURITY_AUDIT.md](./docs/SECURITY_AUDIT.md) |
-| RuStore listing | [docs/store/RUSTORE_LISTING.md](./docs/store/RUSTORE_LISTING.md) |
-| 4PDA listing | [docs/store/FOURPDA_LISTING.md](./docs/store/FOURPDA_LISTING.md) |
-| Publish checklist | [docs/store/PUBLISHING_CHECKLIST.md](./docs/store/PUBLISHING_CHECKLIST.md) |
-
-Google Play / Play Market is **not** a distribution target.
-
-### Signed release build
-
-```bash
-# 1) Create keystore (once), copy keystore.properties.example → keystore.properties
-# 2) Build APK for RuStore / 4PDA / GitHub Releases
+# Release (нужен keystore.properties)
 ./gradlew assembleRelease
-# optional AAB if RuStore asks for it
-./gradlew bundleRelease
+# → app/build/outputs/apk/release/Paldox-<version>.apk
+```
+
+Подпись: скопируйте `keystore.properties.example` → `keystore.properties`.
+
+Тесты:
+
+```bash
+./gradlew testDebugUnitTest
 ```
 
 ---
 
-## Roadmap
+## 📜 Changelog
 
-- [ ] Interactive map with spawn points
-- [ ] Full datamine-grade stats/work/drops for every pal
-- [ ] Shortest breeding chain UI
-- [ ] Collection export / import
-- [x] Legal docs + RuStore / 4PDA kits + GitHub Releases
-- [ ] Live listings on RuStore and 4PDA
+Полная история: **[CHANGELOG.md](./CHANGELOG.md)**
 
----
-
-## Contributing
-
-Issues and PRs are welcome:
-1. Fork the repo  
-2. Create a branch  
-3. Open a PR with a short description  
-
-Please keep fan-project / non-commercial use in mind when adding assets.
+### Последнее
+- **1.5.1** — экран «Реклама», hero-арт  
+- **1.5.0** — карта Pindrop, обратная связь, фикс About  
+- **1.4.x** — иконка, RU-имена, бридинг 1.0, RuStore/4PDA  
 
 ---
 
-## Credits
+## ⚖️ Legal
 
-| Role | |
-|------|--|
-| Author | **dag0n00969** |
-| Built with | **GrokBuild (Grok 4.5)** |
-| Community data | palpedia / mobalytics pal lists, wiki breeding ranks, portrait packs |
-
-Palworld is a trademark of its respective owners. Paldox is a fan-made companion and is not endorsed by the publisher.  
-See [CONTENT_DISCLAIMER.md](./docs/legal/CONTENT_DISCLAIMER.md).
+| | |
+|--|--|
+| Privacy | [EN](./docs/legal/PRIVACY_POLICY.md) · [RU](./docs/legal/PRIVACY_POLICY_RU.md) |
+| Terms | [EN](./docs/legal/TERMS_OF_SERVICE.md) · [RU](./docs/legal/TERMS_OF_SERVICE_RU.md) |
+| EULA | [EN](./docs/legal/EULA.md) · [RU](./docs/legal/EULA_RU.md) |
+| Disclaimer | [CONTENT_DISCLAIMER](./docs/legal/CONTENT_DISCLAIMER.md) |
+| Публикация | [RuStore](./docs/store/RUSTORE_LISTING.md) · [4PDA](./docs/store/FOURPDA_LISTING.md) · [Checklist](./docs/store/PUBLISHING_CHECKLIST.md) |
+| Security | [SECURITY_AUDIT](./docs/SECURITY_AUDIT.md) |
 
 ---
 
-## License
+## 💬 Связь
 
-Source code: **MIT** (see [LICENSE](./LICENSE)) unless noted otherwise.
+- Telegram: [t.me/paldox_official](https://t.me/paldox_official)  
+- Email: [dag0n00969@gmail.com](mailto:dag0n00969@gmail.com)  
+- X: [@nikolas_borman](https://x.com/nikolas_borman)  
+- Issues: [GitHub Issues](https://github.com/daaag0n00969/Paldox/issues)
 
-Game assets and third-party portraits remain property of their owners; used here for fan informational purposes only.
+---
 
-Use of the distributed app is also subject to [Terms](./docs/legal/TERMS_OF_SERVICE.md) and [EULA](./docs/legal/EULA.md).
+## ⭐ Star
+
+Самый простой способ поддержать проект — нажать **⭐ Star** вверху страницы.
+
+---
+
+## 📄 License
+
+Исходный код: **MIT** — см. [LICENSE](./LICENSE).  
+Игровые ассеты и IP Palworld принадлежат правообладателям; используются только в фанатских справочных целях.

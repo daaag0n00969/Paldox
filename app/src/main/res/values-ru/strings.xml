@@ -20,8 +20,14 @@
     <string name="about_button">О приложении</string>
     <string name="about_button_hint">Версия, авторы, благодарности</string>
     <string name="about_title">О приложении</string>
-    <string name="about_version">Версия 1.5.0</string>
+    <string name="about_version">Версия 1.5.1</string>
     <string name="settings_app_section">Приложение</string>
+    <string name="ads_title">Реклама</string>
+    <string name="ads_button_hint">Коротко о рекламе в приложении</string>
+    <string name="ads_headline">Рекламы нет.</string>
+    <string name="ads_line_zero">Ноль. Пусто. Тишина.</string>
+    <string name="ads_line_promote">Кроме Pocketpair и xAI мы никого не продвигаем.</string>
+    <string name="ads_line_rest">Остальным — отказ. Пользуйтесь на здоровье.</string>
     <string name="feedback_section">Обратная связь</string>
     <string name="feedback_intro">Связь с разработчиками — Telegram, почта или X.</string>
     <string name="feedback_telegram">Telegram</string>

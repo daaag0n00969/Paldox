@@ -6,6 +6,20 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [1.5.1] — 2026-07-27
+
+### Added
+- Settings → **Ads / Реклама** screen with hero art and localized copy:
+  - RU: «Рекламы нет. Ноль. Пусто. Тишина…»
+  - EN: «No ads. Zero. Empty. Silence…»
+  - Mentions Pocketpair & xAI only
+- Polished GitHub presence (FlClashX-style): badges, download section, `README_EN.md`, release APK assets
+
+### Changed
+- App version **1.5.1** (versionCode **10**)
+
+---
+
 ## [1.5.0] — 2026-07-27
 
 ### Added

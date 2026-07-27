@@ -45,6 +45,7 @@ import com.paldexpro.ui.screens.more.MoreScreen
 import com.paldexpro.ui.screens.paldex.PalDetailScreen
 import com.paldexpro.ui.screens.paldex.PaldexScreen
 import com.paldexpro.ui.screens.settings.AboutScreen
+import com.paldexpro.ui.screens.settings.AdsScreen
 import com.paldexpro.ui.screens.settings.SettingsScreen
 import com.paldexpro.ui.screens.skills.SkillsScreen
 
@@ -72,6 +73,7 @@ sealed class Dest(val route: String) {
     data object Map : Dest("map")
     data object Settings : Dest("settings")
     data object About : Dest("about")
+    data object Ads : Dest("ads")
 }
 
 private data class Tab(val dest: Dest, val labelRes: Int, val icon: ImageVector)
@@ -278,10 +280,14 @@ fun PalDexNavHost(
                     onToggleLanguage = onToggleLanguage,
                     onToggleTheme = onToggleTheme,
                     onOpenAbout = { nav.navigate(Dest.About.route) },
+                    onOpenAds = { nav.navigate(Dest.Ads.route) },
                 )
             }
             composable(Dest.About.route) {
                 AboutScreen(onBack = { nav.popBackStack() })
+            }
+            composable(Dest.Ads.route) {
+                AdsScreen(onBack = { nav.popBackStack() })
             }
         }
     }
