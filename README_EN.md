@@ -44,7 +44,21 @@ Also distributed via **RuStore** and **4PDA**.
 - **Breeding** — P+P / P+ / =P with 1.0 ranks  
 - **Skills · Items · Tower bosses · Guides**  
 - **Interactive map** — Pindrop (internet required)  
+- **Mods** — curated Steam Workshop links  
 - **Settings** — theme, language, feedback, “No ads” screen, legal docs  
+
+## Screenshots
+
+<p align="center">
+  <img src="docs/snapshots/screenshot-01.jpg" width="180" alt="Paldox screenshot 1" />
+  <img src="docs/snapshots/screenshot-02.jpg" width="180" alt="Paldox screenshot 2" />
+  <img src="docs/snapshots/screenshot-03.jpg" width="180" alt="Paldox screenshot 3" />
+</p>
+<p align="center">
+  <img src="docs/snapshots/screenshot-04.jpg" width="180" alt="Paldox screenshot 4" />
+  <img src="docs/snapshots/screenshot-05.jpg" width="180" alt="Paldox screenshot 5" />
+  <img src="docs/snapshots/screenshot-06.jpg" width="180" alt="Paldox screenshot 6" />
+</p>
 
 ---
 

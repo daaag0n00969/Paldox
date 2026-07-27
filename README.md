@@ -65,10 +65,15 @@
 ## 📸 Скриншоты
 
 <p align="center">
-  <img src="docs/snapshots/icon.png" width="160" alt="Launcher icon" />
+  <img src="docs/snapshots/screenshot-01.jpg" width="180" alt="Paldox screenshot 1" />
+  <img src="docs/snapshots/screenshot-02.jpg" width="180" alt="Paldox screenshot 2" />
+  <img src="docs/snapshots/screenshot-03.jpg" width="180" alt="Paldox screenshot 3" />
 </p>
-
-> Добавьте скрины UI в `docs/snapshots/` (home, paldex, breeding…) — они появятся здесь.
+<p align="center">
+  <img src="docs/snapshots/screenshot-04.jpg" width="180" alt="Paldox screenshot 4" />
+  <img src="docs/snapshots/screenshot-05.jpg" width="180" alt="Paldox screenshot 5" />
+  <img src="docs/snapshots/screenshot-06.jpg" width="180" alt="Paldox screenshot 6" />
+</p>
 
 ---
 
