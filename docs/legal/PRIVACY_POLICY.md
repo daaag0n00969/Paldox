@@ -90,8 +90,8 @@ We do **not** “sell” or “share” personal information for cross-context b
 
 ## 8. Third-party services
 
-- **App stores** (Google Play, RuStore, etc.) process install, purchase, and review data under **their** privacy policies.  
-- **GitHub** hosts source code and legal documents under GitHub’s policies when you visit those pages.  
+- **App distribution platforms** (**RuStore**, **4PDA**, and similar) process install, download, and review data under **their** privacy policies.  
+- **GitHub** hosts source code, releases, and legal documents under GitHub’s policies when you visit those pages.  
 - **Palworld** and related trademarks belong to their respective owners; visiting external game sites is subject to those sites’ policies.
 
 ---

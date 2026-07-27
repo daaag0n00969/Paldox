@@ -69,7 +69,7 @@ You may stop using the App at any time by uninstalling it. We may stop distribut
 
 ## 11. Third-party stores
 
-Purchases, refunds, ratings, and distribution are also subject to **Google Play**, **RuStore**, or other store terms and consumer laws.
+Purchases, refunds, ratings, and distribution are also subject to **RuStore**, **4PDA**, and/or other distribution platforms’ terms, as well as applicable consumer laws.
 
 ## 12. Governing law
 

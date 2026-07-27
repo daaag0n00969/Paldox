@@ -17,7 +17,7 @@ Checklist mapped from [Prajwal Tomar’s pre-launch security thread](https://x.c
 | Auth / accounts | **None** |
 | Secrets / API keys in client | **None found** |
 | Personal data collection | **Minimal local prefs only** |
-| Store readiness (security posture) | **Ready** after legal docs + signed build |
+| Distribution readiness (RuStore / 4PDA) | **Ready** after legal docs + signed build |
 
 Paldox stores game reference data and user preferences **only on device**. There is **no** `INTERNET` permission, no remote database, no auth flows, and no paid third-party API calls from the app.
 
@@ -131,15 +131,15 @@ Many checklist items aimed at web/SaaS apps are **N/A**. Remaining Android harde
 
 1. **Trademark / IP** — Fan companion; see [CONTENT_DISCLAIMER](./legal/CONTENT_DISCLAIMER.md). Store rejection possible if assets are contested; keep non-commercial positioning.
 2. **Contact email** — Set a real support email in store consoles and optionally update Privacy Policy contact section.
-3. **Signing key** — Generate and **back up** release keystore offline; losing it blocks Play updates.
-4. **Future features** — If you add accounts, maps online, analytics, or ads: re-run this checklist, add permissions, update Privacy Policy and Data Safety **before** shipping.
+3. **Signing key** — Generate and **back up** release keystore offline; losing it blocks signed updates on RuStore / 4PDA / GitHub.
+4. **Future features** — If you add accounts, maps online, analytics, or ads: re-run this checklist, add permissions, and update the Privacy Policy **before** shipping.
 
 ---
 
-## Sign-off for stores
+## Sign-off for distribution
 
-For current offline scope, Paldox meets a reasonable **pre-launch security baseline** for Google Play and RuStore, provided:
+For current offline scope, Paldox meets a reasonable **pre-launch security baseline** for **RuStore**, **4PDA**, and GitHub Releases, provided:
 
 - Legal URLs are public (this repo / GitHub),
 - App is signed with a dedicated release key,
-- Data Safety / RuStore questionnaires match [DATA_SAFETY.md](./store/DATA_SAFETY.md).
+- RuStore questionnaires (if any) match the Privacy Policy and [store/CONTENT_RATING.md](./store/CONTENT_RATING.md).

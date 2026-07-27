@@ -7,7 +7,7 @@ Paldox helps you look up pals, plan breeding, check skills/items/tower bosses, a
 | | |
 |---|---|
 | **App name** | Paldox |
-| **Version** | 1.4.1 |
+| **Version** | 1.4.2 |
 | **Platform** | Android 8.0+ (API 26+) |
 | **Languages** | English · Russian |
 | **Package** | `com.paldox.app` |
@@ -126,14 +126,17 @@ Seed lives at `app/src/main/assets/seed_data.json` (bump `version` to force re-i
 
 See **[CHANGELOG.md](./CHANGELOG.md)** for full history.
 
-### Latest — 1.4.1
+### Latest — 1.4.2
+- Distribution targets: **RuStore** + **4PDA** only (no Google Play)
+
+### 1.4.1
 - Full Russian pal names (variants too: Судзаку Аква, etc.)
 
 ### 1.4.0
 - **Breeding ranks fixed for Palworld 1.0** (Azurobe + Bushi → Carnibora)
 
 ### 1.3.0
-- Store-ready legal pack, security audit, Play/RuStore kits
+- Legal pack, security audit, store kits (later narrowed to RuStore/4PDA)
 
 ### 1.2.0
 - 288 pals with correct Palpedia numbers, offline icons, breeding `#dex`
@@ -146,24 +149,26 @@ See **[CHANGELOG.md](./CHANGELOG.md)** for full history.
 
 ---
 
-## Legal & store publishing
+## Legal & distribution (RuStore · 4PDA · GitHub)
 
 | Doc | |
 |-----|--|
 | Privacy / Terms / EULA | [docs/legal/](./docs/legal/) |
 | Security audit | [docs/SECURITY_AUDIT.md](./docs/SECURITY_AUDIT.md) |
-| Google Play listing | [docs/store/PLAY_STORE_LISTING.md](./docs/store/PLAY_STORE_LISTING.md) |
 | RuStore listing | [docs/store/RUSTORE_LISTING.md](./docs/store/RUSTORE_LISTING.md) |
-| Data Safety answers | [docs/store/DATA_SAFETY.md](./docs/store/DATA_SAFETY.md) |
-| Full publish checklist | [docs/store/PUBLISHING_CHECKLIST.md](./docs/store/PUBLISHING_CHECKLIST.md) |
+| 4PDA listing | [docs/store/FOURPDA_LISTING.md](./docs/store/FOURPDA_LISTING.md) |
+| Publish checklist | [docs/store/PUBLISHING_CHECKLIST.md](./docs/store/PUBLISHING_CHECKLIST.md) |
+
+Google Play / Play Market is **not** a distribution target.
 
 ### Signed release build
 
 ```bash
 # 1) Create keystore (once), copy keystore.properties.example → keystore.properties
-# 2) Build
-./gradlew bundleRelease    # Play AAB
-./gradlew assembleRelease  # APK (e.g. RuStore / GitHub)
+# 2) Build APK for RuStore / 4PDA / GitHub Releases
+./gradlew assembleRelease
+# optional AAB if RuStore asks for it
+./gradlew bundleRelease
 ```
 
 ---
@@ -174,8 +179,8 @@ See **[CHANGELOG.md](./CHANGELOG.md)** for full history.
 - [ ] Full datamine-grade stats/work/drops for every pal
 - [ ] Shortest breeding chain UI
 - [ ] Collection export / import
-- [x] Legal docs + store kits + GitHub Releases prep
-- [ ] Live listings on Play Store / RuStore (publisher account steps)
+- [x] Legal docs + RuStore / 4PDA kits + GitHub Releases
+- [ ] Live listings on RuStore and 4PDA
 
 ---
 

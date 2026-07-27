@@ -6,6 +6,16 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [1.4.2] — 2026-07-27
+
+### Changed
+- **Distribution**: only **RuStore**, **4PDA**, and **GitHub Releases**
+- Removed Google Play / Play Market materials (`PLAY_STORE_LISTING`, Data Safety form kit)
+- Publishing checklist and legal docs updated for RuStore + 4PDA
+- Added [docs/store/FOURPDA_LISTING.md](./docs/store/FOURPDA_LISTING.md)
+
+---
+
 ## [1.4.1] — 2026-07-27
 
 ### Fixed
@@ -44,7 +54,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 - Full **legal pack** for stores: Privacy Policy, Terms of Service, EULA (EN + RU), content/trademark disclaimer
-- **Store publishing kit**: Google Play & RuStore listing copy, Data Safety answers, content rating guide, publishing checklist
+- **Store publishing kit**: RuStore listing, legal pack, content rating guide, publishing checklist (later: 4PDA; Play removed in 1.4.2)
 - **Security audit** mapped to public pre-launch checklist (offline architecture)
 - In-app **Legal** links on About (opens public GitHub documents)
 - Android **network security config** (cleartext disabled) and **backup / data-extraction rules**

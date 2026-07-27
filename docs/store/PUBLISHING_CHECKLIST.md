@@ -1,119 +1,107 @@
-# Publishing checklist — Google Play + RuStore (Paldox 1.3.0)
+# Чеклист публикации — RuStore + 4PDA (Paldox)
 
-## A. One-time developer accounts
-
-### Google Play
-- [ ] Google Play Console account (one-time registration fee)  
-- [ ] Developer name / identity verification as required in your region  
-- [ ] Accept Play Developer Distribution Agreement  
-
-### RuStore
-- [ ] RuStore developer account (status: individual / self-employed / legal entity as offered)  
-- [ ] Complete profile and tax/payout details if you monetize  
+Распространение: **RuStore** и **4PDA**. Google Play / Play Market **не** используются.
 
 ---
 
-## B. Signing key (do this once, back up forever)
+## A. Аккаунты
+
+### RuStore
+- [ ] Аккаунт разработчика [RuStore Console](https://console.rustore.ru/)  
+- [ ] Профиль (физлицо / самозанятый / юрлицо — как доступно)  
+- [ ] Реквизиты для выплат (если будет монетизация)  
+
+### 4PDA
+- [ ] Аккаунт на [4pda.to](https://4pda.to/)  
+- [ ] Право создавать тему в разделе Android Soft / Games companions (по правилам раздела)  
+- [ ] Соблюдение правил каталога (описание, скрины, источник APK)  
+
+---
+
+## B. Подпись release (один раз)
 
 ```bat
 keytool -genkeypair -v -keystore release.keystore -alias paldox -keyalg RSA -keysize 2048 -validity 10000
 ```
 
-- [ ] Copy `keystore.properties.example` → `keystore.properties`  
-- [ ] Fill `storeFile`, passwords, `keyAlias`  
-- [ ] Store keystore + passwords in a **password manager / offline backup**  
-- [ ] Confirm `keystore.properties` and `*.jks` / `*.keystore` are **gitignored**  
+- [ ] `keystore.properties.example` → `keystore.properties`  
+- [ ] Пароли и keystore **не** в git  
+- [ ] Резервная копия keystore  
 
-Build:
+Сборка:
 
 ```bat
-gradlew.bat clean bundleRelease
-gradlew.bat assembleRelease
+gradlew.bat clean assembleRelease
+rem APK: app\build\outputs\apk\release\
+
+gradlew.bat bundleRelease
+rem AAB (если RuStore принимает AAB): app\build\outputs\bundle\release\
 ```
 
-Outputs:
-
-- AAB → `app/build/outputs/bundle/release/`  
-- APK → `app/build/outputs/apk/release/`  
+Для **4PDA** обычно нужен подписанный **APK**.  
+Для **RuStore** — APK или AAB (как требует консоль).
 
 ---
 
-## C. Legal URLs (public)
+## C. Юридические URL (публичные)
 
-| Document | URL |
+| Документ | URL |
 |----------|-----|
-| Privacy (EN) | https://github.com/daaag0n00969/Paldox/blob/main/docs/legal/PRIVACY_POLICY.md |
-| Privacy (RU) | https://github.com/daaag0n00969/Paldox/blob/main/docs/legal/PRIVACY_POLICY_RU.md |
-| Terms (EN) | https://github.com/daaag0n00969/Paldox/blob/main/docs/legal/TERMS_OF_SERVICE.md |
-| Terms (RU) | https://github.com/daaag0n00969/Paldox/blob/main/docs/legal/TERMS_OF_SERVICE_RU.md |
-| EULA (EN) | https://github.com/daaag0n00969/Paldox/blob/main/docs/legal/EULA.md |
+| Политика (RU) | https://github.com/daaag0n00969/Paldox/blob/main/docs/legal/PRIVACY_POLICY_RU.md |
+| Политика (EN) | https://github.com/daaag0n00969/Paldox/blob/main/docs/legal/PRIVACY_POLICY.md |
+| Соглашение (RU) | https://github.com/daaag0n00969/Paldox/blob/main/docs/legal/TERMS_OF_SERVICE_RU.md |
 | EULA (RU) | https://github.com/daaag0n00969/Paldox/blob/main/docs/legal/EULA_RU.md |
-| Disclaimer | https://github.com/daaag0n00969/Paldox/blob/main/docs/legal/CONTENT_DISCLAIMER.md |
+| Отказ от прав | https://github.com/daaag0n00969/Paldox/blob/main/docs/legal/CONTENT_DISCLAIMER.md |
 
-- [ ] Open each URL in a private browser window (no GitHub login)  
-- [ ] Optional: add a real support **email** into Privacy Policy before submit  
-
----
-
-## D. Store listings
-
-- [ ] Copy text from [PLAY_STORE_LISTING.md](./PLAY_STORE_LISTING.md)  
-- [ ] Copy text from [RUSTORE_LISTING.md](./RUSTORE_LISTING.md)  
-- [ ] Upload icon 512×512  
-- [ ] Upload ≥2 screenshots (phone)  
-- [ ] Feature graphic 1024×500 (Play)  
+- [ ] Ссылки открываются без входа в GitHub  
+- [ ] (Опционально) публичный email поддержки в Privacy Policy  
 
 ---
 
-## E. Questionnaires
+## D. Материалы листинга
 
-- [ ] Play Data safety → [DATA_SAFETY.md](./DATA_SAFETY.md)  
-- [ ] Play IARC / content rating → [CONTENT_RATING.md](./CONTENT_RATING.md)  
-- [ ] RuStore age & data questions — consistent with Data Safety  
-- [ ] Declare **no ads**, **no IAP** (unless changed)  
-- [ ] Fan-app / IP disclaimer in description  
-
----
-
-## F. Security gate (pre-launch)
-
-- [ ] Read [SECURITY_AUDIT.md](../SECURITY_AUDIT.md)  
-- [ ] Confirm no `INTERNET` permission unless intentionally added  
-- [ ] Confirm release is minified (`isMinifyEnabled = true`)  
-- [ ] Confirm no secrets in repo (`git status`, no keystore)  
-- [ ] Smoke-test: install release APK, open Paldex / Breed / Settings / About legal links  
+- [ ] Тексты RuStore → [RUSTORE_LISTING.md](./RUSTORE_LISTING.md)  
+- [ ] Тексты 4PDA → [FOURPDA_LISTING.md](./FOURPDA_LISTING.md)  
+- [ ] Иконка 512×512  
+- [ ] ≥2–4 скриншота (телефон)  
+- [ ] Возрастной рейтинг → [CONTENT_RATING.md](./CONTENT_RATING.md)  
 
 ---
 
-## G. Upload & rollout
+## E. Безопасность перед релизом
 
-### Play
-- [ ] Create app with applicationId `com.paldox.app`  
-- [ ] Upload AAB to Internal testing  
-- [ ] Fix policy warnings  
-- [ ] Promote to Production (staged rollout optional)  
+- [ ] [SECURITY_AUDIT.md](../SECURITY_AUDIT.md)  
+- [ ] Release с minify, не debug  
+- [ ] Нет keystore / secrets в репозитории  
+- [ ] Smoke-test: палдекс, бридинг, RU-имена, About → Legal  
+
+---
+
+## F. Загрузка
 
 ### RuStore
-- [ ] Create app card  
-- [ ] Upload signed APK or AAB  
-- [ ] Submit for moderation  
+- [ ] Карточка приложения `com.paldox.app`  
+- [ ] Загрузить signed APK/AAB  
+- [ ] Ссылки на Политику и Пользовательское соглашение  
+- [ ] Отправить на модерацию  
+
+### 4PDA
+- [ ] Создать/обновить тему по [FOURPDA_LISTING.md](./FOURPDA_LISTING.md)  
+- [ ] Прикрепить APK или ссылку на **GitHub Releases**  
+- [ ] Указать версию, changelog, требования (Android 8+)  
+- [ ] Пометить как фанатский / неофициальный компаньон  
+
+### GitHub Releases
+- [ ] Тег `vX.Y.Z` + changelog  
+- [ ] (Опционально) прикрепить APK к релизу  
 
 ---
 
-## H. After approval
+## G. Версионирование
 
-- [ ] Pin GitHub Release matching store version (e.g. `v1.3.0`)  
-- [ ] Update README store badges/links  
-- [ ] Monitor crash reports from store consoles  
-- [ ] Never lose the upload keystore  
+| Поле | Правило |
+|------|---------|
+| `versionName` | Semver (1.4.1, 1.5.0…) |
+| `versionCode` | Целое, **всегда +1** для каждой новой загрузки в RuStore |
 
----
-
-## Versioning policy
-
-| Field | Rule |
-|-------|------|
-| `versionName` | Semver user-facing (1.3.0) |
-| `versionCode` | Integer, **always increase** for each store upload (4, 5, 6…) |
-
-Same `applicationId` + same signing key on both stores if you want one package identity.
+Один и тот же keystore для RuStore и для APK на 4PDA/GitHub.

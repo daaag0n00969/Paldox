@@ -1,31 +1,27 @@
-# Content rating questionnaire guide — Paldox
+# Возрастной рейтинг — RuStore / 4PDA (Paldox)
 
-Use when completing **IARC** (Google Play) or RuStore age rating forms.
+## Характер приложения
 
-## App nature
-
-- Utility / reference companion for a video game  
-- No multiplayer chat, no UGC social feed, no real-money gambling in-app  
-- Text guides may mention in-game combat strategy at a high level  
-- Creature artwork may appear (cartoon/game style)
-
-## Typical IARC answers (verify each question in the live form)
-
-| Topic | Suggested direction |
-|-------|---------------------|
-| Violence | No realistic violence *depicted by the app itself*; may reference game combat in text |
-| Sexual content | None |
-| Language | None / mild if any guide text — keep guides clean |
-| Controlled substances | None |
-| Gambling | None |
-| User interaction | Users only store local notes; no public sharing inside app |
-| Share location | No |
-| Personal info shared | No |
-| Digital purchases | No (unless you add IAP later) |
-| Age restriction intended | Not specifically for young children as a “designed for kids” app |
-
-**Expected outcome:** low age rating (e.g. Everyone / PEGI 3 / 0+), subject to store review of screenshots and description.
+- Справочный компаньон к видеоигре  
+- Нет чата, нет публичного UGC, нет азартных игр  
+- Текстовые гайды могут упоминать боевую тактику из игры  
+- Есть арты существ (игровой / cartoon-стиль)
 
 ## RuStore
 
-Select the lowest category that still honestly covers game-related screenshots. Mention “справочное приложение / фанатский компаньон” in notes to moderators if available.
+Выберите минимальную категорию, которая честно покрывает скриншоты (часто **0+** или **6+**).  
+В примечаниях модератору: «справочное / фанатское приложение-компаньон, без мультиплеера и UGC».
+
+| Тема | Ориентир |
+|------|----------|
+| Насилие в самом приложении | Нет реалистичного насилия; только текст/справочник |
+| Сексуальный контент | Нет |
+| Ненормативная лексика | Нет / держать гайды чистыми |
+| Азартные игры | Нет |
+| Геолокация / персональные данные | Не собираем |
+| Реклама / IAP | Нет (если не добавляли) |
+
+## 4PDA
+
+В теме укажите целевую аудиторию и возрастной ориентир (например «для всех / 6+»).  
+Соблюдайте правила раздела каталога 4PDA.

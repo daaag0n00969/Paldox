@@ -1,6 +1,6 @@
 # Legal documents — Paldox
 
-Public legal pack for GitHub, Google Play, and RuStore.
+Public legal pack for GitHub, **RuStore**, and **4PDA**.
 
 | Document | EN | RU |
 |----------|----|----|
