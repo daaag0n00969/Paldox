@@ -20,7 +20,7 @@
     <string name="about_button">О приложении</string>
     <string name="about_button_hint">Версия, авторы, благодарности</string>
     <string name="about_title">О приложении</string>
-    <string name="about_version">Версия 1.3.0</string>
+    <string name="about_version">Версия 1.4.0</string>
     <string name="about_version_fmt">Версия %1$s</string>
     <string name="about_body_full">Paldox — оффлайн-компаньон для Palworld: палдекс, калькулятор разведения, навыки, предметы, башни и гайды. Основные данные работают без интернета после установки.</string>
     <string name="about_credits">Авторы</string>

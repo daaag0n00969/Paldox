@@ -6,6 +6,27 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [1.4.0] — 2026-07-27
+
+### Fixed
+- **Breeding ranks updated to Palworld 1.0** (CombiRank tables). Legacy EA ranks were wrong after 1.0.
+- Example: **Azurobe + Bushi → Carnibora** (was incorrectly predicting Anubis).
+- **Penking + Bushi** no longer falsely routes to Anubis (1.0 rank average lands near Sibelyx).
+- Seed data version **v5** forces local DB re-import on update.
+
+### Changed
+- All pals’ `breedingPower` values rebuilt from 1.0 community tables (palworld.gg ranks).
+- Special combos list refreshed; Panthalus / Astralym marked non-rank-eligible.
+- App version **1.4.0** (versionCode **5**).
+- Unit test: `azurobeTimesBushiIsCarnibora_1_0`.
+
+### Tools
+- `tools/update_breeding_1_0.py` — re-sync breeding ranks from sources.
+- `tools/verify_breeding.py` — quick sanity checks for key pairs.
+- `tools/breeding_ranks_1_0.json` — rank dump used for the update.
+
+---
+
 ## [1.3.0] — 2026-07-27
 
 ### Added

@@ -10,12 +10,15 @@ import javax.inject.Singleton
 import kotlin.math.abs
 
 /**
- * Palworld breeding engine (v1.0 rules from game files / wiki).
+ * Palworld breeding engine (1.0 CombiRank rules).
  *
  * Child rank = floor((parentA + parentB + 1) / 2)
- * Then pick eligible-child species with nearest breedingPower;
+ * Then pick eligible-child species with nearest breedingPower (CombiRank);
  * on tie pick lowest indexNo.
  * Special combos and same-species-only rules override rank result.
+ *
+ * Breeding ranks in seed_data.json must match Palworld 1.0 tables
+ * (e.g. Azurobe 1830 + Bushi 1560 → Carnibora 1700, not legacy Anubis).
  */
 @Singleton
 class BreedingCalculator @Inject constructor() {

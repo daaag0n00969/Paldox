@@ -94,4 +94,21 @@ class BreedingCalculatorTest {
         val result = calc.predictChild(a, b, listOf(a, b, c1, c2), emptyList(), emptySet())
         assertEquals("c2", result!!.child.id)
     }
+
+    /**
+     * Palworld 1.0 ranks: Azurobe(1830) + Bushi(1560) => floor((1830+1560+1)/2)=1695
+     * nearest eligible is Carnibora(1700), NOT Anubis(480).
+     */
+    @Test
+    fun azurobeTimesBushiIsCarnibora_1_0() {
+        val azurobe = pal("azurobe", 1830, 82)
+        val bushi = pal("bushi", 1560, 72)
+        val carnibora = pal("carnibora", 1700, 150)
+        val anubis = pal("anubis", 480, 100)
+        val all = listOf(azurobe, bushi, carnibora, anubis)
+        val result = calc.predictChild(azurobe, bushi, all, emptyList(), emptySet())
+        assertNotNull(result)
+        assertEquals("carnibora", result!!.child.id)
+        assertEquals(1695, result.childPower)
+    }
 }
