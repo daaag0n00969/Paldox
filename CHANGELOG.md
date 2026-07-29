@@ -7,6 +7,21 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ---
 
 
+## [1.7.0] — 2026-07-27
+
+### Fixed
+- **Russian pal names** aligned with in-game localization (Ламбол, Каптива, Хэлзефир, Гостлайт, Зеногард, Туртакл, …)
+- Passive skill RU names/descriptions filled (Виртуоз, Лёгкое тело, Бессмертный, …)
+
+### Added
+- Tower bosses **Saya & Selyne (55)**, **Bjorn & Bastigor (55)**, endgame towers guide entry
+- Seed **v8** re-import
+
+### Changed
+- App version **1.7.0** (versionCode **14**)
+
+---
+
 ## [1.6.1] — 2026-07-27
 
 ### Fixed
