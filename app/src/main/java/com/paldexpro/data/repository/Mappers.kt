@@ -60,6 +60,8 @@ fun PalEntity.toDomain(): Pal {
         locationRu = locationRu,
         dropsEn = dropsEn,
         dropsRu = dropsRu,
+        matchupEn = matchupEn,
+        matchupRu = matchupRu,
         nightOnly = nightOnly,
         owned = owned,
         iconAsset = iconAsset.ifBlank { "pals/$id.webp" },

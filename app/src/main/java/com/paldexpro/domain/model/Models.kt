@@ -50,6 +50,8 @@ data class Pal(
     val locationRu: String,
     val dropsEn: String,
     val dropsRu: String,
+    val matchupEn: String = "",
+    val matchupRu: String = "",
     val nightOnly: Boolean,
     val owned: Boolean = false,
     val iconAsset: String = "",
@@ -59,6 +61,7 @@ data class Pal(
     fun partnerSkillName(ru: Boolean): String = if (ru) partnerSkillNameRu else partnerSkillNameEn
     fun partnerSkillDesc(ru: Boolean): String = if (ru) partnerSkillDescRu else partnerSkillDescEn
     fun drops(ru: Boolean): String = if (ru) dropsRu else dropsEn
+    fun matchup(ru: Boolean): String = if (ru) matchupRu else matchupEn
     fun elements(): List<Element> = listOfNotNull(element1, element2)
     fun iconPath(): String = iconAsset.ifBlank { "pals/$id.webp" }
 }

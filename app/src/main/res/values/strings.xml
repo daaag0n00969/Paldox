@@ -93,6 +93,7 @@
     <string name="egg">Egg</string>
     <string name="partner_skill">Partner Skill</string>
     <string name="work_suitability">Work Suitability</string>
+    <string name="matchups">Type matchups</string>
     <string name="location_drops">Location &amp; Drops</string>
     <string name="night_spawn">Night spawn preference</string>
     <string name="open_breeding">Open breeding calculator</string>

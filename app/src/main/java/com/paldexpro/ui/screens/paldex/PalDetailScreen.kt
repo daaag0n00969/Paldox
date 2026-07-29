@@ -204,6 +204,16 @@ fun PalDetailScreen(
                 }
             }
 
+            val matchupText = p.matchup(useRu)
+            if (matchupText.isNotBlank()) {
+                SectionTitle(stringResource(R.string.matchups))
+                Text(
+                    matchupText,
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+
             SectionTitle(stringResource(R.string.location_drops))
             Text(p.location(useRu), fontWeight = FontWeight.Medium)
             if (p.nightOnly) {

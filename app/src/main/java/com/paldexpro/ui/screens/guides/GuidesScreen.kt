@@ -33,10 +33,11 @@ import com.paldexpro.R
 
 internal fun guideCategoryLabel(category: String, useRu: Boolean): String = when (category.lowercase()) {
     "official_tips" -> if (useRu) "Официальные советы" else "Official tips"
-    "trending" -> if (useRu) "В тренде на X" else "Trending on X"
-    "progress" -> if (useRu) "Прогресс" else "Progress"
+    "reference" -> if (useRu) "Справка" else "Reference"
     "base" -> if (useRu) "База" else "Base"
     "combat" -> if (useRu) "Бой" else "Combat"
+    "trending" -> if (useRu) "В тренде на X" else "Trending on X"
+    "progress" -> if (useRu) "Прогресс" else "Progress"
     "breeding" -> if (useRu) "Разведение" else "Breeding"
     "farming" -> if (useRu) "Фарм" else "Farming"
     else -> category.replace('_', ' ').replaceFirstChar { it.uppercase() }

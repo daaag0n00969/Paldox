@@ -95,6 +95,8 @@ class SeedLoader @Inject constructor(
                     locationRu = p.locationRu,
                     dropsEn = p.dropsEn,
                     dropsRu = p.dropsRu,
+                    matchupEn = p.matchupEn,
+                    matchupRu = p.matchupRu,
                     nightOnly = p.nightOnly,
                     owned = p.id in owned,
                     iconAsset = p.icon ?: "pals/${p.id}.webp",

@@ -29,6 +29,8 @@ data class PalEntity(
     val locationRu: String,
     val dropsEn: String,
     val dropsRu: String,
+    val matchupEn: String = "",
+    val matchupRu: String = "",
     val nightOnly: Boolean,
     val owned: Boolean = false,
     val iconAsset: String = "",

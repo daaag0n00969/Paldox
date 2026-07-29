@@ -39,6 +39,8 @@ data class SeedPal(
     val locationRu: String = "",
     val dropsEn: String = "",
     val dropsRu: String = "",
+    val matchupEn: String = "",
+    val matchupRu: String = "",
     val nightOnly: Boolean = false,
     val icon: String? = null,
 )

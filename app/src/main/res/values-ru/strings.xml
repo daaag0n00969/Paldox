@@ -93,6 +93,7 @@
     <string name="egg">Яйцо</string>
     <string name="partner_skill">Навык партнёра</string>
     <string name="work_suitability">Рабочие навыки</string>
+    <string name="matchups">Стихии: против кого силён / слаб</string>
     <string name="location_drops">Локации и дроп</string>
     <string name="night_spawn">Преимущественно ночной спавн</string>
     <string name="open_breeding">Открыть калькулятор разведения</string>

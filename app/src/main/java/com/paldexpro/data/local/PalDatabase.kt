@@ -29,7 +29,7 @@ import com.paldexpro.data.local.entity.SpecialComboEntity
         SpecialComboEntity::class,
         MetaEntity::class,
     ],
-    version = 3,
+    version = 4,
     exportSchema = false,
 )
 abstract class PalDatabase : RoomDatabase() {
