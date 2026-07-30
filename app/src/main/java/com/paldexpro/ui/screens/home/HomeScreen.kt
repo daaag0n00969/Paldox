@@ -23,6 +23,7 @@ import androidx.compose.material.icons.filled.Egg
 import androidx.compose.material.icons.filled.Extension
 import androidx.compose.material.icons.filled.Inventory2
 import androidx.compose.material.icons.filled.Map
+import androidx.compose.material.icons.filled.NewReleases
 import androidx.compose.material.icons.filled.Pets
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.SportsMartialArts
@@ -60,6 +61,7 @@ fun HomeScreen(
     onOpenItems: () -> Unit,
     onOpenBosses: () -> Unit,
     onOpenGuides: () -> Unit,
+    onOpenUpdates: () -> Unit,
     onOpenMap: () -> Unit,
     onOpenMods: () -> Unit,
     onOpenSettings: () -> Unit,
@@ -101,6 +103,7 @@ fun HomeScreen(
                 Triple(stringResource(R.string.nav_items), Icons.Default.Inventory2, onOpenItems),
                 Triple(stringResource(R.string.nav_bosses), Icons.Default.Castle, onOpenBosses),
                 Triple(stringResource(R.string.nav_guides), Icons.AutoMirrored.Filled.MenuBook, onOpenGuides),
+                Triple(stringResource(R.string.nav_updates), Icons.Default.NewReleases, onOpenUpdates),
                 Triple(stringResource(R.string.nav_map), Icons.Default.Map, onOpenMap),
                 Triple(stringResource(R.string.nav_mods), Icons.Default.Extension, onOpenMods),
             )

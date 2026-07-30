@@ -14,7 +14,15 @@
     <string name="nav_bosses">Боссы</string>
     <string name="nav_guides">Гайды</string>
     <string name="nav_map">Карта</string>
+    <string name="nav_updates">Обновления</string>
     <string name="nav_mods">Моды</string>
+    <string name="updates_subtitle">Официальные патчи и релиз-ноуты</string>
+    <string name="updates_hint">Оффлайн-сводка релизов Pocketpair. Откройте карточку для деталей.</string>
+    <string name="matchup_strong_elements">Силён против стихий</string>
+    <string name="matchup_weak_elements">Слаб против стихий</string>
+    <string name="matchup_prey_pals">Примеры палов, которых давит (нажмите)</string>
+    <string name="matchup_counter_pals">Сильны против этого пала (нажмите)</string>
+    <string name="drops_title">Дроп (нажмите предмет)</string>
     <string name="more_mods_sub">Подборка Steam Workshop</string>
     <string name="mods_subtitle">Коллекция The Good Life</string>
     <string name="mods_collection_title">The Good Life</string>
@@ -41,7 +49,7 @@
     <string name="feedback_telegram">Telegram</string>
     <string name="feedback_email">Почта</string>
     <string name="feedback_x">X (Twitter)</string>
-    <string name="map_source_hint">Pindrop · Palworld 1.0</string>
+    <string name="map_source_hint">palworld.th.gl · Palworld 1.0</string>
     <string name="map_reload">Обновить карту</string>
     <string name="map_open_browser">Открыть в браузере</string>
     <string name="map_offline_hint">Нужен интернет. Бесплатная интерактивная карта (спавны, боссы, идолы…).</string>

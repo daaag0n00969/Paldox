@@ -40,6 +40,7 @@ internal fun guideCategoryLabel(category: String, useRu: Boolean): String = when
     "progress" -> if (useRu) "Прогресс" else "Progress"
     "breeding" -> if (useRu) "Разведение" else "Breeding"
     "farming" -> if (useRu) "Фарм" else "Farming"
+    "updates" -> if (useRu) "Обновления" else "Updates"
     else -> category.replace('_', ' ').replaceFirstChar { it.uppercase() }
 }
 

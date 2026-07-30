@@ -85,7 +85,11 @@ fun SearchField(
 }
 
 @Composable
-fun ElementChip(element: Element, compact: Boolean = false) {
+fun ElementChip(
+    element: Element,
+    compact: Boolean = false,
+    useRu: Boolean = false,
+) {
     val color = elementColor(element.name)
     Surface(
         color = color.copy(alpha = 0.22f),
@@ -93,13 +97,33 @@ fun ElementChip(element: Element, compact: Boolean = false) {
         border = androidx.compose.foundation.BorderStroke(1.dp, color.copy(alpha = 0.55f)),
     ) {
         Text(
-            text = element.name,
+            text = elementLabel(element, useRu),
             modifier = Modifier.padding(horizontal = if (compact) 8.dp else 10.dp, vertical = 4.dp),
             color = color,
             style = MaterialTheme.typography.labelSmall,
             fontWeight = FontWeight.SemiBold,
         )
     }
+}
+
+fun elementLabel(element: Element, useRu: Boolean): String {
+    if (!useRu) return element.name
+    return when (element) {
+        Element.Neutral -> "Нейтрал"
+        Element.Fire -> "Огонь"
+        Element.Water -> "Вода"
+        Element.Grass -> "Трава"
+        Element.Electric -> "Электричество"
+        Element.Ice -> "Лёд"
+        Element.Ground -> "Земля"
+        Element.Dark -> "Тьма"
+        Element.Dragon -> "Дракон"
+    }
+}
+
+fun elementLabel(name: String, useRu: Boolean): String {
+    val el = Element.from(name) ?: return name
+    return elementLabel(el, useRu)
 }
 
 @Composable
@@ -213,17 +237,59 @@ fun ElementFilterRow(
 }
 
 @Composable
-fun WorkChip(type: WorkType, level: Int) {
+fun WorkChip(
+    type: WorkType,
+    level: Int,
+    useRu: Boolean = false,
+    large: Boolean = false,
+) {
     if (level <= 0) return
     Surface(
-        color = MaterialTheme.colorScheme.primaryContainer.copy(0.5f),
-        shape = RoundedCornerShape(8.dp),
+        color = MaterialTheme.colorScheme.primaryContainer.copy(0.55f),
+        shape = RoundedCornerShape(if (large) 12.dp else 8.dp),
     ) {
         Text(
-            text = "${type.name.replace('_', ' ')} Lv.$level",
-            modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
-            style = MaterialTheme.typography.labelSmall,
+            text = "${workTypeLabel(type, useRu)}  Lv.$level",
+            modifier = Modifier.padding(
+                horizontal = if (large) 14.dp else 8.dp,
+                vertical = if (large) 10.dp else 4.dp,
+            ),
+            style = if (large) MaterialTheme.typography.titleSmall else MaterialTheme.typography.labelSmall,
+            fontWeight = FontWeight.SemiBold,
         )
+    }
+}
+
+fun workTypeLabel(type: WorkType, useRu: Boolean): String {
+    if (!useRu) {
+        return when (type) {
+            WorkType.kindling -> "Kindling"
+            WorkType.watering -> "Watering"
+            WorkType.planting -> "Planting"
+            WorkType.generating_electricity -> "Electricity"
+            WorkType.handiwork -> "Handiwork"
+            WorkType.gathering -> "Gathering"
+            WorkType.lumbering -> "Lumbering"
+            WorkType.mining -> "Mining"
+            WorkType.medicine -> "Medicine"
+            WorkType.cooling -> "Cooling"
+            WorkType.transporting -> "Transporting"
+            WorkType.farming -> "Farming"
+        }
+    }
+    return when (type) {
+        WorkType.kindling -> "Разжигание"
+        WorkType.watering -> "Полив"
+        WorkType.planting -> "Посев"
+        WorkType.generating_electricity -> "Электричество"
+        WorkType.handiwork -> "Ручная работа"
+        WorkType.gathering -> "Сбор"
+        WorkType.lumbering -> "Рубка"
+        WorkType.mining -> "Добыча"
+        WorkType.medicine -> "Медицина"
+        WorkType.cooling -> "Охлаждение"
+        WorkType.transporting -> "Переноска"
+        WorkType.farming -> "Фермерство"
     }
 }
 

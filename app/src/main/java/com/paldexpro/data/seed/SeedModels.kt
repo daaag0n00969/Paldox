@@ -41,6 +41,11 @@ data class SeedPal(
     val dropsRu: String = "",
     val matchupEn: String = "",
     val matchupRu: String = "",
+    val strongElements: List<String> = emptyList(),
+    val weakToElements: List<String> = emptyList(),
+    val strongVsPalIds: List<String> = emptyList(),
+    val weakToPalIds: List<String> = emptyList(),
+    val dropItemIds: List<String> = emptyList(),
     val nightOnly: Boolean = false,
     val icon: String? = null,
 )

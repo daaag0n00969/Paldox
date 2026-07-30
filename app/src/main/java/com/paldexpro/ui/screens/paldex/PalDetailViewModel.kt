@@ -4,6 +4,7 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.paldexpro.data.repository.PalRepository
+import com.paldexpro.domain.model.GameItem
 import com.paldexpro.domain.model.Pal
 import com.paldexpro.domain.model.PassiveSkill
 import com.paldexpro.domain.stats.StatCalculator
@@ -26,6 +27,9 @@ data class PalDetailUiState(
     val selectedPassives: List<PassiveSkill> = emptyList(),
     val allPassives: List<PassiveSkill> = emptyList(),
     val stats: StatCalculator.ComputedStats? = null,
+    val strongVsPals: List<Pal> = emptyList(),
+    val weakToPals: List<Pal> = emptyList(),
+    val dropItems: List<GameItem> = emptyList(),
 )
 
 @HiltViewModel
@@ -52,11 +56,13 @@ class PalDetailViewModel @Inject constructor(
 
     val state: StateFlow<PalDetailUiState> = combine(
         repo.observePal(palId),
+        repo.observePals(),
+        repo.observeItems(),
         repo.observePassives(),
         combine(level, talent, condenser, soul, selectedIds) { lv, tal, stars, soulB, sel ->
             Controls(lv, tal, stars, soulB, sel)
         },
-    ) { pal, passives, controls ->
+    ) { pal, allPals, items, passives, controls ->
         val selected = passives.filter { it.id in controls.selectedIds }.take(4)
         val stats = pal?.let {
             statCalculator.compute(
@@ -68,6 +74,8 @@ class PalDetailViewModel @Inject constructor(
                 passives = selected,
             )
         }
+        val byId = allPals.associateBy { it.id }
+        val itemById = items.associateBy { it.id }
         PalDetailUiState(
             pal = pal,
             level = controls.level,
@@ -77,6 +85,9 @@ class PalDetailViewModel @Inject constructor(
             selectedPassives = selected,
             allPassives = passives.sortedByDescending { it.rarityOrder },
             stats = stats,
+            strongVsPals = pal?.strongVsPalIds.orEmpty().mapNotNull { byId[it] },
+            weakToPals = pal?.weakToPalIds.orEmpty().mapNotNull { byId[it] },
+            dropItems = pal?.dropItemIds.orEmpty().mapNotNull { itemById[it] },
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), PalDetailUiState())
 

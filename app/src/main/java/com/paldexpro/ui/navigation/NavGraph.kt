@@ -50,6 +50,7 @@ import com.paldexpro.ui.screens.settings.AboutScreen
 import com.paldexpro.ui.screens.settings.AdsScreen
 import com.paldexpro.ui.screens.settings.SettingsScreen
 import com.paldexpro.ui.screens.skills.SkillsScreen
+import com.paldexpro.ui.screens.updates.UpdatesScreen
 
 sealed class Dest(val route: String) {
     data object Home : Dest("home")
@@ -72,6 +73,7 @@ sealed class Dest(val route: String) {
     data object GuideDetail : Dest("guide/{guideId}") {
         fun create(id: String) = "guide/$id"
     }
+    data object Updates : Dest("updates")
     data object Map : Dest("map")
     data object Mods : Dest("mods")
     data object Settings : Dest("settings")
@@ -185,6 +187,7 @@ fun PalDexNavHost(
                     onOpenItems = { nav.navigate(Dest.Items.route) },
                     onOpenBosses = { nav.navigate(Dest.Bosses.route) },
                     onOpenGuides = { nav.navigate(Dest.Guides.route) },
+                    onOpenUpdates = { nav.navigate(Dest.Updates.route) },
                     onOpenMap = { nav.navigate(Dest.Map.route) },
                     onOpenMods = { nav.navigate(Dest.Mods.route) },
                     onOpenSettings = { nav.navigate(Dest.Settings.route) },
@@ -206,6 +209,8 @@ fun PalDexNavHost(
                     useRu = useRu,
                     onBack = { nav.popBackStack() },
                     onBreed = { goTab(Dest.Breeding.route) },
+                    onOpenPal = { id -> nav.navigate(Dest.PalDetail.create(id)) },
+                    onOpenItem = { id -> nav.navigate(Dest.ItemDetail.create(id)) },
                 )
             }
             composable(Dest.Breeding.route) {
@@ -282,6 +287,15 @@ fun PalDexNavHost(
                     guideId = it.arguments?.getString("guideId") ?: return@composable,
                     useRu = useRu,
                     onBack = { nav.popBackStack() },
+                    onOpenPal = { id -> nav.navigate(Dest.PalDetail.create(id)) },
+                    onOpenItem = { id -> nav.navigate(Dest.ItemDetail.create(id)) },
+                )
+            }
+            composable(Dest.Updates.route) {
+                UpdatesScreen(
+                    useRu = useRu,
+                    onBack = { nav.popBackStack() },
+                    onOpenGuide = { nav.navigate(Dest.GuideDetail.create(it)) },
                 )
             }
             composable(Dest.Map.route) {

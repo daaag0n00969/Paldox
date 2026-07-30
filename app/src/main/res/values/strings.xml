@@ -14,7 +14,15 @@
     <string name="nav_bosses">Bosses</string>
     <string name="nav_guides">Guides</string>
     <string name="nav_map">Map</string>
+    <string name="nav_updates">Updates</string>
     <string name="nav_mods">Mods</string>
+    <string name="updates_subtitle">Official patches &amp; release notes</string>
+    <string name="updates_hint">Offline digest of Pocketpair release and patch info. Open a card for details.</string>
+    <string name="matchup_strong_elements">Strong against elements</string>
+    <string name="matchup_weak_elements">Weak to elements</string>
+    <string name="matchup_prey_pals">Example pals it pressures (tap)</string>
+    <string name="matchup_counter_pals">Strong against this Pal (tap)</string>
+    <string name="drops_title">Drops (tap item)</string>
     <string name="more_mods_sub">Steam Workshop picks</string>
     <string name="mods_subtitle">The Good Life collection</string>
     <string name="mods_collection_title">The Good Life</string>
@@ -41,7 +49,7 @@
     <string name="feedback_telegram">Telegram</string>
     <string name="feedback_email">Email</string>
     <string name="feedback_x">X (Twitter)</string>
-    <string name="map_source_hint">Pindrop · Palworld 1.0</string>
+    <string name="map_source_hint">palworld.th.gl · Palworld 1.0</string>
     <string name="map_reload">Reload map</string>
     <string name="map_open_browser">Open in browser</string>
     <string name="map_offline_hint">Needs internet. Opens the free interactive map (spawns, bosses, effigies…).</string>

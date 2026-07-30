@@ -62,11 +62,19 @@ fun PalEntity.toDomain(): Pal {
         dropsRu = dropsRu,
         matchupEn = matchupEn,
         matchupRu = matchupRu,
+        strongElements = strongElementsCsv.splitCsv(),
+        weakToElements = weakToElementsCsv.splitCsv(),
+        strongVsPalIds = strongVsPalIdsCsv.splitCsv(),
+        weakToPalIds = weakToPalIdsCsv.splitCsv(),
+        dropItemIds = dropItemIdsCsv.splitCsv(),
         nightOnly = nightOnly,
         owned = owned,
         iconAsset = iconAsset.ifBlank { "pals/$id.webp" },
     )
 }
+
+private fun String.splitCsv(): List<String> =
+    split(',').map { it.trim() }.filter { it.isNotEmpty() }
 
 fun PassiveSkillEntity.toDomain(): PassiveSkill {
     val effects: Map<String, Float> = try {

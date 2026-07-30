@@ -1,5 +1,6 @@
 package com.paldexpro.ui.screens.paldex
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -10,7 +11,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -18,6 +22,8 @@ import androidx.compose.material.icons.filled.Egg
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.outlined.StarBorder
 import androidx.compose.material3.Button
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
@@ -32,12 +38,18 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.paldexpro.R
+import com.paldexpro.domain.model.Element
+import com.paldexpro.domain.model.GameItem
+import com.paldexpro.domain.model.Pal
 import com.paldexpro.domain.model.WorkType
 import com.paldexpro.ui.components.ElementChip
+import com.paldexpro.ui.components.ItemIcon
 import com.paldexpro.ui.components.PalAvatar
 import com.paldexpro.ui.components.RarityBadge
 import com.paldexpro.ui.components.SectionTitle
@@ -54,6 +66,8 @@ fun PalDetailScreen(
     useRu: Boolean,
     onBack: () -> Unit,
     onBreed: () -> Unit,
+    onOpenPal: (String) -> Unit = {},
+    onOpenItem: (String) -> Unit = {},
     vm: PalDetailViewModel = hiltViewModel(),
 ) {
     val state by vm.state.collectAsStateWithLifecycle()
@@ -94,16 +108,18 @@ fun PalDetailScreen(
                 Column {
                     Text("#${p.dexNumber}", style = MaterialTheme.typography.labelMedium)
                     Text(p.displayName(useRu), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-                    if (useRu) Text(p.nameEn, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    else Text(p.nameRu, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    if (useRu) {
+                        Text(p.nameEn, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    } else {
+                        Text(p.nameRu, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
                     Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(top = 6.dp)) {
-                        p.elements().forEach { ElementChip(it) }
+                        p.elements().forEach { ElementChip(it, useRu = useRu) }
                         RarityBadge(p.rarity)
                     }
                 }
             }
 
-            // Species scaling
             SectionTitle(stringResource(R.string.species_scaling))
             Text(
                 stringResource(R.string.species_scaling_hint, p.hp, p.attack, p.defense),
@@ -150,16 +166,6 @@ fun PalDetailScreen(
                 StatBar(stringResource(R.string.stat_hp), stats.hp, max = 5000, color = ElementGrass)
                 StatBar(stringResource(R.string.stat_attack), stats.attack, max = 1200, color = ElementFire)
                 StatBar(stringResource(R.string.stat_defense), stats.defense, max = 1000, color = ElementWater)
-                Text(
-                    buildString {
-                        if (stats.attackBonusPercent != 0f) append("ATK ${"%.0f".format(stats.attackBonusPercent)}%  ")
-                        if (stats.defenseBonusPercent != 0f) append("DEF ${"%.0f".format(stats.defenseBonusPercent)}%  ")
-                        if (stats.workSpeedBonusPercent != 0f) append("Work ${"%.0f".format(stats.workSpeedBonusPercent)}%")
-                    },
-                    style = MaterialTheme.typography.labelMedium,
-                    color = MaterialTheme.colorScheme.primary,
-                    modifier = Modifier.padding(top = 4.dp),
-                )
             }
 
             SectionTitle(stringResource(R.string.passives_for_stats))
@@ -197,29 +203,101 @@ fun PalDetailScreen(
             Text(p.partnerSkillDesc(useRu), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
 
             SectionTitle(stringResource(R.string.work_suitability))
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            FlowRow(
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
                 WorkType.entries.forEach { type ->
                     val lv = p.work.level(type)
-                    if (lv > 0) WorkChip(type, lv)
+                    if (lv > 0) WorkChip(type, lv, useRu = useRu, large = true)
                 }
             }
 
-            val matchupText = p.matchup(useRu)
-            if (matchupText.isNotBlank()) {
-                SectionTitle(stringResource(R.string.matchups))
+            SectionTitle(stringResource(R.string.matchups))
+            Text(
+                p.matchup(useRu),
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+
+            if (p.strongElements.isNotEmpty()) {
                 Text(
-                    matchupText,
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    stringResource(R.string.matchup_strong_elements),
+                    style = MaterialTheme.typography.labelLarge,
+                    fontWeight = FontWeight.SemiBold,
+                    modifier = Modifier.padding(top = 10.dp),
                 )
+                FlowRow(
+                    horizontalArrangement = Arrangement.spacedBy(6.dp),
+                    verticalArrangement = Arrangement.spacedBy(6.dp),
+                    modifier = Modifier.padding(top = 4.dp),
+                ) {
+                    p.strongElements.forEach { name ->
+                        Element.from(name)?.let { ElementChip(it, useRu = useRu) }
+                    }
+                }
+            }
+            if (p.weakToElements.isNotEmpty()) {
+                Text(
+                    stringResource(R.string.matchup_weak_elements),
+                    style = MaterialTheme.typography.labelLarge,
+                    fontWeight = FontWeight.SemiBold,
+                    modifier = Modifier.padding(top = 10.dp),
+                )
+                FlowRow(
+                    horizontalArrangement = Arrangement.spacedBy(6.dp),
+                    verticalArrangement = Arrangement.spacedBy(6.dp),
+                    modifier = Modifier.padding(top = 4.dp),
+                ) {
+                    p.weakToElements.forEach { name ->
+                        Element.from(name)?.let { ElementChip(it, useRu = useRu) }
+                    }
+                }
+            }
+
+            if (state.strongVsPals.isNotEmpty()) {
+                Text(
+                    stringResource(R.string.matchup_prey_pals),
+                    style = MaterialTheme.typography.labelLarge,
+                    fontWeight = FontWeight.SemiBold,
+                    modifier = Modifier.padding(top = 12.dp),
+                )
+                ClickablePalRow(state.strongVsPals, useRu, onOpenPal)
+            }
+            if (state.weakToPals.isNotEmpty()) {
+                Text(
+                    stringResource(R.string.matchup_counter_pals),
+                    style = MaterialTheme.typography.labelLarge,
+                    fontWeight = FontWeight.SemiBold,
+                    modifier = Modifier.padding(top = 12.dp),
+                )
+                ClickablePalRow(state.weakToPals, useRu, onOpenPal)
             }
 
             SectionTitle(stringResource(R.string.location_drops))
             Text(p.location(useRu), fontWeight = FontWeight.Medium)
             if (p.nightOnly) {
-                Text(stringResource(R.string.night_spawn), color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelMedium)
+                Text(
+                    stringResource(R.string.night_spawn),
+                    color = MaterialTheme.colorScheme.tertiary,
+                    style = MaterialTheme.typography.labelMedium,
+                )
             }
-            Text(p.drops(useRu), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            if (state.dropItems.isNotEmpty()) {
+                Text(
+                    stringResource(R.string.drops_title),
+                    style = MaterialTheme.typography.labelLarge,
+                    fontWeight = FontWeight.SemiBold,
+                    modifier = Modifier.padding(top = 10.dp, bottom = 6.dp),
+                )
+                ClickableItemRow(state.dropItems, useRu, onOpenItem)
+            } else {
+                Text(
+                    p.drops(useRu),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
 
             Spacer(Modifier.height(16.dp))
             Button(onClick = onBreed, modifier = Modifier.fillMaxWidth()) {
@@ -228,6 +306,94 @@ fun PalDetailScreen(
                 Text(stringResource(R.string.open_breeding))
             }
             Spacer(Modifier.height(24.dp))
+        }
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun ClickablePalRow(
+    pals: List<Pal>,
+    useRu: Boolean,
+    onOpenPal: (String) -> Unit,
+) {
+    FlowRow(
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
+        modifier = Modifier.padding(top = 6.dp),
+    ) {
+        pals.forEach { pal ->
+            Card(
+                modifier = Modifier
+                    .width(96.dp)
+                    .clickable { onOpenPal(pal.id) },
+                shape = RoundedCornerShape(14.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(0.45f),
+                ),
+            ) {
+                Column(
+                    Modifier.padding(8.dp).fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                ) {
+                    PalAvatar(pal, size = 52)
+                    Spacer(Modifier.height(4.dp))
+                    Text(
+                        pal.displayName(useRu),
+                        style = MaterialTheme.typography.labelSmall,
+                        fontWeight = FontWeight.SemiBold,
+                        maxLines = 2,
+                        overflow = TextOverflow.Ellipsis,
+                        textAlign = TextAlign.Center,
+                    )
+                    Text(
+                        "#${pal.dexNumber}",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+            }
+        }
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun ClickableItemRow(
+    items: List<GameItem>,
+    useRu: Boolean,
+    onOpenItem: (String) -> Unit,
+) {
+    FlowRow(
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        items.forEach { item ->
+            Card(
+                modifier = Modifier
+                    .width(100.dp)
+                    .clickable { onOpenItem(item.id) },
+                shape = RoundedCornerShape(14.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.secondaryContainer.copy(0.35f),
+                ),
+            ) {
+                Column(
+                    Modifier.padding(8.dp).fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                ) {
+                    ItemIcon(item, size = 48)
+                    Spacer(Modifier.height(4.dp))
+                    Text(
+                        item.displayName(useRu),
+                        style = MaterialTheme.typography.labelSmall,
+                        fontWeight = FontWeight.SemiBold,
+                        maxLines = 2,
+                        overflow = TextOverflow.Ellipsis,
+                        textAlign = TextAlign.Center,
+                    )
+                }
+            }
         }
     }
 }

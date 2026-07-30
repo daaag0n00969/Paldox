@@ -1,7 +1,10 @@
 package com.paldexpro.ui.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -13,6 +16,7 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -21,10 +25,16 @@ import androidx.compose.ui.unit.dp
 
 /**
  * Lightweight markdown-ish renderer for guide bodies:
- * headings, bullets, numbered lists, simple tables, bold markers, dividers.
+ * headings, bullets, numbered lists, simple tables, bold markers, dividers,
+ * and interactive [[pal:id]] / [[item:id]] chips.
  */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun GuideFormattedBody(body: String) {
+fun GuideFormattedBody(
+    body: String,
+    onOpenPal: (String) -> Unit = {},
+    onOpenItem: (String) -> Unit = {},
+) {
     val blocks = parseGuideBlocks(body)
     Column(Modifier.fillMaxWidth()) {
         blocks.forEach { block ->
@@ -37,7 +47,10 @@ fun GuideFormattedBody(body: String) {
                         fontWeight = FontWeight.Bold,
                         color = MaterialTheme.colorScheme.primary,
                     )
-                    HorizontalDivider(Modifier.padding(vertical = 6.dp), color = MaterialTheme.colorScheme.primary.copy(0.3f))
+                    HorizontalDivider(
+                        Modifier.padding(vertical = 6.dp),
+                        color = MaterialTheme.colorScheme.primary.copy(0.3f),
+                    )
                 }
                 is GuideBlock.SubHeading -> {
                     Spacer(Modifier.height(10.dp))
@@ -51,7 +64,7 @@ fun GuideFormattedBody(body: String) {
                     Row(Modifier.padding(vertical = 3.dp)) {
                         Text("•", color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
                         Spacer(Modifier.width(8.dp))
-                        Text(block.text, style = MaterialTheme.typography.bodyLarge)
+                        InlineGuideText(block.text, onOpenPal, onOpenItem)
                     }
                 }
                 is GuideBlock.Numbered -> {
@@ -62,14 +75,14 @@ fun GuideFormattedBody(body: String) {
                             fontWeight = FontWeight.Bold,
                             modifier = Modifier.width(24.dp),
                         )
-                        Text(block.text, style = MaterialTheme.typography.bodyLarge)
+                        InlineGuideText(block.text, onOpenPal, onOpenItem)
                     }
                 }
                 is GuideBlock.Check -> {
                     Row(Modifier.padding(vertical = 3.dp)) {
                         Text(if (block.done) "☑" else "☐", color = MaterialTheme.colorScheme.secondary)
                         Spacer(Modifier.width(8.dp))
-                        Text(block.text, style = MaterialTheme.typography.bodyLarge)
+                        InlineGuideText(block.text, onOpenPal, onOpenItem)
                     }
                 }
                 is GuideBlock.Table -> {
@@ -86,7 +99,11 @@ fun GuideFormattedBody(body: String) {
                                         Text(
                                             cell,
                                             modifier = Modifier.weight(1f),
-                                            style = if (index == 0) MaterialTheme.typography.labelLarge else MaterialTheme.typography.bodyMedium,
+                                            style = if (index == 0) {
+                                                MaterialTheme.typography.labelLarge
+                                            } else {
+                                                MaterialTheme.typography.bodyMedium
+                                            },
                                             fontWeight = if (index == 0) FontWeight.Bold else FontWeight.Normal,
                                         )
                                     }
@@ -113,9 +130,10 @@ fun GuideFormattedBody(body: String) {
                     )
                 }
                 is GuideBlock.Paragraph -> {
-                    Text(
+                    InlineGuideText(
                         block.text,
-                        style = MaterialTheme.typography.bodyLarge,
+                        onOpenPal,
+                        onOpenItem,
                         modifier = Modifier.padding(vertical = 4.dp),
                     )
                 }
@@ -123,6 +141,79 @@ fun GuideFormattedBody(body: String) {
             }
         }
     }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun InlineGuideText(
+    text: String,
+    onOpenPal: (String) -> Unit,
+    onOpenItem: (String) -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    val parts = splitInteractive(text)
+    if (parts.none { it is TextPart.Link }) {
+        Text(text.stripBold(), style = MaterialTheme.typography.bodyLarge, modifier = modifier)
+        return
+    }
+    FlowRow(
+        modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(6.dp),
+        verticalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(4.dp),
+    ) {
+        parts.forEach { part ->
+            when (part) {
+                is TextPart.Plain -> {
+                    if (part.text.isNotBlank()) {
+                        Text(part.text.stripBold(), style = MaterialTheme.typography.bodyLarge)
+                    }
+                }
+                is TextPart.Link -> {
+                    val isPal = part.kind == "pal"
+                    Surface(
+                        color = if (isPal) {
+                            MaterialTheme.colorScheme.primaryContainer.copy(0.55f)
+                        } else {
+                            MaterialTheme.colorScheme.secondaryContainer.copy(0.55f)
+                        },
+                        shape = RoundedCornerShape(50),
+                        modifier = Modifier.clickable {
+                            if (isPal) onOpenPal(part.id) else onOpenItem(part.id)
+                        },
+                    ) {
+                        Text(
+                            text = if (isPal) "🐾 ${part.id}" else "📦 ${part.id}",
+                            modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp),
+                            style = MaterialTheme.typography.labelLarge,
+                            fontWeight = FontWeight.SemiBold,
+                            color = MaterialTheme.colorScheme.onSurface,
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
+private sealed class TextPart {
+    data class Plain(val text: String) : TextPart()
+    data class Link(val kind: String, val id: String) : TextPart()
+}
+
+private val LINK_RE = Regex("""\[\[(pal|item):([a-zA-Z0-9_]+)\]\]""")
+
+private fun splitInteractive(text: String): List<TextPart> {
+    val out = mutableListOf<TextPart>()
+    var last = 0
+    LINK_RE.findAll(text).forEach { m ->
+        if (m.range.first > last) {
+            out += TextPart.Plain(text.substring(last, m.range.first))
+        }
+        out += TextPart.Link(m.groupValues[1], m.groupValues[2])
+        last = m.range.last + 1
+    }
+    if (last < text.length) out += TextPart.Plain(text.substring(last))
+    return out
 }
 
 private sealed class GuideBlock {
@@ -149,14 +240,14 @@ private fun parseGuideBlocks(body: String): List<GuideBlock> {
             line.startsWith("## ") -> out += GuideBlock.Heading(line.removePrefix("## ").trim())
             line.startsWith("### ") -> out += GuideBlock.SubHeading(line.removePrefix("### ").trim())
             line.startsWith("- [x] ") || line.startsWith("- [X] ") ->
-                out += GuideBlock.Check(line.drop(6).trim().stripBold(), true)
+                out += GuideBlock.Check(line.drop(6).trim(), true)
             line.startsWith("- [ ] ") ->
-                out += GuideBlock.Check(line.drop(6).trim().stripBold(), false)
+                out += GuideBlock.Check(line.drop(6).trim(), false)
             line.startsWith("- ") || line.startsWith("* ") ->
-                out += GuideBlock.Bullet(line.drop(2).trim().stripBold())
+                out += GuideBlock.Bullet(line.drop(2).trim())
             line.matches(Regex("^\\d+\\.\\s+.*")) -> {
                 val n = line.substringBefore('.').toIntOrNull() ?: 1
-                out += GuideBlock.Numbered(n, line.substringAfter('.').trim().stripBold())
+                out += GuideBlock.Numbered(n, line.substringAfter('.').trim())
             }
             line.startsWith("|") && line.endsWith("|") -> {
                 val rows = mutableListOf<List<String>>()
@@ -176,7 +267,7 @@ private fun parseGuideBlocks(body: String): List<GuideBlock> {
             }
             line.startsWith("> ") -> out += GuideBlock.Quote(line.removePrefix("> ").stripBold())
             line == "---" -> out += GuideBlock.SpacerLine
-            else -> out += GuideBlock.Paragraph(line.stripBold())
+            else -> out += GuideBlock.Paragraph(line)
         }
         i++
     }

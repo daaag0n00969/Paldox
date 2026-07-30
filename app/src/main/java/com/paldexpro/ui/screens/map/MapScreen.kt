@@ -38,8 +38,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.viewinterop.AndroidView
 import com.paldexpro.R
 
-/** Best current free interactive map for Palworld 1.0 (no login, high marker count). */
-const val PALWORLD_MAP_URL = "https://pindrop.gg/palworld/map"
+/**
+ * Interactive map updated for Palworld 1.0 (World Tree / sky islands / 70+ new pals).
+ * Community source: palworld.th.gl — free, no login required for browsing.
+ */
+const val PALWORLD_MAP_URL = "https://palworld.th.gl/"
 
 @OptIn(ExperimentalMaterial3Api::class)
 @SuppressLint("SetJavaScriptEnabled")
@@ -128,7 +131,10 @@ fun MapScreen(onBack: () -> Unit) {
                                 val url = request?.url?.toString().orEmpty()
                                 // Keep map domain in-webview; open other schemes externally
                                 return if (url.startsWith("http") &&
-                                    (url.contains("pindrop.gg") || url.contains("map"))
+                                    (url.contains("palworld.th.gl") ||
+                                        url.contains("th.gl") ||
+                                        url.contains("mapgenie.io") ||
+                                        url.contains("map"))
                                 ) {
                                     false
                                 } else if (url.startsWith("http")) {

@@ -40,6 +40,8 @@ fun GuideDetailScreen(
     guideId: String,
     useRu: Boolean,
     onBack: () -> Unit,
+    onOpenPal: (String) -> Unit = {},
+    onOpenItem: (String) -> Unit = {},
     vm: GuideDetailViewModel = hiltViewModel(),
 ) {
     val guide by vm.guide.collectAsStateWithLifecycle()
@@ -72,7 +74,11 @@ fun GuideDetailScreen(
             )
             Text(g.title(useRu), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
             Spacer(Modifier.height(12.dp))
-            GuideFormattedBody(g.body(useRu))
+            GuideFormattedBody(
+                body = g.body(useRu),
+                onOpenPal = onOpenPal,
+                onOpenItem = onOpenItem,
+            )
             SectionTitle(stringResource(R.string.my_notes))
             OutlinedTextField(
                 value = notes,
