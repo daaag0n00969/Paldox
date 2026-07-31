@@ -49,10 +49,13 @@
     <string name="feedback_telegram">Telegram</string>
     <string name="feedback_email">Почта</string>
     <string name="feedback_x">X (Twitter)</string>
-    <string name="map_source_hint">palworld.th.gl · Palworld 1.0</string>
+    <string name="map_source_hint">Внешняя карта сообщества</string>
     <string name="map_reload">Обновить карту</string>
-    <string name="map_open_browser">Открыть в браузере</string>
-    <string name="map_offline_hint">Нужен интернет. Бесплатная интерактивная карта (спавны, боссы, идолы…).</string>
+    <string name="map_open_browser">Открыть карту в браузере</string>
+    <string name="map_offline_hint">Полная интерактивная карта открывается в браузере. Само приложение Paldox работает офлайн.</string>
+    <string name="map_screen_title">Интерактивная карта</string>
+    <string name="map_screen_body">Полная интерактивная карта с тысячами точек — это внешний ресурс сообщества. Paldox — нативное офлайн-приложение: палдекс, разведение, навыки, предметы и гайды работают без интернета.</string>
+    <string name="map_disclaimer">Данные карты и сайт принадлежат автору th.gl. Paldox только открывает ссылку в системном браузере и не встраивает сайт внутрь приложения.</string>
     <string name="about_version_fmt">Версия %1$s</string>
     <string name="about_body_full">Paldox — оффлайн-компаньон для Palworld: палдекс, калькулятор разведения, навыки, предметы, башни и гайды. Основные данные работают без интернета после установки.</string>
     <string name="about_credits">Авторы</string>
@@ -72,7 +75,7 @@
     <string name="more_map_sub">Спавны и точки</string>
     <string name="more_settings_sub">Тема, язык и связь</string>
     <string name="map_coming_soon_title">Интерактивная карта</string>
-    <string name="map_coming_soon_body">Интерактивная карта мира (Pindrop, Palworld 1.0). Нужен интернет.</string>
+    <string name="map_coming_soon_body">Ссылка на внешнюю карту сообщества. Открывается в системном браузере; Paldox остаётся офлайн-first.</string>
     <string name="settings">Настройки</string>
     <string name="home_subtitle">Palworld %1$s · %2$d палов оффлайн</string>
     <string name="quick_access">Быстрый доступ</string>

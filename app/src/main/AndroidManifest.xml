@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
-      INTERNET is only used for the interactive map WebView (pindrop.gg) and
-      opening external feedback/legal links. Core companion data stays offline.
+      INTERNET is only for opening external browser links (map, feedback, legal).
+      There is no in-app WebView. Core companion data stays offline in assets.
       Do not add QUERY_ALL_PACKAGES or broad storage permissions.
     -->
     <uses-permission android:name="android.permission.INTERNET" />
