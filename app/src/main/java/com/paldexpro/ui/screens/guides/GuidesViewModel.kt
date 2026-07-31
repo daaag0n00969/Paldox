@@ -1,6 +1,5 @@
 package com.paldexpro.ui.screens.guides
 
-import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.paldexpro.data.repository.PalRepository
@@ -21,20 +20,5 @@ class GuidesViewModel @Inject constructor(
 
     init {
         viewModelScope.launch { repo.init() }
-    }
-}
-
-@HiltViewModel
-class GuideDetailViewModel @Inject constructor(
-    savedStateHandle: SavedStateHandle,
-    private val repo: PalRepository,
-) : ViewModel() {
-    private val guideId: String = checkNotNull(savedStateHandle["guideId"])
-
-    val guide: StateFlow<Guide?> = repo.observeGuide(guideId)
-        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
-
-    fun saveNotes(notes: String) {
-        viewModelScope.launch { repo.updateGuideNotes(guideId, notes) }
     }
 }

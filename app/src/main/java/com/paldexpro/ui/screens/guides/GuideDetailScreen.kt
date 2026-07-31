@@ -44,7 +44,8 @@ fun GuideDetailScreen(
     onOpenItem: (String) -> Unit = {},
     vm: GuideDetailViewModel = hiltViewModel(),
 ) {
-    val guide by vm.guide.collectAsStateWithLifecycle()
+    val state by vm.state.collectAsStateWithLifecycle()
+    val guide = state.guide
     var notes by remember { mutableStateOf("") }
 
     LaunchedEffect(guide?.userNotes) {
@@ -76,6 +77,9 @@ fun GuideDetailScreen(
             Spacer(Modifier.height(12.dp))
             GuideFormattedBody(
                 body = g.body(useRu),
+                pals = state.pals,
+                items = state.items,
+                useRu = useRu,
                 onOpenPal = onOpenPal,
                 onOpenItem = onOpenItem,
             )

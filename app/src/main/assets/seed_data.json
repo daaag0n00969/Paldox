@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "gameVersion": "1.0",
   "pals": [
     {
@@ -190,7 +190,7 @@
       "nightOnly": false,
       "icon": "pals/lifmunk.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -249,7 +249,7 @@
       "nightOnly": false,
       "icon": "pals/fuack.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -418,7 +418,7 @@
       "nightOnly": false,
       "icon": "pals/celaray.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -476,7 +476,7 @@
       "nightOnly": false,
       "icon": "pals/celaray_lux.webp",
       "matchupEn": "Strong vs elements: Fire, Water. Example prey pals: Neptilius, Panthalus, Shaolong, Jormuntide Ignis. Weak to elements: Electric, Ground. Counter pals: Anubis, Orserk, Aegidron, Bulldosu. Avoid mirroring its coverage (Fire, Water).",
-      "matchupRu": "Силён против стихий: Вода, Огонь. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Йормунтайд Игнис. Слаб против стихий: Земля, Электричество. Палы, сильные против него: Анубис, Орсерк, Эгидрон, Буллдос. Неэффективно зеркалить его покрытие (Вода, Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода, Огонь. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Йормунтайд Игнис. Слаб против стихий: Земля, Электричество. Палы, сильные против него: Анубис, Орсерк, Аэгидрон, Буллдос. Неэффективно зеркалить его покрытие (Вода, Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire",
         "Water"
@@ -588,7 +588,7 @@
       "nightOnly": false,
       "icon": "pals/croajiro.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -707,7 +707,7 @@
       "nightOnly": false,
       "icon": "pals/herbil.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Dark, Fire. Counter pals: Bellanoir, Bellanoir Libero, Necromus, Dandilord. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь, Тьма. Палы, сильные против него: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь, Тьма. Палы, сильные против него: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -765,7 +765,7 @@
       "nightOnly": false,
       "icon": "pals/teafant.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -821,7 +821,7 @@
       "nightOnly": false,
       "icon": "pals/gumoss.webp",
       "matchupEn": "Strong vs elements: Electric, Ground. Example prey pals: Anubis, Orserk, Aegidron, Bulldosu. Weak to elements: Fire, Grass. Counter pals: Dandilord, Silvance, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Electric, Ground).",
-      "matchupRu": "Силён против стихий: Земля, Электричество. Примеры палов, которых давит: Анубис, Орсерк, Эгидрон, Буллдос. Слаб против стихий: Огонь, Трава. Палы, сильные против него: Дандилорд, Сильванс, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля, Электричество. Примеры палов, которых давит: Анубис, Орсерк, Аэгидрон, Буллдос. Слаб против стихий: Огонь, Трава. Палы, сильные против него: Дандилорд, Сильванс, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric",
         "Ground"
@@ -882,7 +882,7 @@
       "nightOnly": false,
       "icon": "pals/pupperai.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -940,7 +940,7 @@
       "nightOnly": false,
       "icon": "pals/clovee.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Dark, Fire. Counter pals: Bellanoir, Bellanoir Libero, Necromus, Dandilord. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь, Тьма. Палы, сильные против него: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь, Тьма. Палы, сильные против него: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -998,7 +998,7 @@
       "nightOnly": false,
       "icon": "pals/jolthog.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -1115,7 +1115,7 @@
       "nightOnly": false,
       "icon": "pals/depresso.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -1237,7 +1237,7 @@
       "nightOnly": false,
       "icon": "pals/pengullet_lux.webp",
       "matchupEn": "Strong vs elements: Fire, Water. Example prey pals: Neptilius, Panthalus, Shaolong, Jormuntide Ignis. Weak to elements: Electric, Ground. Counter pals: Anubis, Orserk, Aegidron, Bulldosu. Avoid mirroring its coverage (Fire, Water).",
-      "matchupRu": "Силён против стихий: Вода, Огонь. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Йормунтайд Игнис. Слаб против стихий: Земля, Электричество. Палы, сильные против него: Анубис, Орсерк, Эгидрон, Буллдос. Неэффективно зеркалить его покрытие (Вода, Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода, Огонь. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Йормунтайд Игнис. Слаб против стихий: Земля, Электричество. Палы, сильные против него: Анубис, Орсерк, Аэгидрон, Буллдос. Неэффективно зеркалить его покрытие (Вода, Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire",
         "Water"
@@ -1362,7 +1362,7 @@
       "nightOnly": false,
       "icon": "pals/penking_lux.webp",
       "matchupEn": "Strong vs elements: Fire, Water. Example prey pals: Neptilius, Panthalus, Shaolong, Jormuntide Ignis. Weak to elements: Electric, Ground. Counter pals: Anubis, Orserk, Aegidron, Bulldosu. Avoid mirroring its coverage (Fire, Water).",
-      "matchupRu": "Силён против стихий: Вода, Огонь. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Йормунтайд Игнис. Слаб против стихий: Земля, Электричество. Палы, сильные против него: Анубис, Орсерк, Эгидрон, Буллдос. Неэффективно зеркалить его покрытие (Вода, Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода, Огонь. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Йормунтайд Игнис. Слаб против стихий: Земля, Электричество. Палы, сильные против него: Анубис, Орсерк, Аэгидрон, Буллдос. Неэффективно зеркалить его покрытие (Вода, Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire",
         "Water"
@@ -1420,7 +1420,7 @@
       "nightOnly": false,
       "icon": "pals/hoocrates.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -1635,7 +1635,7 @@
       "nightOnly": false,
       "icon": "pals/daedream.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -1696,7 +1696,7 @@
       "nightOnly": false,
       "icon": "pals/tanzee.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -1812,7 +1812,7 @@
       "nightOnly": true,
       "icon": "pals/nox.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -1990,7 +1990,7 @@
       "nightOnly": false,
       "icon": "pals/mau.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -2105,7 +2105,7 @@
       "nightOnly": false,
       "icon": "pals/rushoar.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -2400,7 +2400,7 @@
       "nightOnly": false,
       "icon": "pals/fuddler.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -2506,7 +2506,7 @@
       "nightOnly": false,
       "icon": "pals/eikthyrdeer_terra.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -2613,7 +2613,7 @@
       "nightOnly": false,
       "icon": "pals/caprity.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -2671,7 +2671,7 @@
       "nightOnly": true,
       "icon": "pals/caprity_noct.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -2846,7 +2846,7 @@
       "nightOnly": false,
       "icon": "pals/turtacle.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -2965,7 +2965,7 @@
       "nightOnly": false,
       "icon": "pals/hangyu.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -3131,7 +3131,7 @@
       "nightOnly": false,
       "icon": "pals/woolipop_terra.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -3357,7 +3357,7 @@
       "nightOnly": false,
       "icon": "pals/sparkit.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -3415,7 +3415,7 @@
       "nightOnly": false,
       "icon": "pals/kelpsea.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -3584,7 +3584,7 @@
       "nightOnly": false,
       "icon": "pals/ribbuny_botan.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -3643,7 +3643,7 @@
       "nightOnly": false,
       "icon": "pals/jelliette.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -3763,7 +3763,7 @@
       "nightOnly": false,
       "icon": "pals/amione.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -3992,7 +3992,7 @@
       "nightOnly": true,
       "icon": "pals/wispaw.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -4099,7 +4099,7 @@
       "nightOnly": true,
       "icon": "pals/tombat.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -4206,7 +4206,7 @@
       "nightOnly": false,
       "icon": "pals/univolt.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -4322,7 +4322,7 @@
       "nightOnly": false,
       "icon": "pals/gobfin.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -4438,7 +4438,7 @@
       "nightOnly": true,
       "icon": "pals/loupmoon.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -4554,7 +4554,7 @@
       "nightOnly": true,
       "icon": "pals/cawgnito.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -4731,7 +4731,7 @@
       "nightOnly": false,
       "icon": "pals/bristla.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -4790,7 +4790,7 @@
       "nightOnly": false,
       "icon": "pals/cinnamoth.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -4848,7 +4848,7 @@
       "nightOnly": false,
       "icon": "pals/puffolt.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -5140,7 +5140,7 @@
       "nightOnly": true,
       "icon": "pals/felbat.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -5202,7 +5202,7 @@
       "nightOnly": false,
       "icon": "pals/vaelet.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -5265,7 +5265,7 @@
       "nightOnly": false,
       "icon": "pals/beegarde.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -5326,7 +5326,7 @@
       "nightOnly": false,
       "icon": "pals/elizabee.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -5386,7 +5386,7 @@
       "nightOnly": false,
       "icon": "pals/lovander.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -5495,7 +5495,7 @@
       "nightOnly": true,
       "icon": "pals/tarantriss.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -5674,7 +5674,7 @@
       "nightOnly": true,
       "icon": "pals/leezpunk.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -5845,7 +5845,7 @@
       "nightOnly": false,
       "icon": "pals/gorirat_terra.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -5903,7 +5903,7 @@
       "nightOnly": false,
       "icon": "pals/surfent.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -5959,7 +5959,7 @@
       "nightOnly": false,
       "icon": "pals/surfent_terra.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -6021,7 +6021,7 @@
       "nightOnly": false,
       "icon": "pals/robinquill.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -6082,7 +6082,7 @@
       "nightOnly": false,
       "icon": "pals/robinquill_terra.webp",
       "matchupEn": "Strong vs elements: Electric, Ground. Example prey pals: Anubis, Orserk, Aegidron, Bulldosu. Weak to elements: Fire, Grass. Counter pals: Dandilord, Silvance, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Electric, Ground).",
-      "matchupRu": "Силён против стихий: Земля, Электричество. Примеры палов, которых давит: Анубис, Орсерк, Эгидрон, Буллдос. Слаб против стихий: Огонь, Трава. Палы, сильные против него: Дандилорд, Сильванс, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля, Электричество. Примеры палов, которых давит: Анубис, Орсерк, Аэгидрон, Буллдос. Слаб против стихий: Огонь, Трава. Палы, сильные против него: Дандилорд, Сильванс, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric",
         "Ground"
@@ -6145,7 +6145,7 @@
       "nightOnly": false,
       "icon": "pals/flopie.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -6326,7 +6326,7 @@
       "nightOnly": true,
       "icon": "pals/katress.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -6446,7 +6446,7 @@
       "nightOnly": false,
       "icon": "pals/helzephyr.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -6567,7 +6567,7 @@
       "nightOnly": false,
       "icon": "pals/elgrove.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -6784,7 +6784,7 @@
       "nightOnly": false,
       "icon": "pals/fenglope_lux.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -6902,7 +6902,7 @@
       "nightOnly": false,
       "icon": "pals/dinossom_lux.webp",
       "matchupEn": "Strong vs elements: Dark, Water. Example prey pals: Bellanoir, Bellanoir Libero, Necromus, Dandilord. Weak to elements: Ground, Ice. Counter pals: Frostallion, Bastigor, Anubis, Aegidron. Avoid mirroring its coverage (Dark, Water).",
-      "matchupRu": "Силён против стихий: Вода, Тьма. Примеры палов, которых давит: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Слаб против стихий: Земля, Лёд. Палы, сильные против него: Фросталлион, Бастигор, Анубис, Эгидрон. Неэффективно зеркалить его покрытие (Вода, Тьма) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода, Тьма. Примеры палов, которых давит: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Слаб против стихий: Земля, Лёд. Палы, сильные против него: Фросталлион, Бастигор, Анубис, Аэгидрон. Неэффективно зеркалить его покрытие (Вода, Тьма) — берите type-advantage.",
       "strongElements": [
         "Dark",
         "Water"
@@ -7150,7 +7150,7 @@
       "nightOnly": false,
       "icon": "pals/mammorest.webp",
       "matchupEn": "Strong vs elements: Electric, Ground. Example prey pals: Anubis, Orserk, Aegidron, Bulldosu. Weak to elements: Fire, Grass. Counter pals: Dandilord, Silvance, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Electric, Ground).",
-      "matchupRu": "Силён против стихий: Земля, Электричество. Примеры палов, которых давит: Анубис, Орсерк, Эгидрон, Буллдос. Слаб против стихий: Огонь, Трава. Палы, сильные против него: Дандилорд, Сильванс, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля, Электричество. Примеры палов, которых давит: Анубис, Орсерк, Аэгидрон, Буллдос. Слаб против стихий: Огонь, Трава. Палы, сильные против него: Дандилорд, Сильванс, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric",
         "Ground"
@@ -7271,7 +7271,7 @@
       "nightOnly": false,
       "icon": "pals/finsider.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -7392,7 +7392,7 @@
       "nightOnly": false,
       "icon": "pals/petallia.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -7516,7 +7516,7 @@
       "nightOnly": false,
       "icon": "pals/leafan.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -7638,7 +7638,7 @@
       "nightOnly": true,
       "icon": "pals/incineram_noct.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -7697,7 +7697,7 @@
       "nightOnly": false,
       "icon": "pals/dazzi.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -7996,7 +7996,7 @@
       "nightOnly": false,
       "icon": "pals/relaxaurus_lux.webp",
       "matchupEn": "Strong vs elements: Dark, Water. Example prey pals: Bellanoir, Bellanoir Libero, Necromus, Dandilord. Weak to elements: Ground, Ice. Counter pals: Frostallion, Bastigor, Anubis, Aegidron. Avoid mirroring its coverage (Dark, Water).",
-      "matchupRu": "Силён против стихий: Вода, Тьма. Примеры палов, которых давит: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Слаб против стихий: Земля, Лёд. Палы, сильные против него: Фросталлион, Бастигор, Анубис, Эгидрон. Неэффективно зеркалить его покрытие (Вода, Тьма) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода, Тьма. Примеры палов, которых давит: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Слаб против стихий: Земля, Лёд. Палы, сильные против него: Фросталлион, Бастигор, Анубис, Аэгидрон. Неэффективно зеркалить его покрытие (Вода, Тьма) — берите type-advantage.",
       "strongElements": [
         "Dark",
         "Water"
@@ -8115,7 +8115,7 @@
       "nightOnly": false,
       "icon": "pals/beakon.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -8351,7 +8351,7 @@
       "nightOnly": false,
       "icon": "pals/rayhound.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -8525,7 +8525,7 @@
       "nightOnly": false,
       "icon": "pals/menasting_terra.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -8584,7 +8584,7 @@
       "nightOnly": false,
       "icon": "pals/needoll.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -8643,7 +8643,7 @@
       "nightOnly": true,
       "icon": "pals/needoll_noct.webp",
       "matchupEn": "Strong vs elements: Ground, Neutral. Example prey pals: Astralym, Hartalis, Anubis, Aegidron. Weak to elements: Dragon, Fire. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Ground, Neutral).",
-      "matchupRu": "Силён против стихий: Земля, Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Анубис, Эгидрон. Слаб против стихий: Дракон, Огонь. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля, Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Анубис, Аэгидрон. Слаб против стихий: Дракон, Огонь. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Ground",
         "Neutral"
@@ -8763,7 +8763,7 @@
       "nightOnly": false,
       "icon": "pals/mossanda.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -8823,7 +8823,7 @@
       "nightOnly": false,
       "icon": "pals/mossanda_lux.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -9183,7 +9183,7 @@
       "nightOnly": false,
       "icon": "pals/palumba.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -9240,7 +9240,7 @@
       "nightOnly": false,
       "icon": "pals/digtoise.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -9297,7 +9297,7 @@
       "nightOnly": false,
       "icon": "pals/broncherry.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -9539,7 +9539,7 @@
       "nightOnly": false,
       "icon": "pals/braloha.webp",
       "matchupEn": "Strong vs elements: Electric, Ground. Example prey pals: Anubis, Orserk, Aegidron, Bulldosu. Weak to elements: Fire, Grass. Counter pals: Dandilord, Silvance, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Electric, Ground).",
-      "matchupRu": "Силён против стихий: Земля, Электричество. Примеры палов, которых давит: Анубис, Орсерк, Эгидрон, Буллдос. Слаб против стихий: Огонь, Трава. Палы, сильные против него: Дандилорд, Сильванс, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля, Электричество. Примеры палов, которых давит: Анубис, Орсерк, Аэгидрон, Буллдос. Слаб против стихий: Огонь, Трава. Палы, сильные против него: Дандилорд, Сильванс, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric",
         "Ground"
@@ -9656,7 +9656,7 @@
       "nightOnly": true,
       "icon": "pals/kitsun_noct.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -9836,7 +9836,7 @@
       "nightOnly": false,
       "icon": "pals/warsect.webp",
       "matchupEn": "Strong vs elements: Electric, Ground. Example prey pals: Anubis, Orserk, Aegidron, Bulldosu. Weak to elements: Fire, Grass. Counter pals: Dandilord, Silvance, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Electric, Ground).",
-      "matchupRu": "Силён против стихий: Земля, Электричество. Примеры палов, которых давит: Анубис, Орсерк, Эгидрон, Буллдос. Слаб против стихий: Огонь, Трава. Палы, сильные против него: Дандилорд, Сильванс, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля, Электричество. Примеры палов, которых давит: Анубис, Орсерк, Аэгидрон, Буллдос. Слаб против стихий: Огонь, Трава. Палы, сильные против него: Дандилорд, Сильванс, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric",
         "Ground"
@@ -9897,7 +9897,7 @@
       "nightOnly": false,
       "icon": "pals/warsect_terra.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -10184,7 +10184,7 @@
       "nightOnly": true,
       "icon": "pals/maraith.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -10245,7 +10245,7 @@
       "nightOnly": false,
       "icon": "pals/shroomer.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -10305,7 +10305,7 @@
       "nightOnly": false,
       "icon": "pals/shroomer_noct.webp",
       "matchupEn": "Strong vs elements: Ground, Neutral. Example prey pals: Astralym, Hartalis, Anubis, Aegidron. Weak to elements: Dragon, Fire. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Ground, Neutral).",
-      "matchupRu": "Силён против стихий: Земля, Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Анубис, Эгидрон. Слаб против стихий: Дракон, Огонь. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля, Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Анубис, Аэгидрон. Слаб против стихий: Дракон, Огонь. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Ground",
         "Neutral"
@@ -10660,7 +10660,7 @@
       "nightOnly": false,
       "icon": "pals/suzaku_aqua.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -10716,7 +10716,7 @@
       "nightOnly": false,
       "icon": "pals/dazemu.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -10898,7 +10898,7 @@
       "nightOnly": false,
       "icon": "pals/lullu.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -10955,7 +10955,7 @@
       "nightOnly": false,
       "icon": "pals/kikit.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -11063,7 +11063,7 @@
       "nightOnly": false,
       "icon": "pals/skutlass.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -11302,7 +11302,7 @@
       "nightOnly": false,
       "icon": "pals/starryon.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -11409,7 +11409,7 @@
       "nightOnly": false,
       "icon": "pals/pierdon.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -11586,7 +11586,7 @@
       "nightOnly": false,
       "icon": "pals/cryolinx_terra.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -11765,7 +11765,7 @@
       "nightOnly": false,
       "icon": "pals/wumpo_botan.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -11889,7 +11889,7 @@
       "nightOnly": false,
       "icon": "pals/carnibora.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -12070,7 +12070,7 @@
       "nightOnly": false,
       "icon": "pals/dualith.webp",
       "matchupEn": "Strong vs elements: Electric, Ground. Example prey pals: Anubis, Orserk, Aegidron, Bulldosu. Weak to elements: Fire, Grass. Counter pals: Dandilord, Silvance, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Electric, Ground).",
-      "matchupRu": "Силён против стихий: Земля, Электричество. Примеры палов, которых давит: Анубис, Орсерк, Эгидрон, Буллдос. Слаб против стихий: Огонь, Трава. Палы, сильные против него: Дандилорд, Сильванс, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля, Электричество. Примеры палов, которых давит: Анубис, Орсерк, Аэгидрон, Буллдос. Слаб против стихий: Огонь, Трава. Палы, сильные против него: Дандилорд, Сильванс, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric",
         "Ground"
@@ -12194,7 +12194,7 @@
       "nightOnly": false,
       "icon": "pals/anubis.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -12253,7 +12253,7 @@
       "nightOnly": false,
       "icon": "pals/sekhmet.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -12374,7 +12374,7 @@
       "nightOnly": false,
       "icon": "pals/prixter_lux.webp",
       "matchupEn": "Strong vs elements: Electric, Water. Example prey pals: Neptilius, Panthalus, Shaolong, Orserk. Weak to elements: Grass, Ground. Counter pals: Dandilord, Silvance, Anubis, Aegidron. Avoid mirroring its coverage (Electric, Water).",
-      "matchupRu": "Силён против стихий: Вода, Электричество. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Орсерк. Слаб против стихий: Земля, Трава. Палы, сильные против него: Дандилорд, Сильванс, Анубис, Эгидрон. Неэффективно зеркалить его покрытие (Вода, Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода, Электричество. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Орсерк. Слаб против стихий: Земля, Трава. Палы, сильные против него: Дандилорд, Сильванс, Анубис, Аэгидрон. Неэффективно зеркалить его покрытие (Вода, Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric",
         "Water"
@@ -12433,7 +12433,7 @@
       "nightOnly": false,
       "icon": "pals/tetroise.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -12543,7 +12543,7 @@
       "nightOnly": true,
       "icon": "pals/nyafia.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -12651,7 +12651,7 @@
       "nightOnly": true,
       "icon": "pals/xenovader.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -12768,7 +12768,7 @@
       "nightOnly": false,
       "icon": "pals/prunelia.webp",
       "matchupEn": "Strong vs elements: Ground, Neutral. Example prey pals: Astralym, Hartalis, Anubis, Aegidron. Weak to elements: Dragon, Fire. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Ground, Neutral).",
-      "matchupRu": "Силён против стихий: Земля, Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Анубис, Эгидрон. Слаб против стихий: Дракон, Огонь. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля, Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Анубис, Аэгидрон. Слаб против стихий: Дракон, Огонь. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Ground",
         "Neutral"
@@ -12828,7 +12828,7 @@
       "nightOnly": true,
       "icon": "pals/nitemary.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -12887,7 +12887,7 @@
       "nightOnly": false,
       "icon": "pals/nitemary_botan.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -12944,7 +12944,7 @@
       "nightOnly": false,
       "icon": "pals/smokie.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -13061,7 +13061,7 @@
       "nightOnly": true,
       "icon": "pals/omascul.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -13242,7 +13242,7 @@
       "nightOnly": false,
       "icon": "pals/verdash.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -13302,7 +13302,7 @@
       "nightOnly": true,
       "icon": "pals/splatterina.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -13359,7 +13359,7 @@
       "nightOnly": false,
       "icon": "pals/gildane.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -13470,7 +13470,7 @@
       "nightOnly": false,
       "icon": "pals/bulldosu.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -13578,7 +13578,7 @@
       "nightOnly": true,
       "icon": "pals/celesdir_noct.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -13667,7 +13667,7 @@
       "id": "knocklem",
       "dexNumber": "159",
       "nameEn": "Knocklem",
-      "nameRu": "Бронебол",
+      "nameRu": "Теранайт",
       "element1": "Ground",
       "element2": null,
       "breedingPower": 260,
@@ -13696,7 +13696,7 @@
       "nightOnly": false,
       "icon": "pals/knocklem.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -13726,7 +13726,7 @@
       "id": "knocklem_ignis",
       "dexNumber": "159B",
       "nameEn": "Knocklem Ignis",
-      "nameRu": "Бронебол Игнис",
+      "nameRu": "Теранайт Игнис",
       "element1": "Fire",
       "element2": null,
       "breedingPower": 210,
@@ -13867,7 +13867,7 @@
       "nightOnly": false,
       "icon": "pals/azurmane.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -13974,7 +13974,7 @@
       "nightOnly": false,
       "icon": "pals/snock.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -14030,7 +14030,7 @@
       "nightOnly": false,
       "icon": "pals/snock_lux.webp",
       "matchupEn": "Strong vs elements: Electric, Water. Example prey pals: Neptilius, Panthalus, Shaolong, Orserk. Weak to elements: Grass, Ground. Counter pals: Dandilord, Silvance, Anubis, Aegidron. Avoid mirroring its coverage (Electric, Water).",
-      "matchupRu": "Силён против стихий: Вода, Электричество. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Орсерк. Слаб против стихий: Земля, Трава. Палы, сильные против него: Дандилорд, Сильванс, Анубис, Эгидрон. Неэффективно зеркалить его покрытие (Вода, Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода, Электричество. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Орсерк. Слаб против стихий: Земля, Трава. Палы, сильные против него: Дандилорд, Сильванс, Анубис, Аэгидрон. Неэффективно зеркалить его покрытие (Вода, Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric",
         "Water"
@@ -14062,7 +14062,7 @@
       "id": "souffline",
       "dexNumber": "164",
       "nameEn": "Souffline",
-      "nameRu": "Суффлайн",
+      "nameRu": "Суффлин",
       "element1": "Grass",
       "element2": null,
       "breedingPower": 2000,
@@ -14090,7 +14090,7 @@
       "nightOnly": false,
       "icon": "pals/souffline.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -14150,7 +14150,7 @@
       "nightOnly": false,
       "icon": "pals/lapiron.webp",
       "matchupEn": "Strong vs elements: Electric. Example prey pals: Orserk, Dynamoff, Slowatt, Snock. Weak to elements: Grass. Counter pals: Dandilord, Silvance, Mycora, Ophydia. Avoid mirroring its coverage (Electric).",
-      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуэтт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Электричество. Примеры палов, которых давит: Орсерк, Динамофф, Слоуватт, Снок. Слаб против стихий: Трава. Палы, сильные против него: Дандилорд, Сильванс, Микора, Офидия. Неэффективно зеркалить его покрытие (Электричество) — берите type-advantage.",
       "strongElements": [
         "Electric"
       ],
@@ -14208,7 +14208,7 @@
       "nightOnly": true,
       "icon": "pals/hoodle.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -14237,7 +14237,7 @@
       "id": "slowatt",
       "dexNumber": "167",
       "nameEn": "Slowatt",
-      "nameRu": "Слоуэтт",
+      "nameRu": "Слоуватт",
       "element1": "Electric",
       "element2": null,
       "breedingPower": 1750,
@@ -14264,7 +14264,7 @@
       "nightOnly": false,
       "icon": "pals/slowatt.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -14322,7 +14322,7 @@
       "nightOnly": true,
       "icon": "pals/bakemi.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -14351,7 +14351,7 @@
       "id": "solmora",
       "dexNumber": "169",
       "nameEn": "Solmora",
-      "nameRu": "Сольмора",
+      "nameRu": "Солмора",
       "element1": "Water",
       "element2": null,
       "breedingPower": 1370,
@@ -14378,7 +14378,7 @@
       "nightOnly": false,
       "icon": "pals/solmora.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -14407,7 +14407,7 @@
       "id": "solmora_lux",
       "dexNumber": "169B",
       "nameEn": "Solmora Lux",
-      "nameRu": "Сольмора Лакс",
+      "nameRu": "Солмора Лакс",
       "element1": "Water",
       "element2": "Electric",
       "breedingPower": 1000,
@@ -14435,7 +14435,7 @@
       "nightOnly": false,
       "icon": "pals/solmora_lux.webp",
       "matchupEn": "Strong vs elements: Fire, Water. Example prey pals: Neptilius, Panthalus, Shaolong, Jormuntide Ignis. Weak to elements: Electric, Ground. Counter pals: Anubis, Orserk, Aegidron, Bulldosu. Avoid mirroring its coverage (Fire, Water).",
-      "matchupRu": "Силён против стихий: Вода, Огонь. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Йормунтайд Игнис. Слаб против стихий: Земля, Электричество. Палы, сильные против него: Анубис, Орсерк, Эгидрон, Буллдос. Неэффективно зеркалить его покрытие (Вода, Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода, Огонь. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Йормунтайд Игнис. Слаб против стихий: Земля, Электричество. Палы, сильные против него: Анубис, Орсерк, Аэгидрон, Буллдос. Неэффективно зеркалить его покрытие (Вода, Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire",
         "Water"
@@ -14467,7 +14467,7 @@
       "id": "lapure",
       "dexNumber": "170",
       "nameEn": "Lapure",
-      "nameRu": "Лапур",
+      "nameRu": "Немофи",
       "element1": "Neutral",
       "element2": null,
       "breedingPower": 810,
@@ -14518,7 +14518,7 @@
       "id": "eidrolon",
       "dexNumber": "171",
       "nameEn": "Eidrolon",
-      "nameRu": "Эйдролон",
+      "nameRu": "Айдроллон",
       "element1": "Dragon",
       "element2": "Dark",
       "breedingPower": 300,
@@ -14577,7 +14577,7 @@
       "id": "eidrolon_ignis",
       "dexNumber": "171B",
       "nameEn": "Eidrolon Ignis",
-      "nameRu": "Эйдролон Игнис",
+      "nameRu": "Айдроллон Игнис",
       "element1": "Dragon",
       "element2": "Fire",
       "breedingPower": 140,
@@ -14666,7 +14666,7 @@
       "nightOnly": false,
       "icon": "pals/dynamoff.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -14695,7 +14695,7 @@
       "id": "tropicaw",
       "dexNumber": "173",
       "nameEn": "Tropicaw",
-      "nameRu": "Тропико",
+      "nameRu": "Тропикау",
       "element1": "Grass",
       "element2": null,
       "breedingPower": 1350,
@@ -14723,7 +14723,7 @@
       "nightOnly": false,
       "icon": "pals/tropicaw.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -14958,7 +14958,7 @@
       "nightOnly": true,
       "icon": "pals/roujay.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -15017,7 +15017,7 @@
       "nightOnly": true,
       "icon": "pals/venusa.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -15076,7 +15076,7 @@
       "nightOnly": false,
       "icon": "pals/mycora.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -15196,7 +15196,7 @@
       "nightOnly": true,
       "icon": "pals/wistella.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -15254,7 +15254,7 @@
       "nightOnly": true,
       "icon": "pals/solenne.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Valentail. Weak to elements: Dark, Dragon. Counter pals: Bellanoir, Bellanoir Libero, Necromus, Dandilord. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Валентейл. Слаб против стихий: Дракон, Тьма. Палы, сильные против него: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Валентейл. Слаб против стихий: Дракон, Тьма. Палы, сильные против него: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -15285,7 +15285,7 @@
       "id": "renjishi",
       "dexNumber": "183",
       "nameEn": "Renjishi",
-      "nameRu": "Ренджиши",
+      "nameRu": "Рэндзиши",
       "element1": "Fire",
       "element2": null,
       "breedingPower": 290,
@@ -15344,7 +15344,7 @@
       "id": "aegidron",
       "dexNumber": "184",
       "nameEn": "Aegidron",
-      "nameRu": "Эгидрон",
+      "nameRu": "Аэгидрон",
       "element1": "Dragon",
       "element2": "Ground",
       "breedingPower": 30,
@@ -15403,7 +15403,7 @@
       "id": "grizzbolt",
       "dexNumber": "185",
       "nameEn": "Grizzbolt",
-      "nameRu": "Гризболт",
+      "nameRu": "Гриззболт",
       "element1": "Electric",
       "element2": null,
       "breedingPower": 1020,
@@ -15433,7 +15433,7 @@
       "nightOnly": false,
       "icon": "pals/grizzbolt.webp",
       "matchupEn": "Strong vs elements: Water. Example prey pals: Neptilius, Panthalus, Shaolong, Ophydia. Weak to elements: Ground. Counter pals: Anubis, Aegidron, Bulldosu, Lapiron. Avoid mirroring its coverage (Water).",
-      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Эгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода. Примеры палов, которых давит: Нептилиус, Панталус, Шаолонг, Офидия. Слаб против стихий: Земля. Палы, сильные против него: Анубис, Аэгидрон, Буллдос, Лапирон. Неэффективно зеркалить его покрытие (Вода) — берите type-advantage.",
       "strongElements": [
         "Water"
       ],
@@ -15493,7 +15493,7 @@
       "nightOnly": false,
       "icon": "pals/lyleen.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -15552,7 +15552,7 @@
       "nightOnly": false,
       "icon": "pals/lyleen_noct.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -15611,7 +15611,7 @@
       "nightOnly": false,
       "icon": "pals/orserk.webp",
       "matchupEn": "Strong vs elements: Dark, Water. Example prey pals: Bellanoir, Bellanoir Libero, Necromus, Dandilord. Weak to elements: Ground, Ice. Counter pals: Frostallion, Bastigor, Anubis, Aegidron. Avoid mirroring its coverage (Dark, Water).",
-      "matchupRu": "Силён против стихий: Вода, Тьма. Примеры палов, которых давит: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Слаб против стихий: Земля, Лёд. Палы, сильные против него: Фросталлион, Бастигор, Анубис, Эгидрон. Неэффективно зеркалить его покрытие (Вода, Тьма) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Вода, Тьма. Примеры палов, которых давит: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Слаб против стихий: Земля, Лёд. Палы, сильные против него: Фросталлион, Бастигор, Анубис, Аэгидрон. Неэффективно зеркалить его покрытие (Вода, Тьма) — берите type-advantage.",
       "strongElements": [
         "Dark",
         "Water"
@@ -15730,7 +15730,7 @@
       "nightOnly": false,
       "icon": "pals/faleris_aqua.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -15786,7 +15786,7 @@
       "nightOnly": false,
       "icon": "pals/shadowbeak.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -15845,7 +15845,7 @@
       "nightOnly": false,
       "icon": "pals/selyne.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dark, Dragon. Counter pals: Bellanoir, Bellanoir Libero, Necromus, Dandilord. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон, Тьма. Палы, сильные против него: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон, Тьма. Палы, сильные против него: Беллануар, Беллануар Либеро, Некромус, Дандилорд. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -16026,7 +16026,7 @@
       "nightOnly": false,
       "icon": "pals/silvance.webp",
       "matchupEn": "Strong vs elements: Ground. Example prey pals: Anubis, Aegidron, Bulldosu, Lapiron. Weak to elements: Fire. Counter pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Avoid mirroring its coverage (Ground).",
-      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Эгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля. Примеры палов, которых давит: Анубис, Аэгидрон, Буллдос, Лапирон. Слаб против стихий: Огонь. Палы, сильные против него: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Неэффективно зеркалить его покрытие (Земля) — берите type-advantage.",
       "strongElements": [
         "Ground"
       ],
@@ -16087,7 +16087,7 @@
       "nightOnly": true,
       "icon": "pals/dandilord.webp",
       "matchupEn": "Strong vs elements: Ground, Neutral. Example prey pals: Astralym, Hartalis, Anubis, Aegidron. Weak to elements: Dragon, Fire. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Ground, Neutral).",
-      "matchupRu": "Силён против стихий: Земля, Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Анубис, Эгидрон. Слаб против стихий: Дракон, Огонь. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Земля, Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Анубис, Аэгидрон. Слаб против стихий: Дракон, Огонь. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Земля, Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Ground",
         "Neutral"
@@ -16148,7 +16148,7 @@
       "nightOnly": false,
       "icon": "pals/bellanoir.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -16207,7 +16207,7 @@
       "nightOnly": false,
       "icon": "pals/bellanoir_libero.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -16425,7 +16425,7 @@
       "nightOnly": false,
       "icon": "pals/necromus.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -16539,7 +16539,7 @@
       "nightOnly": false,
       "icon": "pals/frostallion_noct.webp",
       "matchupEn": "Strong vs elements: Neutral. Example prey pals: Astralym, Hartalis, Lapure, Solenne. Weak to elements: Dragon. Counter pals: Shaolong, Jetragon, Jormuntide Ignis, Blazamut Ryu. Avoid mirroring its coverage (Neutral).",
-      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Лапур, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Нейтрал. Примеры палов, которых давит: Астралим, Харталис, Немофи, Соленна. Слаб против стихий: Дракон. Палы, сильные против него: Шаолонг, Джетрагон, Йормунтайд Игнис, Блазамут Рю. Неэффективно зеркалить его покрытие (Нейтрал) — берите type-advantage.",
       "strongElements": [
         "Neutral"
       ],
@@ -16596,7 +16596,7 @@
       "nightOnly": false,
       "icon": "pals/neptilius.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -16706,7 +16706,7 @@
       "nightOnly": false,
       "icon": "pals/panthalus.webp",
       "matchupEn": "Strong vs elements: Fire. Example prey pals: Jormuntide Ignis, Blazamut Ryu, Bushi Noct, Dupin. Weak to elements: Electric. Counter pals: Orserk, Dynamoff, Slowatt, Snock. Avoid mirroring its coverage (Fire).",
-      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуэтт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
+      "matchupRu": "Силён против стихий: Огонь. Примеры палов, которых давит: Йормунтайд Игнис, Блазамут Рю, Буси Нокт, Дюпин. Слаб против стихий: Электричество. Палы, сильные против него: Орсерк, Динамофф, Слоуватт, Снок. Неэффективно зеркалить его покрытие (Огонь) — берите type-advantage.",
       "strongElements": [
         "Fire"
       ],
@@ -19598,16 +19598,16 @@
       "titleEn": "Best base pals by work (1.0)",
       "titleRu": "Лучшие палы для базы по работам (1.0)",
       "category": "base",
-      "bodyEn": "## Important (1.0)\nWork levels can go **above 4** (often 5–8). Old «max 4» tops are outdated.\n\n## Ranking method\nWe rank by **work suitability level**, then Attack as a soft tie-break (combat utility when defending the base).\n\n## Tops by category\n### Kindling\n1. **Renjishi** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 125 · role: fastest furnaces/cooking heat\n2. **Jormuntide Ignis** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 130 · role: fastest furnaces/cooking heat\n3. **Dupin** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125 · role: fastest furnaces/cooking heat\n4. **Flaracle** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125 · role: fastest furnaces/cooking heat\n5. **Blazamut Ryu** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 130 · role: fastest furnaces/cooking heat\n\n### Watering\n1. **Shaolong** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 140 · role: plant growth + mills\n2. **Neptilius** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 140 · role: plant growth + mills\n3. **Jormuntide** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 120 · role: plant growth + mills\n4. **Faleris Aqua** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 110 · role: plant growth + mills\n5. **Suzaku Aqua** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 105 · role: plant growth + mills\n\n### Planting\n1. **Dandilord** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 140 · role: seed planting speed\n2. **Ophydia** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125 · role: seed planting speed\n3. **Lyleen** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 110 · role: seed planting speed\n4. **Silvance** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 140 · role: seed planting speed\n5. **Mycora** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125 · role: seed planting speed\n\n### Generating Electricity\n1. **Orserk** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 130 · role: power stations / production uptime\n2. **Dynamoff** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125 · role: power stations / production uptime\n3. **Solmora Lux** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125 · role: power stations / production uptime\n4. **Azurmane** — Lv.**5** · **1.0 high-tier (≥5)** · ATK 120 · role: power stations / production uptime\n5. **Fenglope Lux** — Lv.**5** · **1.0 high-tier (≥5)** · ATK 115 · role: power stations / production uptime\n\n### Handiwork\n1. **Solenne** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 125 · role: crafting benches / assembly\n2. **Selyne** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 115 · role: crafting benches / assembly\n3. **Bellanoir Libero** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 150 · role: crafting benches / assembly\n4. **Dandilord** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 140 · role: crafting benches / assembly\n5. **Silvance** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 140 · role: crafting benches / assembly\n\n### Gathering\n1. **Jetragon** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 140 · role: plant/node harvest speed\n2. **Frostallion Noct** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 140 · role: plant/node harvest speed\n3. **Hartalis** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 140 · role: plant/node harvest speed\n4. **Starryon Primo** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 110 · role: plant/node harvest speed\n5. **Venusa** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125 · role: plant/node harvest speed\n\n### Lumbering\n1. **Celesdir Noct** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 125 · role: wood nodes\n2. **Hartalis** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 140 · role: wood nodes\n3. **Celesdir** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 110 · role: wood nodes\n4. **Necromus** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 145 · role: wood nodes\n5. **Bastigor** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 130 · role: wood nodes\n\n### Mining\n1. **Aegidron** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 125 · role: ore/stone nodes\n2. **Blazamut Ryu** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 130 · role: ore/stone nodes\n3. **Astegon** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125 · role: ore/stone nodes\n4. **Blazamut** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125 · role: ore/stone nodes\n5. **Knocklem Ignis** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125 · role: ore/stone nodes\n\n### Medicine\n1. **Silvance** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 140 · role: meds & potions craft\n2. **Bellanoir Libero** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 150 · role: meds & potions craft\n3. **Lyleen Noct** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 110 · role: meds & potions craft\n4. **Dandilord** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 140 · role: meds & potions craft\n5. **Mycora** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125 · role: meds & potions craft\n\n### Cooling\n1. **Bastigor** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 130 · role: coolers / ice crafts\n2. **Frostallion** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 140 · role: coolers / ice crafts\n3. **Whalaska** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125 · role: coolers / ice crafts\n4. **Whalaska Ignis** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125 · role: coolers / ice crafts\n5. **Pierdon Cryst** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 110 · role: coolers / ice crafts\n\n### Transporting\n1. **Knocklem Ignis** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125 · role: hauling items between stations\n2. **Knocklem** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 110 · role: hauling items between stations\n3. **Eidrolon** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125 · role: hauling items between stations\n4. **Eidrolon Ignis** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125 · role: hauling items between stations\n5. **Dualith** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 110 · role: hauling items between stations\n\n### Farming\n1. **Sibelyx Primo** — Lv.**4** · ATK 110 · role: ranch product generation\n2. **Dumud Gild** — Lv.**4** · ATK 75 · role: ranch product generation\n3. **Foxcicle** — Lv.**3** · ATK 95 · role: ranch product generation\n4. **Beegarde** — Lv.**3** · ATK 90 · role: ranch product generation\n5. **Sibelyx** — Lv.**3** · ATK 90 · role: ranch product generation\n\n\n## Why these matter\n- Higher work level = faster production / less pals needed\n- Pair with **Artisan / Remarkable Craftsmanship (Виртуоз) / Serious**\n- **Nocturnal** keeps night shift running\n",
-      "bodyRu": "## Важно (1.0)\nУровень работы может быть **выше 4** (часто 5–8). Старые топы «максимум 4» неактуальны.\n\n## Как считали\nСначала **уровень work suitability**, затем Attack как лёгкий тай-брейк (полезно при защите базы).\n\n## Топы по категориям\n### Разжигание\n1. **Ренджиши** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: печи и готовка\n2. **Йормунтайд Игнис** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 130 · роль: печи и готовка\n3. **Дюпин** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: печи и готовка\n4. **Фларакл** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: печи и готовка\n5. **Блазамут Рю** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 130 · роль: печи и готовка\n\n### Полив\n1. **Шаолонг** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: рост грядок + мельницы\n2. **Нептилиус** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: рост грядок + мельницы\n3. **Йормунтайд** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 120 · роль: рост грядок + мельницы\n4. **Фалерис Аква** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 110 · роль: рост грядок + мельницы\n5. **Судзаку Аква** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 105 · роль: рост грядок + мельницы\n\n### Посев\n1. **Дандилорд** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: скорость посадки\n2. **Офидия** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: скорость посадки\n3. **Лилин** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 110 · роль: скорость посадки\n4. **Сильванс** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: скорость посадки\n5. **Микора** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: скорость посадки\n\n### Электричество\n1. **Орсерк** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 130 · роль: электростанции / аптайм базы\n2. **Динамофф** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: электростанции / аптайм базы\n3. **Сольмора Лакс** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: электростанции / аптайм базы\n4. **Азурмейн** — ур.**5** · **топ 1.0 (ур.≥5)** · АТК 120 · роль: электростанции / аптайм базы\n5. **Фенглоп Лакс** — ур.**5** · **топ 1.0 (ур.≥5)** · АТК 115 · роль: электростанции / аптайм базы\n\n### Ручная работа\n1. **Соленна** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: верстаки и крафт\n2. **Селена** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 115 · роль: верстаки и крафт\n3. **Беллануар Либеро** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 150 · роль: верстаки и крафт\n4. **Дандилорд** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: верстаки и крафт\n5. **Сильванс** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: верстаки и крафт\n\n### Сбор\n1. **Джетрагон** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: сбор с растений/нод\n2. **Фросталлион Нокт** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: сбор с растений/нод\n3. **Харталис** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: сбор с растений/нод\n4. **Старрион Примо** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 110 · роль: сбор с растений/нод\n5. **Венуса** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: сбор с растений/нод\n\n### Рубка\n1. **Селесдир Нокт** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: рубка дерева\n2. **Харталис** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: рубка дерева\n3. **Селесдир** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 110 · роль: рубка дерева\n4. **Некромус** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 145 · роль: рубка дерева\n5. **Бастигор** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 130 · роль: рубка дерева\n\n### Добыча\n1. **Эгидрон** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: руда и камень\n2. **Блазамут Рю** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 130 · роль: руда и камень\n3. **Астегон** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: руда и камень\n4. **Блазамут** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: руда и камень\n5. **Бронебол Игнис** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: руда и камень\n\n### Медицина\n1. **Сильванс** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: медикаменты\n2. **Беллануар Либеро** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 150 · роль: медикаменты\n3. **Лилин Нокт** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 110 · роль: медикаменты\n4. **Дандилорд** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: медикаменты\n5. **Микора** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: медикаменты\n\n### Охлаждение\n1. **Бастигор** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 130 · роль: охладители / ледяной крафт\n2. **Фросталлион** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 140 · роль: охладители / ледяной крафт\n3. **Валаска** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: охладители / ледяной крафт\n4. **Валаска Игнис** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: охладители / ледяной крафт\n5. **Пирдон Крист** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 110 · роль: охладители / ледяной крафт\n\n### Переноска\n1. **Бронебол Игнис** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: переноска между станциями\n2. **Бронебол** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 110 · роль: переноска между станциями\n3. **Эйдролон** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: переноска между станциями\n4. **Эйдролон Игнис** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125 · роль: переноска между станциями\n5. **Дуалит** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 110 · роль: переноска между станциями\n\n### Фермерство\n1. **Сибеликс Примо** — ур.**4** · АТК 110 · роль: ранчо / продукты\n2. **Думад Гилд** — ур.**4** · АТК 75 · роль: ранчо / продукты\n3. **Фоксайл** — ур.**3** · АТК 95 · роль: ранчо / продукты\n4. **Бигард** — ур.**3** · АТК 90 · роль: ранчо / продукты\n5. **Сибеликс** — ур.**3** · АТК 90 · роль: ранчо / продукты\n\n\n## Почему это важно\n- Выше уровень работы = быстрее производство / меньше палов\n- Пассивки **Ремесленник / Виртуоз / Серьёзный**\n- **Ночной** — смена ночью\n"
+      "bodyEn": "## Important (1.0)\nWork levels can go **above 4** (often 5–8).\n\n## Tops by category\nTap a **pal name** to open its detail page.\n\n### Kindling\n1. **Renjishi** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 125\n2. **Jormuntide Ignis** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 130\n3. **Dupin** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125\n4. **Flaracle** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125\n5. **Blazamut Ryu** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 130\n6. **Blazamut** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125\n\n### Watering\n1. **Shaolong** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 140\n2. **Neptilius** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 140\n3. **Jormuntide** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 120\n4. **Faleris Aqua** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 110\n5. **Suzaku Aqua** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 105\n6. **Ophydia** — Lv.**5** · **1.0 high-tier (≥5)** · ATK 125\n\n### Planting\n1. **Dandilord** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 140\n2. **Ophydia** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125\n3. **Lyleen** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 110\n4. **Silvance** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 140\n5. **Mycora** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125\n6. **Carnibora** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 110\n\n### Generating Electricity\n1. **Orserk** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 130\n2. **Dynamoff** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125\n3. **Solmora Lux** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125\n4. **Azurmane** — Lv.**5** · **1.0 high-tier (≥5)** · ATK 120\n5. **Fenglope Lux** — Lv.**5** · **1.0 high-tier (≥5)** · ATK 115\n6. **Grizzbolt** — Lv.**5** · **1.0 high-tier (≥5)** · ATK 100\n\n### Handiwork\n1. **Solenne** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 125\n2. **Selyne** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 115\n3. **Bellanoir Libero** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 150\n4. **Dandilord** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 140\n5. **Silvance** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 140\n6. **Anubis** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 130\n\n### Gathering\n1. **Jetragon** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 140\n2. **Frostallion Noct** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 140\n3. **Hartalis** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 140\n4. **Starryon Primo** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 110\n5. **Venusa** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125\n6. **Lyleen** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 110\n\n### Lumbering\n1. **Celesdir Noct** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 125\n2. **Hartalis** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 140\n3. **Celesdir** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 110\n4. **Necromus** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 145\n5. **Bastigor** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 130\n6. **Paladius** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 120\n\n### Mining\n1. **Aegidron** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 125\n2. **Blazamut Ryu** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 130\n3. **Astegon** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125\n4. **Blazamut** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125\n5. **Knocklem Ignis** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125\n6. **Knocklem** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 110\n\n### Medicine\n1. **Silvance** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 140\n2. **Bellanoir Libero** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 150\n3. **Lyleen Noct** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 110\n4. **Dandilord** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 140\n5. **Mycora** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125\n6. **Wistella** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125\n\n### Cooling\n1. **Bastigor** — Lv.**8** · **1.0 high-tier (≥5)** · ATK 130\n2. **Frostallion** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 140\n3. **Whalaska** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125\n4. **Whalaska Ignis** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125\n5. **Pierdon Cryst** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 110\n6. **Univolt Cryst** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 90\n\n### Transporting\n1. **Knocklem Ignis** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 125\n2. **Knocklem** — Lv.**7** · **1.0 high-tier (≥5)** · ATK 110\n3. **Eidrolon** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125\n4. **Eidrolon Ignis** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 125\n5. **Dualith** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 110\n6. **Dualith Noct** — Lv.**6** · **1.0 high-tier (≥5)** · ATK 110\n\n### Farming\n1. **Sibelyx Primo** — Lv.**4** · ATK 110\n2. **Dumud Gild** — Lv.**4** · ATK 75\n3. **Foxcicle** — Lv.**3** · ATK 95\n4. **Beegarde** — Lv.**3** · ATK 90\n5. **Sibelyx** — Lv.**3** · ATK 90\n6. **Shroomer** — Lv.**3** · ATK 80\n",
+      "bodyRu": "## Важно (1.0)\nУровень работы может быть **выше 4** (часто 5–8).\n\n## Топы по категориям\nНажмите на **имя пала** — откроется его карточка.\n\n### Разжигание\n1. **Рэндзиши** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 125\n2. **Йормунтайд Игнис** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 130\n3. **Дюпин** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125\n4. **Фларакл** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125\n5. **Блазамут Рю** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 130\n6. **Блазамут** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125\n\n### Полив\n1. **Шаолонг** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 140\n2. **Нептилиус** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 140\n3. **Йормунтайд** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 120\n4. **Фалерис Аква** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 110\n5. **Судзаку Аква** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 105\n6. **Офидия** — ур.**5** · **топ 1.0 (ур.≥5)** · АТК 125\n\n### Посев\n1. **Дандилорд** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 140\n2. **Офидия** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125\n3. **Лилин** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 110\n4. **Сильванс** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 140\n5. **Микора** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125\n6. **Карнибора** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 110\n\n### Электричество\n1. **Орсерк** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 130\n2. **Динамофф** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125\n3. **Солмора Лакс** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125\n4. **Азурмейн** — ур.**5** · **топ 1.0 (ур.≥5)** · АТК 120\n5. **Фенглоп Лакс** — ур.**5** · **топ 1.0 (ур.≥5)** · АТК 115\n6. **Гриззболт** — ур.**5** · **топ 1.0 (ур.≥5)** · АТК 100\n\n### Ручная работа\n1. **Соленна** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 125\n2. **Селена** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 115\n3. **Беллануар Либеро** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 150\n4. **Дандилорд** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 140\n5. **Сильванс** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 140\n6. **Анубис** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 130\n\n### Сбор\n1. **Джетрагон** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 140\n2. **Фросталлион Нокт** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 140\n3. **Харталис** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 140\n4. **Старрион Примо** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 110\n5. **Венуса** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125\n6. **Лилин** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 110\n\n### Рубка\n1. **Селесдир Нокт** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 125\n2. **Харталис** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 140\n3. **Селесдир** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 110\n4. **Некромус** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 145\n5. **Бастигор** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 130\n6. **Паладиус** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 120\n\n### Добыча\n1. **Аэгидрон** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 125\n2. **Блазамут Рю** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 130\n3. **Астегон** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125\n4. **Блазамут** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125\n5. **Теранайт Игнис** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125\n6. **Теранайт** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 110\n\n### Медицина\n1. **Сильванс** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 140\n2. **Беллануар Либеро** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 150\n3. **Лилин Нокт** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 110\n4. **Дандилорд** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 140\n5. **Микора** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125\n6. **Вистелла** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125\n\n### Охлаждение\n1. **Бастигор** — ур.**8** · **топ 1.0 (ур.≥5)** · АТК 130\n2. **Фросталлион** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 140\n3. **Валаска** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125\n4. **Валаска Игнис** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125\n5. **Пирдон Крист** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 110\n6. **Юнивольт Крист** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 90\n\n### Переноска\n1. **Теранайт Игнис** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 125\n2. **Теранайт** — ур.**7** · **топ 1.0 (ур.≥5)** · АТК 110\n3. **Айдроллон** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125\n4. **Айдроллон Игнис** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 125\n5. **Дуалит** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 110\n6. **Дуалит Нокт** — ур.**6** · **топ 1.0 (ур.≥5)** · АТК 110\n\n### Фермерство\n1. **Сибеликс Примо** — ур.**4** · АТК 110\n2. **Думад Гилд** — ур.**4** · АТК 75\n3. **Фоксайл** — ур.**3** · АТК 95\n4. **Бигард** — ур.**3** · АТК 90\n5. **Сибеликс** — ур.**3** · АТК 90\n6. **Шрумер** — ур.**3** · АТК 80\n"
     },
     {
       "id": "combat_teams",
       "titleEn": "Best combat pals (1.0 stats)",
       "titleRu": "Лучшие боевые палы (статы 1.0)",
       "category": "combat",
-      "bodyEn": "## Ranking method\nScore ≈ **ATK×1.2 + HP×0.15 + DEF×0.4** from seed base stats (species power, not IVs).\n\n## Top combat species\n- **Shaolong** (Dragon) — ATK 140, HP 140, DEF 140\n- **Silvance** (Grass) — ATK 140, HP 140, DEF 140\n- **Dandilord** (Grass) — ATK 140, HP 140, DEF 140\n- **Hartalis** (Neutral) — ATK 140, HP 140, DEF 140\n- **Neptilius** (Water) — ATK 140, HP 140, DEF 140\n- **Panthalus** (Water) — ATK 140, HP 140, DEF 140\n- **Astralym** (Neutral) — ATK 140, HP 140, DEF 140\n- **Frostallion Noct** (Dark) — ATK 140, HP 140, DEF 135\n- **Necromus** (Dark) — ATK 145, HP 130, DEF 120\n- **Bellanoir** (Dark) — ATK 150, HP 120, DEF 100\n- **Bellanoir Libero** (Dark) — ATK 150, HP 120, DEF 100\n- **Frostallion** (Ice) — ATK 140, HP 140, DEF 120\n\n## How to use\n1. Cover elements (Fire/Water/Electric/Ice/Dragon/Dark/Ground/Grass/Neutral)\n2. Stack passives: Legend, Demon God, Ferocious, Vampiric, Serenity\n3. Check each pal page for **type matchups** (strong vs / weak to)\n\n## Mounts / mobility\nJetragon, Faleris, Frostallion, Ragnahawk-style flyers still define travel + DPS.\n",
-      "bodyRu": "## Как считали\nОчки ≈ **АТК×1.2 + HP×0.15 + ЗАЩ×0.4** по базовым статам seed (без IV).\n\n## Топ боевых видов\n- **Шаолонг** (Дракон) — АТК 140, HP 140, ЗАЩ 140\n- **Сильванс** (Трава) — АТК 140, HP 140, ЗАЩ 140\n- **Дандилорд** (Трава) — АТК 140, HP 140, ЗАЩ 140\n- **Харталис** (Нейтрал) — АТК 140, HP 140, ЗАЩ 140\n- **Нептилиус** (Вода) — АТК 140, HP 140, ЗАЩ 140\n- **Панталус** (Вода) — АТК 140, HP 140, ЗАЩ 140\n- **Астралим** (Нейтрал) — АТК 140, HP 140, ЗАЩ 140\n- **Фросталлион Нокт** (Тьма) — АТК 140, HP 140, ЗАЩ 135\n- **Некромус** (Тьма) — АТК 145, HP 130, ЗАЩ 120\n- **Беллануар** (Тьма) — АТК 150, HP 120, ЗАЩ 100\n- **Беллануар Либеро** (Тьма) — АТК 150, HP 120, ЗАЩ 100\n- **Фросталлион** (Лёд) — АТК 140, HP 140, ЗАЩ 120\n\n## Как использовать\n1. Покрытие стихий\n2. Пассивки: Легенда, Бог-демон, Свирепый, Вампиризм, Спокойствие\n3. На карточке пала смотрите блок **против кого силён / слаб**\n\n## Маунты\nДжетрагон, Фалерис, Фросталлион и быстрые летуны — мобильность + DPS.\n"
+      "bodyEn": "## Top combat species\nTap a **name** to open the Pal page.\n\n- **Shaolong** (Dragon) — ATK 140, HP 140, DEF 140\n- **Silvance** (Grass) — ATK 140, HP 140, DEF 140\n- **Dandilord** (Grass) — ATK 140, HP 140, DEF 140\n- **Hartalis** (Neutral) — ATK 140, HP 140, DEF 140\n- **Neptilius** (Water) — ATK 140, HP 140, DEF 140\n- **Panthalus** (Water) — ATK 140, HP 140, DEF 140\n- **Astralym** (Neutral) — ATK 140, HP 140, DEF 140\n- **Frostallion Noct** (Dark) — ATK 140, HP 140, DEF 135\n- **Necromus** (Dark) — ATK 145, HP 130, DEF 120\n- **Bellanoir** (Dark) — ATK 150, HP 120, DEF 100\n- **Bellanoir Libero** (Dark) — ATK 150, HP 120, DEF 100\n- **Frostallion** (Ice) — ATK 140, HP 140, DEF 120\n",
+      "bodyRu": "## Топ боевых видов\nНажмите на **имя** — откроется карточка пала.\n\n- **Шаолонг** — АТК 140, HP 140, ЗАЩ 140\n- **Сильванс** — АТК 140, HP 140, ЗАЩ 140\n- **Дандилорд** — АТК 140, HP 140, ЗАЩ 140\n- **Харталис** — АТК 140, HP 140, ЗАЩ 140\n- **Нептилиус** — АТК 140, HP 140, ЗАЩ 140\n- **Панталус** — АТК 140, HP 140, ЗАЩ 140\n- **Астралим** — АТК 140, HP 140, ЗАЩ 140\n- **Фросталлион Нокт** — АТК 140, HP 140, ЗАЩ 135\n- **Некромус** — АТК 145, HP 130, ЗАЩ 120\n- **Беллануар** — АТК 150, HP 120, ЗАЩ 100\n- **Беллануар Либеро** — АТК 150, HP 120, ЗАЩ 100\n- **Фросталлион** — АТК 140, HP 140, ЗАЩ 120\n"
     },
     {
       "id": "breeding_efficiency",
@@ -19615,7 +19615,7 @@
       "titleRu": "Эффективное разведение",
       "category": "breeding",
       "bodyEn": "## Modes in Paldox\n- **P+P** — two parents → child\n- **P+** — one parent → all partners & children\n- **=P** — target child → parent pairs\n\n## Speed tips\n- Cake in the breeding farm chest\n- **Philanthropist** + **Nocturnal** on parents\n- Special combos for tower pals (Grizzbolt, Lyleen, Orserk…)\n\n## Passive transfer\nAim for **4 unique** passives total across both parents for best inheritance odds.\n",
-      "bodyRu": "## Режимы в Paldox\n- **П+П** — два родителя → дитя\n- **П+** — один родитель → все пары и потомки\n- **=П** — целевой пал → родительские пары\n\n## Ускорение\n- Торт в сундуке фермы\n- **Филантроп** + **Ночной** на родителях\n- Спец-комбо башенных палов (Гризболт, Лайлин, Орсерк…)\n\n## Пассивки\nСтремитесь к **4 уникальным** пассивкам суммарно у родителей.\n"
+      "bodyRu": "## Режимы в Paldox\n- **П+П** — два родителя → дитя\n- **П+** — один родитель → все пары и потомки\n- **=П** — целевой пал → родительские пары\n\n## Ускорение\n- Торт в сундуке фермы\n- **Филантроп** + **Ночной** на родителях\n- Спец-комбо башенных палов (Гриззболт, Лайлин, Орсерк…)\n\n## Пассивки\nСтремитесь к **4 уникальным** пассивкам суммарно у родителей.\n"
     },
     {
       "id": "resource_farming",
@@ -20168,5 +20168,5 @@
   "breedingDataVersion": "1.0-palworld.gg-2026-07-27",
   "ruNamesVersion": "official-user-list-2026-07-27",
   "guidesSource": "official-Palworld_JP-tips+X-trending-2026-07",
-  "contentUpdate": "1.9.0-matchups-drops-items-updates"
+  "contentUpdate": "1.9.2-ru-names-clickable-guides"
 }
